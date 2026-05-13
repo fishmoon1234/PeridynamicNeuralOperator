@@ -1,0 +1,72 @@
+>> Device being used: cuda (NVIDIA GeForce RTX 4090)
+Total number of parameters: 66433
+>> Training Mesh resolution: 257x257
+/root/autodl-tmp/project/MPNO_final/BlatzKo_1d/PNO_NN_ex35_k1/PNO_BB_L1loss.py:143: UserWarning: torch.range is deprecated and will be removed in a future release because its behavior is inconsistent with Python's range builtin. Instead, use torch.arange, which produces values in [start, end).
+  ksi_range = torch.range(-m_fact, m_fact).int()
+tensor(0.8109)
+tensor(3.3456)
+>> Preprocessing completed, time elapsed:  1.01s
+>> ntrain: 300, lr: 0.01, gamma: 0.6, w_d: 0.0
+----------------------------------------------------------------------------------------------------
+>> epoch [   1/3000], runtime: 41.17s, train loss: 3.5828e-04, valid loss: 3.8911e-04 , test loss: 3.8911e-03
+>> epoch [   2/3000], runtime:  49.73s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [   3/3000], runtime:  52.62s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [   4/3000], runtime:  54.28s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [   5/3000], runtime:  55.04s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [   6/3000], runtime:  54.77s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [   7/3000], runtime:  55.50s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [   8/3000], runtime:  55.19s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [   9/3000], runtime:  57.39s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  10/3000], runtime:  55.57s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  11/3000], runtime:  59.66s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  12/3000], runtime:  57.42s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  13/3000], runtime:  57.08s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  14/3000], runtime:  52.28s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  15/3000], runtime:  50.95s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  16/3000], runtime:  53.08s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  17/3000], runtime:  52.56s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  18/3000], runtime:  51.35s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  19/3000], runtime:  53.51s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  20/3000], runtime:  52.30s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  21/3000], runtime:  52.09s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  22/3000], runtime:  52.07s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  23/3000], runtime:  51.54s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  24/3000], runtime:  52.05s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  25/3000], runtime:  51.60s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  26/3000], runtime:  52.33s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  27/3000], runtime:  52.56s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  28/3000], runtime:  50.93s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  29/3000], runtime:  51.95s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  30/3000], runtime:  51.54s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  31/3000], runtime:  51.76s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  32/3000], runtime:  52.18s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  33/3000], runtime:  52.21s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  34/3000], runtime:  52.72s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  35/3000], runtime:  52.41s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  36/3000], runtime:  52.03s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  37/3000], runtime:  51.67s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  38/3000], runtime:  50.56s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  39/3000], runtime:  47.65s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  40/3000], runtime:  47.87s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  41/3000], runtime:  47.39s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  42/3000], runtime:  46.67s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  43/3000], runtime:  47.64s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  44/3000], runtime:  44.85s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  45/3000], runtime:  43.01s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  46/3000], runtime:  42.97s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  47/3000], runtime:  43.35s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  48/3000], runtime:  43.70s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  49/3000], runtime:  43.22s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  50/3000], runtime:  42.67s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  51/3000], runtime:  42.40s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+>> epoch [  52/3000], runtime:  43.45s, train loss: 3.8911e-04 (best: 3.5828e-04/3.8911e-04)
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+>> ntrain: 300, layer_info: 128_5, act_xi: Sigmoid, lr: 0.01, gamma: 0.6, w_d: 0.0
+>> Best train loss: 3.5828e-04
+>> Best valid loss: 3.8911e-04
+>> Best test loss: 3.8911e-03
+>> Best epoch: 0
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+>> Training Completed!!

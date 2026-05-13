@@ -1,0 +1,14 @@
+PID: 5438
+/root/autodl-tmp/project/MPNO/BlatzKo_1d/ex35/MGN/PNO_BB_test_u.py:101: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_path))
+tensor(0.8735)
+tensor(3.3651)
+(0, 'err_b:', '2.6436e-03', 'err_u:', '5.4355e-06', 1, np.float64(5.530891939997673e-07), 2645)
+(1, 'err_b:', '1.2433e-03', 'err_u:', '2.2808e-02', 4, np.float64(0.030389800667762756), 1844)
+(2, 'err_b:', '9.9327e-03', 'err_u:', '2.4943e-05', 5, np.float64(3.026798367500305e-07), 1610)
+(3, 'err_b:', '1.6058e-03', 'err_u:', '3.3172e-06', 1, np.float64(5.653128027915955e-07), 2638)
+(4, 'err_b:', '1.4423e-03', 'err_u:', '7.2164e-06', 1, np.float64(3.497116267681122e-07), 2893)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/project/MPNO/BlatzKo_1d/ex35/MGN/PNO_BB_test_u.py", line 240, in <module>
+    err_b = err_b[compute_index]
+IndexError: only integers, slices (`:`), ellipsis (`...`), None and long or byte Variables are valid indices (got set)

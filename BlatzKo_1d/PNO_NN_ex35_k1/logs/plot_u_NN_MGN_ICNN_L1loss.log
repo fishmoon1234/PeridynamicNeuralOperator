@@ -1,0 +1,711 @@
+/root/autodl-tmp/project/MPNO/BlatzKo_1d/PNO_NN_ex35_k1/plot_u_NN_MGN_ICNN_L1loss.py:37: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model_MGN.load_state_dict(torch.load(model_path))
+MGN Total number of parameters: 1153
+Total number of parameters: 1321
+/root/autodl-tmp/project/MPNO/BlatzKo_1d/PNO_NN_ex35_k1/plot_u_NN_MGN_ICNN_L1loss.py:53: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model_ICNN.load_state_dict(torch.load(model_path_icnn))
+ICNN Total number of parameters: 1321
+/root/autodl-tmp/project/MPNO/BlatzKo_1d/PNO_NN_ex35_k1/plot_u_NN_MGN_ICNN_L1loss.py:79: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model_NN.load_state_dict(torch.load(model_path))
+The j-th data is: 0
+NN linear solver for sample 0: error=5.28e-07
+NN nonlinear solver for sample 0: error=3.87e-07
+MGN linear solver for sample 0: error=5.81e-07
+MGN nonlinear solver for sample 0: error=4.45e-07
+/root/miniconda3/envs/NPO310/lib/python3.10/site-packages/torch/autograd/graph.py:825: UserWarning: Attempting to run cuBLAS, but there was no current CUDA context! Attempting to set the primary context... (Triggered internally at /opt/conda/conda-bld/pytorch_1729647327489/work/aten/src/ATen/cuda/CublasHandlePool.cpp:135.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+ICNN linear solver for sample 0: error=4.84e-07
+ICNN nonlinear solver for sample 0: error=4.03e-07
+The j-th data is: 1
+NN linear solver for sample 1: error=5.63e-07
+NN nonlinear solver for sample 1: error=4.45e-07
+MGN linear solver for sample 1: error=4.32e-07
+MGN nonlinear solver for sample 1: error=4.32e-07
+ICNN linear solver for sample 1: error=5.10e-07
+ICNN nonlinear solver for sample 1: error=5.02e-07
+The j-th data is: 2
+NN linear solver for sample 2: error=1.17e-07
+NN nonlinear solver for sample 2: error=6.49e-08
+MGN linear solver for sample 2: error=6.53e-08
+MGN nonlinear solver for sample 2: error=6.53e-08
+ICNN linear solver for sample 2: error=1.47e-07
+ICNN nonlinear solver for sample 2: error=7.24e-08
+The j-th data is: 3
+NN linear solver for sample 3: error=3.40e-07
+NN nonlinear solver for sample 3: error=2.35e-07
+MGN linear solver for sample 3: error=3.93e-07
+MGN nonlinear solver for sample 3: error=3.20e-07
+ICNN linear solver for sample 3: error=4.56e-07
+ICNN nonlinear solver for sample 3: error=2.99e-07
+The j-th data is: 4
+NN linear solver for sample 4: error=1.62e-07
+NN nonlinear solver for sample 4: error=1.86e-07
+MGN linear solver for sample 4: error=1.65e-07
+MGN nonlinear solver for sample 4: error=1.60e-07
+ICNN linear solver for sample 4: error=2.29e-07
+ICNN nonlinear solver for sample 4: error=1.17e-07
+The j-th data is: 5
+NN linear solver for sample 5: error=5.39e-07
+NN nonlinear solver for sample 5: error=5.14e-07
+MGN linear solver for sample 5: error=4.48e-07
+MGN nonlinear solver for sample 5: error=4.79e-07
+ICNN linear solver for sample 5: error=5.25e-07
+ICNN nonlinear solver for sample 5: error=4.11e-07
+The j-th data is: 6
+NN linear solver for sample 6: error=1.59e-07
+NN nonlinear solver for sample 6: error=1.29e-07
+MGN linear solver for sample 6: error=1.70e-07
+MGN nonlinear solver for sample 6: error=1.55e-07
+ICNN linear solver for sample 6: error=1.50e-07
+ICNN nonlinear solver for sample 6: error=1.31e-07
+The j-th data is: 7
+NN linear solver for sample 7: error=2.24e-07
+NN nonlinear solver for sample 7: error=2.20e-07
+MGN linear solver for sample 7: error=3.19e-07
+MGN nonlinear solver for sample 7: error=3.15e-07
+ICNN linear solver for sample 7: error=2.36e-07
+ICNN nonlinear solver for sample 7: error=1.77e-07
+The j-th data is: 8
+NN linear solver for sample 8: error=4.84e-07
+NN nonlinear solver for sample 8: error=3.74e-07
+MGN linear solver for sample 8: error=4.96e-07
+MGN nonlinear solver for sample 8: error=3.71e-07
+ICNN linear solver for sample 8: error=4.89e-07
+ICNN nonlinear solver for sample 8: error=3.66e-07
+The j-th data is: 9
+NN linear solver for sample 9: error=9.23e-07
+NN nonlinear solver for sample 9: error=4.54e-07
+MGN linear solver for sample 9: error=6.18e-07
+MGN nonlinear solver for sample 9: error=5.92e-07
+ICNN linear solver for sample 9: error=7.23e-07
+ICNN nonlinear solver for sample 9: error=5.50e-07
+The j-th data is: 10
+NN linear solver for sample 10: error=1.02e-06
+NN nonlinear solver for sample 10: error=6.69e-07
+MGN linear solver for sample 10: error=8.55e-07
+MGN nonlinear solver for sample 10: error=6.46e-07
+ICNN linear solver for sample 10: error=8.98e-07
+ICNN nonlinear solver for sample 10: error=8.68e-07
+The j-th data is: 11
+NN linear solver for sample 11: error=1.16e-06
+NN nonlinear solver for sample 11: error=7.81e-07
+MGN linear solver for sample 11: error=9.44e-07
+MGN nonlinear solver for sample 11: error=6.48e-07
+ICNN linear solver for sample 11: error=8.20e-07
+ICNN nonlinear solver for sample 11: error=7.88e-07
+The j-th data is: 12
+NN linear solver for sample 12: error=3.90e-07
+NN nonlinear solver for sample 12: error=4.18e-07
+MGN linear solver for sample 12: error=4.00e-07
+MGN nonlinear solver for sample 12: error=3.79e-07
+ICNN linear solver for sample 12: error=3.31e-07
+ICNN nonlinear solver for sample 12: error=3.28e-07
+The j-th data is: 13
+NN linear solver for sample 13: error=8.79e-07
+NN nonlinear solver for sample 13: error=5.11e-07
+MGN linear solver for sample 13: error=6.79e-07
+MGN nonlinear solver for sample 13: error=4.64e-07
+ICNN linear solver for sample 13: error=7.91e-07
+ICNN nonlinear solver for sample 13: error=4.92e-07
+The j-th data is: 14
+NN linear solver for sample 14: error=2.15e-07
+NN nonlinear solver for sample 14: error=2.33e-07
+MGN linear solver for sample 14: error=1.87e-07
+MGN nonlinear solver for sample 14: error=1.68e-07
+ICNN linear solver for sample 14: error=1.74e-07
+ICNN nonlinear solver for sample 14: error=1.55e-07
+The j-th data is: 15
+NN linear solver for sample 15: error=6.06e-07
+NN nonlinear solver for sample 15: error=4.70e-07
+MGN linear solver for sample 15: error=6.10e-07
+MGN nonlinear solver for sample 15: error=4.66e-07
+ICNN linear solver for sample 15: error=5.64e-07
+ICNN nonlinear solver for sample 15: error=3.96e-07
+The j-th data is: 16
+NN linear solver for sample 16: error=8.20e-07
+NN nonlinear solver for sample 16: error=6.85e-07
+MGN linear solver for sample 16: error=7.30e-07
+MGN nonlinear solver for sample 16: error=6.39e-07
+ICNN linear solver for sample 16: error=8.89e-07
+ICNN nonlinear solver for sample 16: error=6.10e-07
+The j-th data is: 17
+NN linear solver for sample 17: error=2.32e-07
+NN nonlinear solver for sample 17: error=2.26e-07
+MGN linear solver for sample 17: error=2.11e-07
+MGN nonlinear solver for sample 17: error=1.16e-07
+ICNN linear solver for sample 17: error=1.52e-07
+ICNN nonlinear solver for sample 17: error=1.27e-07
+The j-th data is: 18
+NN linear solver for sample 18: error=9.09e-07
+NN nonlinear solver for sample 18: error=9.16e-07
+MGN linear solver for sample 18: error=8.30e-07
+MGN nonlinear solver for sample 18: error=7.55e-07
+ICNN linear solver for sample 18: error=7.95e-07
+ICNN nonlinear solver for sample 18: error=7.42e-07
+The j-th data is: 19
+NN linear solver for sample 19: error=4.78e-07
+NN nonlinear solver for sample 19: error=5.12e-07
+MGN linear solver for sample 19: error=5.23e-07
+MGN nonlinear solver for sample 19: error=4.47e-07
+ICNN linear solver for sample 19: error=6.87e-07
+ICNN nonlinear solver for sample 19: error=4.51e-07
+The j-th data is: 20
+NN linear solver for sample 20: error=8.02e-08
+NN nonlinear solver for sample 20: error=8.75e-08
+MGN linear solver for sample 20: error=9.91e-08
+MGN nonlinear solver for sample 20: error=5.59e-08
+ICNN linear solver for sample 20: error=7.93e-08
+ICNN nonlinear solver for sample 20: error=7.93e-08
+The j-th data is: 21
+NN linear solver for sample 21: error=1.07e-07
+NN nonlinear solver for sample 21: error=1.30e-07
+MGN linear solver for sample 21: error=1.63e-07
+MGN nonlinear solver for sample 21: error=1.95e-07
+ICNN linear solver for sample 21: error=1.88e-07
+ICNN nonlinear solver for sample 21: error=1.30e-07
+The j-th data is: 22
+NN linear solver for sample 22: error=7.76e-07
+NN nonlinear solver for sample 22: error=6.28e-07
+MGN linear solver for sample 22: error=1.00e-06
+MGN nonlinear solver for sample 22: error=7.71e-07
+ICNN linear solver for sample 22: error=9.85e-07
+ICNN nonlinear solver for sample 22: error=5.64e-07
+The j-th data is: 23
+NN linear solver for sample 23: error=9.94e-07
+NN nonlinear solver for sample 23: error=8.72e-07
+MGN linear solver for sample 23: error=9.15e-07
+MGN nonlinear solver for sample 23: error=6.03e-07
+ICNN linear solver for sample 23: error=8.27e-07
+ICNN nonlinear solver for sample 23: error=7.34e-07
+The j-th data is: 24
+NN linear solver for sample 24: error=3.19e-07
+NN nonlinear solver for sample 24: error=3.12e-07
+MGN linear solver for sample 24: error=3.12e-07
+MGN nonlinear solver for sample 24: error=2.37e-07
+ICNN linear solver for sample 24: error=2.34e-07
+ICNN nonlinear solver for sample 24: error=2.43e-07
+The j-th data is: 25
+NN linear solver for sample 25: error=6.03e-07
+NN nonlinear solver for sample 25: error=4.53e-07
+MGN linear solver for sample 25: error=6.50e-07
+MGN nonlinear solver for sample 25: error=3.97e-07
+ICNN linear solver for sample 25: error=6.42e-07
+ICNN nonlinear solver for sample 25: error=4.25e-07
+The j-th data is: 26
+NN linear solver for sample 26: error=6.35e-07
+NN nonlinear solver for sample 26: error=6.28e-07
+MGN linear solver for sample 26: error=8.57e-07
+MGN nonlinear solver for sample 26: error=6.15e-07
+ICNN linear solver for sample 26: error=6.13e-07
+ICNN nonlinear solver for sample 26: error=4.71e-07
+The j-th data is: 27
+NN linear solver for sample 27: error=1.83e-07
+NN nonlinear solver for sample 27: error=1.73e-07
+MGN linear solver for sample 27: error=1.54e-07
+MGN nonlinear solver for sample 27: error=1.56e-07
+ICNN linear solver for sample 27: error=1.73e-07
+ICNN nonlinear solver for sample 27: error=1.21e-07
+The j-th data is: 28
+NN linear solver for sample 28: error=2.81e-07
+NN nonlinear solver for sample 28: error=2.78e-07
+MGN linear solver for sample 28: error=3.08e-07
+MGN nonlinear solver for sample 28: error=2.93e-07
+ICNN linear solver for sample 28: error=2.92e-07
+ICNN nonlinear solver for sample 28: error=2.60e-07
+The j-th data is: 29
+NN linear solver for sample 29: error=3.05e-07
+NN nonlinear solver for sample 29: error=2.70e-07
+MGN linear solver for sample 29: error=4.12e-07
+MGN nonlinear solver for sample 29: error=2.37e-07
+ICNN linear solver for sample 29: error=3.56e-07
+ICNN nonlinear solver for sample 29: error=3.54e-07
+The j-th data is: 30
+NN linear solver for sample 30: error=1.96e-07
+NN nonlinear solver for sample 30: error=1.45e-07
+MGN linear solver for sample 30: error=2.54e-07
+MGN nonlinear solver for sample 30: error=1.53e-07
+ICNN linear solver for sample 30: error=2.04e-07
+ICNN nonlinear solver for sample 30: error=1.43e-07
+The j-th data is: 31
+NN linear solver for sample 31: error=2.29e-07
+NN nonlinear solver for sample 31: error=1.51e-07
+MGN linear solver for sample 31: error=2.33e-07
+MGN nonlinear solver for sample 31: error=1.63e-07
+ICNN linear solver for sample 31: error=2.33e-07
+ICNN nonlinear solver for sample 31: error=1.68e-07
+The j-th data is: 32
+NN linear solver for sample 32: error=6.07e-08
+NN nonlinear solver for sample 32: error=5.33e-08
+MGN linear solver for sample 32: error=6.75e-08
+MGN nonlinear solver for sample 32: error=7.50e-08
+ICNN linear solver for sample 32: error=1.18e-07
+ICNN nonlinear solver for sample 32: error=7.95e-08
+The j-th data is: 33
+NN linear solver for sample 33: error=1.83e-07
+NN nonlinear solver for sample 33: error=1.75e-07
+MGN linear solver for sample 33: error=1.60e-07
+MGN nonlinear solver for sample 33: error=1.56e-07
+ICNN linear solver for sample 33: error=1.96e-07
+ICNN nonlinear solver for sample 33: error=1.56e-07
+The j-th data is: 34
+NN linear solver for sample 34: error=4.53e-07
+NN nonlinear solver for sample 34: error=4.17e-07
+MGN linear solver for sample 34: error=6.24e-07
+MGN nonlinear solver for sample 34: error=3.95e-07
+ICNN linear solver for sample 34: error=5.21e-07
+ICNN nonlinear solver for sample 34: error=4.81e-07
+The j-th data is: 35
+NN linear solver for sample 35: error=2.54e-07
+NN nonlinear solver for sample 35: error=2.69e-07
+MGN linear solver for sample 35: error=2.35e-07
+MGN nonlinear solver for sample 35: error=2.44e-07
+ICNN linear solver for sample 35: error=2.09e-07
+ICNN nonlinear solver for sample 35: error=1.56e-07
+The j-th data is: 36
+NN linear solver for sample 36: error=9.15e-07
+NN nonlinear solver for sample 36: error=6.90e-07
+MGN linear solver for sample 36: error=7.88e-07
+MGN nonlinear solver for sample 36: error=7.02e-07
+ICNN linear solver for sample 36: error=8.81e-07
+ICNN nonlinear solver for sample 36: error=6.37e-07
+The j-th data is: 37
+NN linear solver for sample 37: error=6.87e-07
+NN nonlinear solver for sample 37: error=5.61e-07
+MGN linear solver for sample 37: error=6.70e-07
+MGN nonlinear solver for sample 37: error=6.02e-07
+ICNN linear solver for sample 37: error=5.06e-07
+ICNN nonlinear solver for sample 37: error=4.95e-07
+The j-th data is: 38
+NN linear solver for sample 38: error=1.04e-07
+NN nonlinear solver for sample 38: error=1.08e-07
+MGN linear solver for sample 38: error=1.23e-07
+MGN nonlinear solver for sample 38: error=8.22e-08
+ICNN linear solver for sample 38: error=1.38e-07
+ICNN nonlinear solver for sample 38: error=9.51e-08
+The j-th data is: 39
+NN linear solver for sample 39: error=6.69e-07
+NN nonlinear solver for sample 39: error=6.62e-07
+MGN linear solver for sample 39: error=6.97e-07
+MGN nonlinear solver for sample 39: error=5.87e-07
+ICNN linear solver for sample 39: error=5.18e-07
+ICNN nonlinear solver for sample 39: error=5.15e-07
+The j-th data is: 40
+NN linear solver for sample 40: error=2.41e-07
+NN nonlinear solver for sample 40: error=2.52e-07
+MGN linear solver for sample 40: error=2.07e-07
+MGN nonlinear solver for sample 40: error=1.99e-07
+ICNN linear solver for sample 40: error=2.71e-07
+ICNN nonlinear solver for sample 40: error=1.41e-07
+The j-th data is: 41
+NN linear solver for sample 41: error=7.54e-08
+NN nonlinear solver for sample 41: error=6.80e-08
+MGN linear solver for sample 41: error=4.96e-08
+MGN nonlinear solver for sample 41: error=4.96e-08
+ICNN linear solver for sample 41: error=1.03e-07
+ICNN nonlinear solver for sample 41: error=9.54e-08
+The j-th data is: 42
+NN linear solver for sample 42: error=3.83e-07
+NN nonlinear solver for sample 42: error=3.79e-07
+MGN linear solver for sample 42: error=4.38e-07
+MGN nonlinear solver for sample 42: error=2.96e-07
+ICNN linear solver for sample 42: error=5.32e-07
+ICNN nonlinear solver for sample 42: error=3.50e-07
+The j-th data is: 43
+NN linear solver for sample 43: error=5.43e-07
+NN nonlinear solver for sample 43: error=4.27e-07
+MGN linear solver for sample 43: error=5.37e-07
+MGN nonlinear solver for sample 43: error=5.30e-07
+ICNN linear solver for sample 43: error=5.41e-07
+ICNN nonlinear solver for sample 43: error=3.86e-07
+The j-th data is: 44
+NN linear solver for sample 44: error=8.45e-07
+NN nonlinear solver for sample 44: error=8.14e-07
+MGN linear solver for sample 44: error=9.01e-07
+MGN nonlinear solver for sample 44: error=7.01e-07
+ICNN linear solver for sample 44: error=1.02e-06
+ICNN nonlinear solver for sample 44: error=7.84e-07
+The j-th data is: 45
+NN linear solver for sample 45: error=4.47e-07
+NN nonlinear solver for sample 45: error=3.93e-07
+MGN linear solver for sample 45: error=5.30e-07
+MGN nonlinear solver for sample 45: error=4.71e-07
+ICNN linear solver for sample 45: error=4.86e-07
+ICNN nonlinear solver for sample 45: error=3.80e-07
+The j-th data is: 46
+NN linear solver for sample 46: error=6.00e-07
+NN nonlinear solver for sample 46: error=4.09e-07
+MGN linear solver for sample 46: error=6.00e-07
+MGN nonlinear solver for sample 46: error=3.80e-07
+ICNN linear solver for sample 46: error=5.48e-07
+ICNN nonlinear solver for sample 46: error=4.06e-07
+The j-th data is: 47
+NN linear solver for sample 47: error=3.41e-07
+NN nonlinear solver for sample 47: error=3.05e-07
+MGN linear solver for sample 47: error=2.66e-07
+MGN nonlinear solver for sample 47: error=1.92e-07
+ICNN linear solver for sample 47: error=2.26e-07
+ICNN nonlinear solver for sample 47: error=2.14e-07
+The j-th data is: 48
+NN linear solver for sample 48: error=1.14e-07
+NN nonlinear solver for sample 48: error=7.57e-08
+MGN linear solver for sample 48: error=1.30e-07
+MGN nonlinear solver for sample 48: error=1.12e-07
+ICNN linear solver for sample 48: error=1.07e-07
+ICNN nonlinear solver for sample 48: error=8.10e-08
+The j-th data is: 49
+NN linear solver for sample 49: error=7.80e-07
+NN nonlinear solver for sample 49: error=7.59e-07
+MGN linear solver for sample 49: error=9.40e-07
+MGN nonlinear solver for sample 49: error=5.23e-07
+ICNN linear solver for sample 49: error=7.71e-07
+ICNN nonlinear solver for sample 49: error=6.84e-07
+The j-th data is: 50
+NN linear solver for sample 50: error=5.66e-07
+NN nonlinear solver for sample 50: error=3.99e-07
+MGN linear solver for sample 50: error=5.11e-07
+MGN nonlinear solver for sample 50: error=3.44e-07
+ICNN linear solver for sample 50: error=5.25e-07
+ICNN nonlinear solver for sample 50: error=3.09e-07
+The j-th data is: 51
+NN linear solver for sample 51: error=5.62e-07
+NN nonlinear solver for sample 51: error=2.99e-07
+MGN linear solver for sample 51: error=4.41e-07
+MGN nonlinear solver for sample 51: error=3.74e-07
+ICNN linear solver for sample 51: error=4.88e-07
+ICNN nonlinear solver for sample 51: error=4.02e-07
+The j-th data is: 52
+NN linear solver for sample 52: error=5.60e-07
+NN nonlinear solver for sample 52: error=5.24e-07
+MGN linear solver for sample 52: error=6.62e-07
+MGN nonlinear solver for sample 52: error=4.09e-07
+ICNN linear solver for sample 52: error=5.98e-07
+ICNN nonlinear solver for sample 52: error=4.89e-07
+The j-th data is: 53
+NN linear solver for sample 53: error=8.87e-07
+NN nonlinear solver for sample 53: error=5.80e-07
+MGN linear solver for sample 53: error=6.32e-07
+MGN nonlinear solver for sample 53: error=5.39e-07
+ICNN linear solver for sample 53: error=6.31e-07
+ICNN nonlinear solver for sample 53: error=5.71e-07
+The j-th data is: 54
+NN linear solver for sample 54: error=1.72e-07
+NN nonlinear solver for sample 54: error=1.64e-07
+MGN linear solver for sample 54: error=1.82e-07
+MGN nonlinear solver for sample 54: error=1.56e-07
+ICNN linear solver for sample 54: error=1.70e-07
+ICNN nonlinear solver for sample 54: error=1.46e-07
+The j-th data is: 55
+NN linear solver for sample 55: error=1.74e-07
+NN nonlinear solver for sample 55: error=1.53e-07
+MGN linear solver for sample 55: error=1.54e-07
+MGN nonlinear solver for sample 55: error=1.37e-07
+ICNN linear solver for sample 55: error=1.18e-07
+ICNN nonlinear solver for sample 55: error=1.25e-07
+The j-th data is: 56
+NN linear solver for sample 56: error=5.22e-07
+NN nonlinear solver for sample 56: error=3.85e-07
+MGN linear solver for sample 56: error=6.02e-07
+MGN nonlinear solver for sample 56: error=3.87e-07
+ICNN linear solver for sample 56: error=4.87e-07
+ICNN nonlinear solver for sample 56: error=3.79e-07
+The j-th data is: 57
+NN linear solver for sample 57: error=1.71e-07
+NN nonlinear solver for sample 57: error=1.56e-07
+MGN linear solver for sample 57: error=2.40e-07
+MGN nonlinear solver for sample 57: error=1.43e-07
+ICNN linear solver for sample 57: error=2.54e-07
+ICNN nonlinear solver for sample 57: error=1.56e-07
+The j-th data is: 58
+NN linear solver for sample 58: error=4.65e-07
+NN nonlinear solver for sample 58: error=4.25e-07
+MGN linear solver for sample 58: error=6.42e-07
+MGN nonlinear solver for sample 58: error=4.98e-07
+ICNN linear solver for sample 58: error=6.58e-07
+ICNN nonlinear solver for sample 58: error=4.28e-07
+The j-th data is: 59
+NN linear solver for sample 59: error=2.33e-07
+NN nonlinear solver for sample 59: error=1.75e-07
+MGN linear solver for sample 59: error=2.62e-07
+MGN nonlinear solver for sample 59: error=2.84e-07
+ICNN linear solver for sample 59: error=2.91e-07
+ICNN nonlinear solver for sample 59: error=2.26e-07
+The j-th data is: 60
+NN linear solver for sample 60: error=5.05e-07
+NN nonlinear solver for sample 60: error=4.75e-07
+MGN linear solver for sample 60: error=5.73e-07
+MGN nonlinear solver for sample 60: error=4.14e-07
+ICNN linear solver for sample 60: error=6.53e-07
+ICNN nonlinear solver for sample 60: error=4.10e-07
+The j-th data is: 61
+NN linear solver for sample 61: error=1.28e-07
+NN nonlinear solver for sample 61: error=1.36e-07
+MGN linear solver for sample 61: error=1.73e-07
+MGN nonlinear solver for sample 61: error=1.46e-07
+ICNN linear solver for sample 61: error=1.56e-07
+ICNN nonlinear solver for sample 61: error=1.72e-07
+The j-th data is: 62
+NN linear solver for sample 62: error=8.32e-07
+NN nonlinear solver for sample 62: error=5.38e-07
+MGN linear solver for sample 62: error=8.51e-07
+MGN nonlinear solver for sample 62: error=5.92e-07
+ICNN linear solver for sample 62: error=7.92e-07
+ICNN nonlinear solver for sample 62: error=6.26e-07
+The j-th data is: 63
+NN linear solver for sample 63: error=6.84e-07
+NN nonlinear solver for sample 63: error=7.25e-07
+MGN linear solver for sample 63: error=1.02e-06
+MGN nonlinear solver for sample 63: error=6.67e-07
+ICNN linear solver for sample 63: error=8.07e-07
+ICNN nonlinear solver for sample 63: error=6.12e-07
+The j-th data is: 64
+NN linear solver for sample 64: error=4.17e-07
+NN nonlinear solver for sample 64: error=4.75e-07
+MGN linear solver for sample 64: error=5.42e-07
+MGN nonlinear solver for sample 64: error=3.15e-07
+ICNN linear solver for sample 64: error=4.19e-07
+ICNN nonlinear solver for sample 64: error=3.75e-07
+The j-th data is: 65
+NN linear solver for sample 65: error=2.14e-07
+NN nonlinear solver for sample 65: error=1.35e-07
+MGN linear solver for sample 65: error=1.74e-07
+MGN nonlinear solver for sample 65: error=1.34e-07
+ICNN linear solver for sample 65: error=1.83e-07
+ICNN nonlinear solver for sample 65: error=1.20e-07
+The j-th data is: 66
+NN linear solver for sample 66: error=3.65e-07
+NN nonlinear solver for sample 66: error=3.51e-07
+MGN linear solver for sample 66: error=4.59e-07
+MGN nonlinear solver for sample 66: error=3.07e-07
+ICNN linear solver for sample 66: error=3.97e-07
+ICNN nonlinear solver for sample 66: error=3.42e-07
+The j-th data is: 67
+NN linear solver for sample 67: error=1.57e-07
+NN nonlinear solver for sample 67: error=1.16e-07
+MGN linear solver for sample 67: error=1.40e-07
+MGN nonlinear solver for sample 67: error=1.18e-07
+ICNN linear solver for sample 67: error=1.23e-07
+ICNN nonlinear solver for sample 67: error=1.15e-07
+The j-th data is: 68
+NN linear solver for sample 68: error=2.41e-07
+NN nonlinear solver for sample 68: error=1.94e-07
+MGN linear solver for sample 68: error=2.02e-07
+MGN nonlinear solver for sample 68: error=1.69e-07
+ICNN linear solver for sample 68: error=2.07e-07
+ICNN nonlinear solver for sample 68: error=1.92e-07
+The j-th data is: 69
+NN linear solver for sample 69: error=3.31e-07
+NN nonlinear solver for sample 69: error=4.83e-07
+MGN linear solver for sample 69: error=3.51e-07
+MGN nonlinear solver for sample 69: error=3.13e-07
+ICNN linear solver for sample 69: error=4.05e-07
+ICNN nonlinear solver for sample 69: error=3.94e-07
+The j-th data is: 70
+NN linear solver for sample 70: error=6.41e-07
+NN nonlinear solver for sample 70: error=4.12e-07
+MGN linear solver for sample 70: error=5.12e-07
+MGN nonlinear solver for sample 70: error=4.43e-07
+ICNN linear solver for sample 70: error=5.73e-07
+ICNN nonlinear solver for sample 70: error=4.61e-07
+The j-th data is: 71
+NN linear solver for sample 71: error=1.01e-07
+NN nonlinear solver for sample 71: error=8.73e-08
+MGN linear solver for sample 71: error=1.29e-07
+MGN nonlinear solver for sample 71: error=9.20e-08
+ICNN linear solver for sample 71: error=1.19e-07
+ICNN nonlinear solver for sample 71: error=9.31e-08
+The j-th data is: 72
+NN linear solver for sample 72: error=4.32e-07
+NN nonlinear solver for sample 72: error=4.32e-07
+MGN linear solver for sample 72: error=4.58e-07
+MGN nonlinear solver for sample 72: error=4.50e-07
+ICNN linear solver for sample 72: error=3.81e-07
+ICNN nonlinear solver for sample 72: error=3.31e-07
+The j-th data is: 73
+NN linear solver for sample 73: error=3.10e-07
+NN nonlinear solver for sample 73: error=3.06e-07
+MGN linear solver for sample 73: error=6.53e-07
+MGN nonlinear solver for sample 73: error=4.53e-07
+ICNN linear solver for sample 73: error=3.49e-07
+ICNN nonlinear solver for sample 73: error=3.53e-07
+The j-th data is: 74
+NN linear solver for sample 74: error=1.68e-07
+NN nonlinear solver for sample 74: error=1.76e-07
+MGN linear solver for sample 74: error=2.11e-07
+MGN nonlinear solver for sample 74: error=1.48e-07
+ICNN linear solver for sample 74: error=2.61e-07
+ICNN nonlinear solver for sample 74: error=1.64e-07
+The j-th data is: 75
+NN linear solver for sample 75: error=9.20e-07
+NN nonlinear solver for sample 75: error=7.47e-07
+MGN linear solver for sample 75: error=7.59e-07
+MGN nonlinear solver for sample 75: error=6.87e-07
+ICNN linear solver for sample 75: error=9.19e-07
+ICNN nonlinear solver for sample 75: error=6.50e-07
+The j-th data is: 76
+NN linear solver for sample 76: error=7.05e-07
+NN nonlinear solver for sample 76: error=4.32e-07
+MGN linear solver for sample 76: error=8.03e-07
+MGN nonlinear solver for sample 76: error=5.21e-07
+ICNN linear solver for sample 76: error=7.11e-07
+ICNN nonlinear solver for sample 76: error=7.08e-07
+The j-th data is: 77
+NN linear solver for sample 77: error=6.72e-07
+NN nonlinear solver for sample 77: error=4.18e-07
+MGN linear solver for sample 77: error=5.76e-07
+MGN nonlinear solver for sample 77: error=3.84e-07
+ICNN linear solver for sample 77: error=5.34e-07
+ICNN nonlinear solver for sample 77: error=4.44e-07
+The j-th data is: 78
+NN linear solver for sample 78: error=1.57e-07
+NN nonlinear solver for sample 78: error=1.29e-07
+MGN linear solver for sample 78: error=1.78e-07
+MGN nonlinear solver for sample 78: error=1.57e-07
+ICNN linear solver for sample 78: error=2.01e-07
+ICNN nonlinear solver for sample 78: error=1.33e-07
+The j-th data is: 79
+NN linear solver for sample 79: error=1.28e-07
+NN nonlinear solver for sample 79: error=1.35e-07
+MGN linear solver for sample 79: error=1.42e-07
+MGN nonlinear solver for sample 79: error=1.69e-07
+ICNN linear solver for sample 79: error=1.87e-07
+ICNN nonlinear solver for sample 79: error=1.45e-07
+The j-th data is: 80
+NN linear solver for sample 80: error=1.10e-07
+NN nonlinear solver for sample 80: error=7.59e-08
+MGN linear solver for sample 80: error=1.57e-07
+MGN nonlinear solver for sample 80: error=1.43e-07
+ICNN linear solver for sample 80: error=1.23e-07
+ICNN nonlinear solver for sample 80: error=9.36e-08
+The j-th data is: 81
+NN linear solver for sample 81: error=5.79e-07
+NN nonlinear solver for sample 81: error=3.97e-07
+MGN linear solver for sample 81: error=5.37e-07
+MGN nonlinear solver for sample 81: error=4.49e-07
+ICNN linear solver for sample 81: error=5.82e-07
+ICNN nonlinear solver for sample 81: error=4.85e-07
+The j-th data is: 82
+NN linear solver for sample 82: error=4.81e-07
+NN nonlinear solver for sample 82: error=4.68e-07
+MGN linear solver for sample 82: error=4.10e-07
+MGN nonlinear solver for sample 82: error=4.14e-07
+ICNN linear solver for sample 82: error=4.29e-07
+ICNN nonlinear solver for sample 82: error=4.49e-07
+The j-th data is: 83
+NN linear solver for sample 83: error=1.97e-07
+NN nonlinear solver for sample 83: error=1.56e-07
+MGN linear solver for sample 83: error=1.79e-07
+MGN nonlinear solver for sample 83: error=1.61e-07
+ICNN linear solver for sample 83: error=1.68e-07
+ICNN nonlinear solver for sample 83: error=1.49e-07
+The j-th data is: 84
+NN linear solver for sample 84: error=4.48e-07
+NN nonlinear solver for sample 84: error=3.52e-07
+MGN linear solver for sample 84: error=4.59e-07
+MGN nonlinear solver for sample 84: error=3.12e-07
+ICNN linear solver for sample 84: error=4.96e-07
+ICNN nonlinear solver for sample 84: error=3.15e-07
+The j-th data is: 85
+NN linear solver for sample 85: error=8.38e-07
+NN nonlinear solver for sample 85: error=4.85e-07
+MGN linear solver for sample 85: error=7.01e-07
+MGN nonlinear solver for sample 85: error=6.48e-07
+ICNN linear solver for sample 85: error=8.42e-07
+ICNN nonlinear solver for sample 85: error=5.82e-07
+The j-th data is: 86
+NN linear solver for sample 86: error=4.80e-07
+NN nonlinear solver for sample 86: error=3.61e-07
+MGN linear solver for sample 86: error=4.83e-07
+MGN nonlinear solver for sample 86: error=3.65e-07
+ICNN linear solver for sample 86: error=3.80e-07
+ICNN nonlinear solver for sample 86: error=3.25e-07
+The j-th data is: 87
+NN linear solver for sample 87: error=3.94e-07
+NN nonlinear solver for sample 87: error=4.16e-07
+MGN linear solver for sample 87: error=3.81e-07
+MGN nonlinear solver for sample 87: error=2.64e-07
+ICNN linear solver for sample 87: error=4.34e-07
+ICNN nonlinear solver for sample 87: error=4.05e-07
+The j-th data is: 88
+NN linear solver for sample 88: error=6.07e-07
+NN nonlinear solver for sample 88: error=3.98e-07
+MGN linear solver for sample 88: error=4.95e-07
+MGN nonlinear solver for sample 88: error=3.54e-07
+ICNN linear solver for sample 88: error=4.75e-07
+ICNN nonlinear solver for sample 88: error=4.73e-07
+The j-th data is: 89
+NN linear solver for sample 89: error=5.76e-07
+NN nonlinear solver for sample 89: error=3.66e-07
+MGN linear solver for sample 89: error=5.39e-07
+MGN nonlinear solver for sample 89: error=4.93e-07
+ICNN linear solver for sample 89: error=5.86e-07
+ICNN nonlinear solver for sample 89: error=3.86e-07
+The j-th data is: 90
+NN linear solver for sample 90: error=2.76e-07
+NN nonlinear solver for sample 90: error=3.05e-07
+MGN linear solver for sample 90: error=4.34e-07
+MGN nonlinear solver for sample 90: error=2.67e-07
+ICNN linear solver for sample 90: error=2.83e-07
+ICNN nonlinear solver for sample 90: error=2.80e-07
+The j-th data is: 91
+NN linear solver for sample 91: error=7.65e-07
+NN nonlinear solver for sample 91: error=8.49e-07
+MGN linear solver for sample 91: error=7.78e-07
+MGN nonlinear solver for sample 91: error=6.57e-07
+ICNN linear solver for sample 91: error=1.03e-06
+ICNN nonlinear solver for sample 91: error=7.09e-07
+The j-th data is: 92
+NN linear solver for sample 92: error=7.40e-07
+NN nonlinear solver for sample 92: error=7.63e-07
+MGN linear solver for sample 92: error=8.72e-07
+MGN nonlinear solver for sample 92: error=5.73e-07
+ICNN linear solver for sample 92: error=7.82e-07
+ICNN nonlinear solver for sample 92: error=7.23e-07
+The j-th data is: 93
+NN linear solver for sample 93: error=9.06e-07
+NN nonlinear solver for sample 93: error=5.82e-07
+MGN linear solver for sample 93: error=8.72e-07
+MGN nonlinear solver for sample 93: error=8.03e-07
+ICNN linear solver for sample 93: error=9.19e-07
+ICNN nonlinear solver for sample 93: error=6.80e-07
+The j-th data is: 94
+NN linear solver for sample 94: error=3.04e-07
+NN nonlinear solver for sample 94: error=2.72e-07
+MGN linear solver for sample 94: error=3.06e-07
+MGN nonlinear solver for sample 94: error=2.14e-07
+ICNN linear solver for sample 94: error=3.44e-07
+ICNN nonlinear solver for sample 94: error=2.80e-07
+The j-th data is: 95
+NN linear solver for sample 95: error=2.17e-07
+NN nonlinear solver for sample 95: error=1.14e-07
+MGN linear solver for sample 95: error=2.00e-07
+MGN nonlinear solver for sample 95: error=1.26e-07
+ICNN linear solver for sample 95: error=1.42e-07
+ICNN nonlinear solver for sample 95: error=1.50e-07
+The j-th data is: 96
+NN linear solver for sample 96: error=4.88e-07
+NN nonlinear solver for sample 96: error=4.59e-07
+MGN linear solver for sample 96: error=6.12e-07
+MGN nonlinear solver for sample 96: error=4.56e-07
+ICNN linear solver for sample 96: error=4.49e-07
+ICNN nonlinear solver for sample 96: error=3.92e-07
+The j-th data is: 97
+NN linear solver for sample 97: error=8.16e-07
+NN nonlinear solver for sample 97: error=6.63e-07
+MGN linear solver for sample 97: error=1.23e-06
+MGN nonlinear solver for sample 97: error=8.66e-07
+ICNN linear solver for sample 97: error=8.54e-07
+ICNN nonlinear solver for sample 97: error=6.08e-07
+The j-th data is: 98
+NN linear solver for sample 98: error=1.82e-07
+NN nonlinear solver for sample 98: error=1.41e-07
+MGN linear solver for sample 98: error=1.16e-07
+MGN nonlinear solver for sample 98: error=1.07e-07
+ICNN linear solver for sample 98: error=1.59e-07
+ICNN nonlinear solver for sample 98: error=1.29e-07
+The j-th data is: 99
+NN linear solver for sample 99: error=3.73e-07
+NN nonlinear solver for sample 99: error=4.02e-07
+MGN linear solver for sample 99: error=4.55e-07
+MGN nonlinear solver for sample 99: error=3.68e-07
+ICNN linear solver for sample 99: error=5.49e-07
+ICNN nonlinear solver for sample 99: error=2.89e-07

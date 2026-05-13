@@ -1,0 +1,7 @@
+>> Device being used: cuda (NVIDIA GeForce RTX 4090)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/project/MPNO_final/BlatzKo_1d/PNO_NN_ex35_k1/PNO_BB.py", line 409, in <module>
+    main()
+  File "/root/autodl-tmp/project/MPNO_final/BlatzKo_1d/PNO_NN_ex35_k1/PNO_BB.py", line 93, in main
+    model = E_GCL_GKN(phi_1_layer, act_fun_xi).to(device)
+UnboundLocalError: local variable 'act_fun_xi' referenced before assignment

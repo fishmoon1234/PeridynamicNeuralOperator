@@ -1,0 +1,94 @@
+PID: 82080
+>> Device being used: cuda (NVIDIA GeForce RTX 4090)
+Number of parameters for MGN: 833
+Total number of parameters: 50883
+>> Preprocessing completed, time elapsed:  0.58s
+/root/autodl-tmp/project/MPNO_final/MD/large_strain_241215/PNO_MGN_DBC_xi_cMGNz_twophase_newnormalization3_tuneparas/PNO_BB.py:507: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_path))
+0, err_b:0.19664421677589417, err_u:0.01787366345524788, fsolve flag:1, 6.318092346191406e-06, 2303
+
+1, err_b:0.27111509442329407, err_u:0.10006355494260788, fsolve flag:1, 5.424022674560547e-06, 1850
+
+2, err_b:0.37502849102020264, err_u:0.12577247619628906, fsolve flag:5, 7.987022399902344e-06, 1389
+
+3, err_b:0.48017650842666626, err_u:0.26586011052131653, fsolve flag:5, 8.225440979003906e-06, 933
+
+4, err_b:0.08754320442676544, err_u:0.0640796348452568, fsolve flag:1, 1.293788318434963e-05, 6856
+
+5, err_b:0.0945703461766243, err_u:0.09786640852689743, fsolve flag:1, 6.9141387939453125e-06, 2319
+
+6, err_b:0.10923982411623001, err_u:0.0469120554625988, fsolve flag:5, 1.049041748046875e-05, 1398
+
+7, err_b:0.1401306688785553, err_u:0.06531301885843277, fsolve flag:1, 5.184672772884369e-06, 1869
+
+8, err_b:0.1887919157743454, err_u:0.13347753882408142, fsolve flag:1, 4.708766937255859e-06, 2764
+
+9, err_b:0.25661537051200867, err_u:0.18778513371944427, fsolve flag:5, 6.9141387939453125e-06, 947
+
+10, err_b:0.310810923576355, err_u:0.22565190494060516, fsolve flag:1, 4.627276211977005e-06, 1395
+
+11, err_b:0.25584903359413147, err_u:0.25763699412345886, fsolve flag:1, 5.03581395605579e-06, 1398
+
+12, err_b:0.18422727286815643, err_u:0.1252330094575882, fsolve flag:1, 8.225440979003906e-06, 1849
+
+13, err_b:0.19171646237373352, err_u:0.15898694097995758, fsolve flag:1, 6.604967893508729e-06, 2748
+
+14, err_b:0.2628215253353119, err_u:0.22269386053085327, fsolve flag:1, 5.15917781740427e-06, 3213
+
+15, err_b:0.22800308465957642, err_u:0.21498282253742218, fsolve flag:1, 4.669534973800182e-06, 1835
+
+16, err_b:0.3073883652687073, err_u:0.28679996728897095, fsolve flag:1, 5.538306140806526e-06, 1841
+
+17, err_b:0.4446044862270355, err_u:0.3801734447479248, fsolve flag:1, 6.735324859619141e-06, 3188
+
+18, err_b:0.26022645831108093, err_u:0.24456147849559784, fsolve flag:1, 5.291425622999668e-06, 1837
+
+19, err_b:0.3334433138370514, err_u:0.27705490589141846, fsolve flag:1, 6.079673767089844e-06, 2289
+
+20, err_b:0.4116814434528351, err_u:0.3342050313949585, fsolve flag:1, 5.692243576049805e-06, 2744
+
+21, err_b:0.370632529258728, err_u:0.31743213534355164, fsolve flag:1, 5.823385436087847e-06, 2288
+
+22, err_b:0.08859184384346008, err_u:0.10516916960477829, fsolve flag:1, 6.67572021484375e-06, 2762
+
+23, err_b:0.4540986120700836, err_u:0.41832470893859863, fsolve flag:5, 7.800059393048286e-06, 931
+
+24, err_b:0.17836304008960724, err_u:0.01772017776966095, fsolve flag:1, 5.7220458984375e-06, 1848
+
+25, err_b:0.12669238448143005, err_u:0.06592154502868652, fsolve flag:5, 1.0818243026733398e-05, 944
+
+26, err_b:0.16164055466651917, err_u:0.08321315795183182, fsolve flag:1, 6.114423740655184e-06, 1869
+
+27, err_b:0.235490620136261, err_u:0.18474872410297394, fsolve flag:5, 8.112750947475433e-06, 934
+
+28, err_b:0.3439685106277466, err_u:0.3148256242275238, fsolve flag:1, 6.599351763725281e-06, 1841
+
+29, err_b:0.27709072828292847, err_u:0.1040421649813652, fsolve flag:5, 8.106231689453125e-06, 1397
+
+30, err_b:0.39038464426994324, err_u:0.13467735052108765, fsolve flag:1, 8.225440979003906e-06, 2760
+
+31, err_b:0.19954214990139008, err_u:0.14539660513401031, fsolve flag:5, 7.461756467819214e-06, 940
+
+32, err_b:0.26845139265060425, err_u:0.20191310346126556, fsolve flag:1, 4.626810550689697e-06, 3221
+
+33, err_b:0.2100086510181427, err_u:0.18167121708393097, fsolve flag:5, 8.63242894411087e-06, 933
+
+34, err_b:0.2808454632759094, err_u:0.24425365030765533, fsolve flag:5, 8.80297739058733e-06, 937
+
+35, err_b:0.41082292795181274, err_u:0.32039979100227356, fsolve flag:1, 4.269015335012227e-06, 2749
+
+36, err_b:0.5011897087097168, err_u:0.2884691655635834, fsolve flag:1, 5.9604644775390625e-06, 1393
+
+37, err_b:0.30970585346221924, err_u:0.24118708074092865, fsolve flag:1, 7.37607479095459e-06, 2294
+
+38, err_b:0.2409030944108963, err_u:0.23247964680194855, fsolve flag:4, 6.079673767089844e-06, 3647
+
+39, err_b:0.271189421415329, err_u:0.2604644000530243, fsolve flag:1, 5.50475851923693e-06, 3196
+
+Relative L2 error for index_cg-md-250212_0.1_0.15_0.01 b: 0.26775600351393225
+Relative L2 error for index_cg-md-250212_0.1_0.15_0.01 u: 0.1923823343589902
+Relative L2 error for index_cg-md-250212_0.1_0.15_0.01 u_linear: 0.0
+Error arrays saved to /root/autodl-tmp/project/MPNO_final/MD/large_strain_241215/PNO_MGN_DBC_xi_cMGNz_twophase_newnormalization3_tuneparas/Results/MD_index_274_nvalid50_16_16_128_4_lr0.001_dr0.5_step100_bs2_norm1_z/err_b_index_cg-md-250212_0.1_0.15_0.01.txt and /root/autodl-tmp/project/MPNO_final/MD/large_strain_241215/PNO_MGN_DBC_xi_cMGNz_twophase_newnormalization3_tuneparas/Results/MD_index_274_nvalid50_16_16_128_4_lr0.001_dr0.5_step100_bs2_norm1_z/err_u_index_cg-md-250212_0.1_0.15_0.01.txt
+/root/miniconda3/envs/NPO310/lib/python3.10/site-packages/torch/functional.py:534: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /opt/conda/conda-bld/pytorch_1729647327489/work/aten/src/ATen/native/TensorShape.cpp:3595.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Done!

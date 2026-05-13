@@ -1,0 +1,2 @@
+mean err: 3.4741e-01
+mean err: 5.1432e-06

@@ -1,0 +1,29 @@
+>> Device being used: cuda (NVIDIA GeForce RTX 4090)
+Total number of parameters: 1321
+>> Training Mesh resolution: 257x257
+tensor(0.8109)
+tensor(3.3456)
+>> Preprocessing completed, time elapsed:  0.25s
+>> ntrain: 300, lr: 0.01, gamma: 0.6, w_d: 0.0
+----------------------------------------------------------------------------------------------------
+>> epoch [   1/3000], runtime:1.30s, train err:1.9328e-04, valid err: 1.2552e-04, test err: 1.3053e-04, (best: 1.9328e-04/1.2552e-04)
+>> epoch [  51/3000], runtime:1.13s, train err:1.9110e-05, valid err: 2.4993e-05, test err: 2.3358e-05, (best: 1.8610e-05/1.9274e-05)
+>> epoch [ 101/3000], runtime:1.14s, train err:1.2374e-05, valid err: 1.0121e-05, test err: 8.9468e-06, (best: 1.0514e-05/1.0121e-05)
+>> epoch [ 151/3000], runtime:1.14s, train err:1.0533e-05, valid err: 9.3579e-06, test err: 8.4727e-06, (best: 9.9115e-06/9.3579e-06)
+>> epoch [ 201/3000], runtime:1.17s, train err:9.3562e-06, valid err: 8.7624e-06, test err: 7.9081e-06, (best: 9.3562e-06/8.7624e-06)
+>> epoch [ 251/3000], runtime:1.14s, train err:8.6730e-06, valid err: 8.9444e-06, test err: 7.8288e-06, (best: 8.7922e-06/8.5583e-06)
+>> epoch [ 301/3000], runtime:1.15s, train err:8.9440e-06, valid err: 8.3863e-06, test err: 7.5494e-06, (best: 8.5681e-06/8.3863e-06)
+>> epoch [ 351/3000], runtime:1.14s, train err:8.6962e-06, valid err: 8.1505e-06, test err: 7.3402e-06, (best: 8.3078e-06/8.1505e-06)
+>> epoch [ 401/3000], runtime:1.15s, train err:8.5165e-06, valid err: 8.1025e-06, test err: 7.2190e-06, (best: 8.1521e-06/8.1025e-06)
+>> epoch [ 451/3000], runtime:1.14s, train err:8.5708e-06, valid err: 8.0379e-06, test err: 7.1675e-06, (best: 8.0054e-06/8.0379e-06)
+>> epoch [ 501/3000], runtime:1.15s, train err:8.3577e-06, valid err: 8.0281e-06, test err: 7.1238e-06, (best: 8.0030e-06/8.0281e-06)
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+>> 20_4, Softplus, ntrain: 300, lr: 0.01, gamma: 0.6, w_d: 0.0
+>> Best train error:  8.0030e-06
+>> Best valid error:  8.0281e-06
+>> Best test error:  7.1238e-06
+>> Best epoch: 457
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+>> Training Completed!!

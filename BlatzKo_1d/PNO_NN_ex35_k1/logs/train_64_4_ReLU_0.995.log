@@ -1,0 +1,101 @@
+>> Device being used: cuda (NVIDIA GeForce RTX 4090)
+Total number of parameters: 12673
+>> Training Mesh resolution: 257x257
+/root/autodl-tmp/project/MPNO_final/BlatzKo_1d/PNO_NN_ex35_k1/PNO_BB.py:137: UserWarning: torch.range is deprecated and will be removed in a future release because its behavior is inconsistent with Python's range builtin. Instead, use torch.arange, which produces values in [start, end).
+  ksi_range = torch.range(-m_fact, m_fact).int()
+tensor(0.8109)
+tensor(3.3456)
+>> Preprocessing completed, time elapsed:  0.26s
+>> ntrain: 300, lr: 0.01, gamma: 0.6, w_d: 0.0
+----------------------------------------------------------------------------------------------------
+>> epoch [   1/3000], runtime: 2.43s, train loss: 2.0945e-04, valid loss: 2.6657e-05 , test loss: 5.0679e-03
+>> epoch [   2/3000], runtime: 2.16s, train loss: 1.1003e-04, valid loss: 1.4298e-05 , test loss: 2.7005e-03
+>> epoch [   3/3000], runtime: 2.14s, train loss: 5.0412e-05, valid loss: 6.1798e-06 , test loss: 5.3577e-04
+>> epoch [   4/3000], runtime:  2.14s, train loss: 3.7735e-05 (best: 5.0412e-05/6.1798e-06)
+>> epoch [   5/3000], runtime:  2.15s, train loss: 3.3874e-05 (best: 5.0412e-05/6.1798e-06)
+>> epoch [   6/3000], runtime:  2.13s, train loss: 5.6200e-05 (best: 5.0412e-05/6.1798e-06)
+>> epoch [   7/3000], runtime: 2.15s, train loss: 3.9507e-05, valid loss: 4.2860e-06 , test loss: 7.3905e-04
+>> epoch [   8/3000], runtime:  2.16s, train loss: 2.8978e-05 (best: 3.9507e-05/4.2860e-06)
+>> epoch [   9/3000], runtime:  2.13s, train loss: 2.9365e-05 (best: 3.9507e-05/4.2860e-06)
+>> epoch [  10/3000], runtime:  2.16s, train loss: 3.1423e-05 (best: 3.9507e-05/4.2860e-06)
+>> epoch [  11/3000], runtime:  2.16s, train loss: 3.0995e-05 (best: 3.9507e-05/4.2860e-06)
+>> epoch [  12/3000], runtime: 2.14s, train loss: 3.4852e-05, valid loss: 3.7109e-06 , test loss: 6.7251e-04
+>> epoch [  13/3000], runtime:  2.15s, train loss: 2.3282e-05 (best: 3.4852e-05/3.7109e-06)
+>> epoch [  14/3000], runtime: 2.16s, train loss: 2.4425e-05, valid loss: 3.2865e-06 , test loss: 2.9228e-04
+>> epoch [  15/3000], runtime:  2.14s, train loss: 2.0720e-05 (best: 2.4425e-05/3.2865e-06)
+>> epoch [  16/3000], runtime:  2.13s, train loss: 3.0304e-05 (best: 2.4425e-05/3.2865e-06)
+>> epoch [  17/3000], runtime:  2.15s, train loss: 2.7921e-05 (best: 2.4425e-05/3.2865e-06)
+>> epoch [  18/3000], runtime: 2.14s, train loss: 2.1409e-05, valid loss: 2.7429e-06 , test loss: 3.4841e-04
+>> epoch [  19/3000], runtime:  2.16s, train loss: 1.9289e-05 (best: 2.1409e-05/2.7429e-06)
+>> epoch [  20/3000], runtime:  2.15s, train loss: 1.8280e-05 (best: 2.1409e-05/2.7429e-06)
+>> epoch [  21/3000], runtime:  2.14s, train loss: 1.6374e-05 (best: 2.1409e-05/2.7429e-06)
+>> epoch [  22/3000], runtime: 2.14s, train loss: 1.8830e-05, valid loss: 2.4788e-06 , test loss: 2.7717e-04
+>> epoch [  23/3000], runtime:  2.17s, train loss: 2.9502e-05 (best: 1.8830e-05/2.4788e-06)
+>> epoch [  24/3000], runtime:  2.14s, train loss: 2.5203e-05 (best: 1.8830e-05/2.4788e-06)
+>> epoch [  25/3000], runtime:  2.16s, train loss: 1.5948e-05 (best: 1.8830e-05/2.4788e-06)
+>> epoch [  26/3000], runtime:  2.16s, train loss: 1.5991e-05 (best: 1.8830e-05/2.4788e-06)
+>> epoch [  27/3000], runtime:  2.16s, train loss: 1.8023e-05 (best: 1.8830e-05/2.4788e-06)
+>> epoch [  28/3000], runtime:  2.14s, train loss: 2.2095e-05 (best: 1.8830e-05/2.4788e-06)
+>> epoch [  29/3000], runtime:  2.16s, train loss: 2.3006e-05 (best: 1.8830e-05/2.4788e-06)
+>> epoch [  30/3000], runtime: 2.15s, train loss: 1.5754e-05, valid loss: 2.0435e-06 , test loss: 3.7759e-04
+>> epoch [  31/3000], runtime:  2.15s, train loss: 1.7789e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  32/3000], runtime:  2.14s, train loss: 2.3681e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  33/3000], runtime:  2.14s, train loss: 1.9200e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  34/3000], runtime:  2.16s, train loss: 1.9352e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  35/3000], runtime:  2.18s, train loss: 1.7191e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  36/3000], runtime:  2.18s, train loss: 1.5877e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  37/3000], runtime:  2.15s, train loss: 1.6246e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  38/3000], runtime:  2.15s, train loss: 2.0359e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  39/3000], runtime:  2.16s, train loss: 2.1894e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  40/3000], runtime:  2.14s, train loss: 2.0073e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  41/3000], runtime:  2.14s, train loss: 1.7090e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  42/3000], runtime:  2.14s, train loss: 2.1913e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  43/3000], runtime:  2.16s, train loss: 2.1063e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  44/3000], runtime:  2.14s, train loss: 1.9214e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  45/3000], runtime:  2.14s, train loss: 1.8970e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  46/3000], runtime:  2.14s, train loss: 1.9461e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  47/3000], runtime:  2.14s, train loss: 1.7565e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  48/3000], runtime:  2.14s, train loss: 1.7213e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  49/3000], runtime:  2.14s, train loss: 1.5179e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  50/3000], runtime:  2.17s, train loss: 1.6235e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  51/3000], runtime:  2.14s, train loss: 1.5417e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  52/3000], runtime:  2.14s, train loss: 1.7259e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  53/3000], runtime:  2.14s, train loss: 1.6116e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  54/3000], runtime:  2.14s, train loss: 1.6753e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  55/3000], runtime:  2.15s, train loss: 1.7193e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  56/3000], runtime:  2.16s, train loss: 1.7065e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  57/3000], runtime:  2.17s, train loss: 1.7464e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  58/3000], runtime:  2.15s, train loss: 1.6293e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  59/3000], runtime:  2.17s, train loss: 1.4795e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  60/3000], runtime:  2.18s, train loss: 1.8009e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  61/3000], runtime:  2.19s, train loss: 1.8241e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  62/3000], runtime:  2.17s, train loss: 1.6266e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  63/3000], runtime:  2.14s, train loss: 1.7246e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  64/3000], runtime:  2.15s, train loss: 1.5345e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  65/3000], runtime:  2.16s, train loss: 1.5979e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  66/3000], runtime:  2.17s, train loss: 1.9370e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  67/3000], runtime:  2.18s, train loss: 1.5931e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  68/3000], runtime:  2.18s, train loss: 1.8928e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  69/3000], runtime:  2.16s, train loss: 1.7041e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  70/3000], runtime:  2.16s, train loss: 1.3433e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  71/3000], runtime:  2.19s, train loss: 1.6475e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  72/3000], runtime:  2.18s, train loss: 1.4189e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  73/3000], runtime:  2.18s, train loss: 1.7689e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  74/3000], runtime:  2.14s, train loss: 1.5891e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  75/3000], runtime:  2.14s, train loss: 1.5377e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  76/3000], runtime:  2.15s, train loss: 1.2799e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  77/3000], runtime:  2.15s, train loss: 1.4110e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  78/3000], runtime:  2.15s, train loss: 1.5718e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  79/3000], runtime:  2.14s, train loss: 1.3473e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  80/3000], runtime:  2.19s, train loss: 1.6352e-05 (best: 1.5754e-05/2.0435e-06)
+>> epoch [  81/3000], runtime:  2.17s, train loss: 1.6258e-05 (best: 1.5754e-05/2.0435e-06)
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+>> ntrain: 300, lr: 0.01, gamma: 0.6, w_d: 0.0
+>> Best train loss: 1.5754e-05
+>> Best valid loss: 2.0435e-06
+>> Best test loss: 3.7759e-04
+>> Best epoch: 29
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+>> Training Completed!!

@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Environment
+.env
+.venv/
+venv/
+
+# Notes
+# logs/ and Results/ are intentionally tracked because they contain
+# checkpoints and training records that are referenced by the paper.
+# Newly generated runs will write into the same directories; clean
+# them manually before staging if you want to keep history pristine.

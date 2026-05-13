@@ -1,0 +1,235 @@
+>> Device being used: cuda (NVIDIA GeForce RTX 4090)
+Total number of parameters: 2049
+>> Training Mesh resolution: 33x33
+/root/autodl-tmp/project/MPNO_final/BlatzKo_1d/PNO_MGN_ex37_k1_cMGN/PNO_BB.py:121: UserWarning: torch.range is deprecated and will be removed in a future release because its behavior is inconsistent with Python's range builtin. Instead, use torch.arange, which produces values in [start, end).
+  ksi_range = torch.range(-m_fact, m_fact).int()
+tensor(0.6187)
+tensor(1.4078)
+>> Preprocessing completed, time elapsed:  0.19s
+/root/autodl-tmp/project/MPNO_final/BlatzKo_1d/PNO_MGN_ex37_k1_cMGN/PNO_BB.py:384: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_path))
+/root/autodl-tmp/project/MPNO_final/BlatzKo_1d/PNO_MGN_ex37_k1_cMGN/egnn_gcl.py:223: UserWarning: torch.range is deprecated and will be removed in a future release because its behavior is inconsistent with Python's range builtin. Instead, use torch.arange, which produces values in [start, end).
+  ksi_range = torch.range(-m_fact, m_fact).int()
+0, err b: tensor([0.0575]), err u: tensor([0.3542]), fsolve flag:1, 1.8406894064515456e-11, 49
+1, err b: tensor([0.1163]), err u: tensor([0.8029]), fsolve flag:1, 2.7963187321233818e-12, 47
+2, err b: tensor([0.0883]), err u: tensor([0.1437]), fsolve flag:1, 1.2634837620595363e-11, 48
+3, err b: tensor([0.0537]), err u: tensor([0.0496]), fsolve flag:1, 3.467013481861514e-11, 47
+4, err b: tensor([0.0863]), err u: tensor([0.2664]), fsolve flag:1, 2.3991919562149633e-12, 50
+5, err b: tensor([0.0698]), err u: tensor([0.2328]), fsolve flag:1, 3.7498393279378206e-11, 49
+6, err b: tensor([0.0662]), err u: tensor([0.2710]), fsolve flag:1, 4.911659967632431e-11, 49
+7, err b: tensor([0.0864]), err u: tensor([0.4234]), fsolve flag:1, 2.4453994384998623e-11, 48
+8, err b: tensor([0.1181]), err u: tensor([0.8422]), fsolve flag:1, 3.2667091254268144e-11, 49
+9, err b: tensor([0.0623]), err u: tensor([0.1032]), fsolve flag:1, 1.010946881763175e-11, 49
+10, err b: tensor([0.0577]), err u: tensor([0.0967]), fsolve flag:1, 8.278266960815017e-12, 48
+11, err b: tensor([0.1163]), err u: tensor([0.6473]), fsolve flag:1, 2.04284922311615e-11, 49
+12, err b: tensor([0.1033]), err u: tensor([0.2131]), fsolve flag:1, 1.9551998908795554e-11, 48
+13, err b: tensor([0.0842]), err u: tensor([0.4564]), fsolve flag:1, 2.7705227001462163e-11, 47
+14, err b: tensor([0.0892]), err u: tensor([0.7311]), fsolve flag:1, 1.6344992026517957e-10, 47
+15, err b: tensor([0.0578]), err u: tensor([0.0396]), fsolve flag:1, 2.440803115177914e-11, 48
+16, err b: tensor([0.0781]), err u: tensor([0.5695]), fsolve flag:1, 1.940242411180293e-11, 47
+17, err b: tensor([0.0643]), err u: tensor([0.3660]), fsolve flag:1, 1.20570220474292e-12, 50
+18, err b: tensor([0.0978]), err u: tensor([0.6685]), fsolve flag:1, 6.28053165030451e-11, 48
+19, err b: tensor([0.0774]), err u: tensor([0.2860]), fsolve flag:1, 2.167710455580618e-12, 49
+20, err b: tensor([0.0667]), err u: tensor([0.3831]), fsolve flag:1, 1.4985845897541594e-11, 48
+21, err b: tensor([0.0564]), err u: tensor([0.3211]), fsolve flag:1, 6.160405519040069e-12, 49
+22, err b: tensor([0.1997]), err u: tensor([1.2769]), fsolve flag:1, 1.0633671720938764e-10, 49
+23, err b: tensor([0.1030]), err u: tensor([0.4084]), fsolve flag:1, 1.9642931725627477e-10, 49
+24, err b: tensor([0.0858]), err u: tensor([0.3222]), fsolve flag:1, 1.4173884288481986e-11, 48
+25, err b: tensor([0.0796]), err u: tensor([0.4817]), fsolve flag:1, 6.085454362647624e-11, 49
+26, err b: tensor([0.0616]), err u: tensor([0.0593]), fsolve flag:1, 3.142031079761409e-11, 48
+27, err b: tensor([0.0928]), err u: tensor([0.3452]), fsolve flag:1, 1.8852697181159783e-11, 50
+28, err b: tensor([0.0577]), err u: tensor([0.2620]), fsolve flag:1, 4.8977710775943706e-11, 48
+29, err b: tensor([0.0658]), err u: tensor([0.1187]), fsolve flag:1, 1.1000644839498364e-11, 49
+30, err b: tensor([0.0600]), err u: tensor([0.2287]), fsolve flag:1, 2.4320878644346067e-11, 49
+31, err b: tensor([0.0575]), err u: tensor([0.1948]), fsolve flag:1, 7.14650005839701e-11, 49
+32, err b: tensor([0.0642]), err u: tensor([0.1496]), fsolve flag:1, 1.3401058041040415e-11, 48
+33, err b: tensor([0.0605]), err u: tensor([0.1163]), fsolve flag:1, 1.735397936464267e-11, 49
+34, err b: tensor([0.0901]), err u: tensor([0.1892]), fsolve flag:1, 3.077937904549799e-11, 47
+35, err b: tensor([0.1296]), err u: tensor([1.2220]), fsolve flag:1, 1.8959278591523798e-11, 49
+36, err b: tensor([0.0564]), err u: tensor([0.3597]), fsolve flag:1, 5.3741983085942024e-11, 48
+37, err b: tensor([0.0656]), err u: tensor([0.0753]), fsolve flag:1, 9.230843867058525e-11, 49
+38, err b: tensor([0.0769]), err u: tensor([0.2933]), fsolve flag:1, 7.924050304808361e-12, 48
+39, err b: tensor([0.1199]), err u: tensor([0.2051]), fsolve flag:1, 1.1036860314561636e-10, 49
+40, err b: tensor([0.0916]), err u: tensor([0.6082]), fsolve flag:1, 8.673617379884035e-12, 48
+41, err b: tensor([0.0867]), err u: tensor([0.2010]), fsolve flag:1, 3.838618312101971e-11, 48
+42, err b: tensor([0.0742]), err u: tensor([0.3037]), fsolve flag:1, 2.7180258044268157e-11, 48
+43, err b: tensor([0.0653]), err u: tensor([0.1605]), fsolve flag:1, 8.041456389662471e-12, 49
+44, err b: tensor([0.0556]), err u: tensor([0.3097]), fsolve flag:1, 8.772793602673801e-11, 49
+45, err b: tensor([0.0647]), err u: tensor([0.1938]), fsolve flag:1, 2.2612467454052876e-11, 49
+46, err b: tensor([0.0694]), err u: tensor([0.3502]), fsolve flag:1, 4.76976236285509e-11, 49
+47, err b: tensor([0.0775]), err u: tensor([0.4577]), fsolve flag:1, 3.7601199931458495e-11, 47
+48, err b: tensor([0.1432]), err u: tensor([1.0297]), fsolve flag:1, 1.7375545446896012e-11, 50
+49, err b: tensor([0.0636]), err u: tensor([0.5141]), fsolve flag:1, 1.198374732780394e-12, 50
+Error of u: 4.6762e-02
+Error of b: 1.0182e-02
+Total number of parameters: 2049
+>> Training Mesh resolution: 65x65
+tensor(0.4857)
+tensor(1.4471)
+>> Preprocessing completed, time elapsed:  7.84s
+0, err b: tensor([0.0176]), err u: tensor([0.0255]), fsolve flag:1, 5.3445761705184225e-11, 83
+1, err b: tensor([0.0138]), err u: tensor([0.0500]), fsolve flag:1, 4.055289437587817e-11, 81
+2, err b: tensor([0.0122]), err u: tensor([0.0208]), fsolve flag:1, 2.8972713117525473e-11, 83
+3, err b: tensor([0.0116]), err u: tensor([0.0254]), fsolve flag:1, 1.524043113931839e-10, 80
+4, err b: tensor([0.0129]), err u: tensor([0.0108]), fsolve flag:1, 1.1112177844552207e-10, 82
+5, err b: tensor([0.0121]), err u: tensor([0.0149]), fsolve flag:1, 3.970024309296605e-11, 83
+6, err b: tensor([0.0123]), err u: tensor([0.0380]), fsolve flag:1, 2.1770807379084545e-11, 85
+7, err b: tensor([0.0142]), err u: tensor([0.0147]), fsolve flag:1, 2.2410540090334052e-10, 83
+8, err b: tensor([0.0153]), err u: tensor([0.0210]), fsolve flag:1, 2.940114818272832e-11, 84
+9, err b: tensor([0.0121]), err u: tensor([0.0381]), fsolve flag:1, 6.988254419582063e-11, 82
+10, err b: tensor([0.0117]), err u: tensor([0.0110]), fsolve flag:1, 8.14909251189988e-11, 80
+11, err b: tensor([0.0170]), err u: tensor([0.0315]), fsolve flag:1, 8.76751726774927e-11, 85
+12, err b: tensor([0.0142]), err u: tensor([0.0209]), fsolve flag:1, 4.2534864519439e-11, 82
+13, err b: tensor([0.0148]), err u: tensor([0.0245]), fsolve flag:1, 6.183598078024488e-11, 81
+14, err b: tensor([0.0140]), err u: tensor([0.0421]), fsolve flag:1, 1.1627337981323649e-11, 83
+15, err b: tensor([0.0132]), err u: tensor([0.0171]), fsolve flag:1, 5.3911708430831595e-11, 81
+16, err b: tensor([0.0117]), err u: tensor([0.0236]), fsolve flag:1, 5.998015972785709e-11, 80
+17, err b: tensor([0.0115]), err u: tensor([0.0241]), fsolve flag:1, 4.134411979439534e-10, 82
+18, err b: tensor([0.0128]), err u: tensor([0.0187]), fsolve flag:1, 1.7061439760990282e-10, 83
+19, err b: tensor([0.0127]), err u: tensor([0.0197]), fsolve flag:1, 2.7018054460370422e-11, 82
+20, err b: tensor([0.0131]), err u: tensor([0.0184]), fsolve flag:1, 3.5422387245631626e-11, 81
+21, err b: tensor([0.0123]), err u: tensor([0.0205]), fsolve flag:1, 6.087949588895469e-12, 83
+22, err b: tensor([0.0212]), err u: tensor([0.0617]), fsolve flag:1, 1.4373013890178754e-10, 83
+23, err b: tensor([0.0149]), err u: tensor([0.0209]), fsolve flag:1, 3.654476721237643e-11, 83
+24, err b: tensor([0.0161]), err u: tensor([0.0335]), fsolve flag:1, 2.9080956392979473e-11, 81
+25, err b: tensor([0.0114]), err u: tensor([0.0185]), fsolve flag:1, 1.1204331906711218e-10, 83
+26, err b: tensor([0.0142]), err u: tensor([0.0321]), fsolve flag:1, 8.076328494865948e-11, 82
+27, err b: tensor([0.0138]), err u: tensor([0.0230]), fsolve flag:1, 1.514988134942996e-11, 85
+28, err b: tensor([0.0124]), err u: tensor([0.0412]), fsolve flag:1, 7.84597942171672e-11, 82
+29, err b: tensor([0.0127]), err u: tensor([0.0139]), fsolve flag:1, 2.2681490019493822e-10, 82
+30, err b: tensor([0.0126]), err u: tensor([0.0466]), fsolve flag:1, 1.1864842441866585e-11, 83
+31, err b: tensor([0.0115]), err u: tensor([0.0263]), fsolve flag:1, 4.776778972370721e-11, 83
+32, err b: tensor([0.0127]), err u: tensor([0.0128]), fsolve flag:1, 3.693774452973031e-11, 82
+33, err b: tensor([0.0126]), err u: tensor([0.0373]), fsolve flag:1, 1.1464940108396604e-11, 83
+34, err b: tensor([0.0146]), err u: tensor([0.0292]), fsolve flag:1, 9.901912623178077e-12, 82
+35, err b: tensor([0.0167]), err u: tensor([0.0560]), fsolve flag:1, 3.62877436432818e-11, 85
+36, err b: tensor([0.0113]), err u: tensor([0.0143]), fsolve flag:1, 1.5046303092347557e-10, 82
+37, err b: tensor([0.0119]), err u: tensor([0.0428]), fsolve flag:1, 4.632244587909895e-11, 83
+38, err b: tensor([0.0159]), err u: tensor([0.0202]), fsolve flag:1, 3.4189262532180464e-11, 80
+39, err b: tensor([0.0144]), err u: tensor([0.0162]), fsolve flag:1, 2.3035173768448658e-10, 84
+40, err b: tensor([0.0137]), err u: tensor([0.0226]), fsolve flag:1, 2.7842367300578985e-11, 82
+41, err b: tensor([0.0146]), err u: tensor([0.0245]), fsolve flag:1, 1.198923738066071e-10, 82
+42, err b: tensor([0.0120]), err u: tensor([0.0249]), fsolve flag:1, 3.4498293111084877e-11, 82
+43, err b: tensor([0.0121]), err u: tensor([0.0352]), fsolve flag:1, 5.7579607748436956e-11, 82
+44, err b: tensor([0.0116]), err u: tensor([0.0176]), fsolve flag:1, 8.181122446160316e-11, 84
+45, err b: tensor([0.0134]), err u: tensor([0.0127]), fsolve flag:1, 8.417545827033024e-11, 83
+46, err b: tensor([0.0147]), err u: tensor([0.0226]), fsolve flag:1, 7.9048323442521e-11, 82
+47, err b: tensor([0.0142]), err u: tensor([0.0388]), fsolve flag:1, 1.6262635682551263e-10, 80
+48, err b: tensor([0.0147]), err u: tensor([0.0113]), fsolve flag:1, 1.3469958481948652e-10, 85
+49, err b: tensor([0.0136]), err u: tensor([0.0112]), fsolve flag:1, 6.021616538731678e-11, 82
+Error of u: 3.2481e-03
+Error of b: 1.6961e-03
+Total number of parameters: 2049
+>> Training Mesh resolution: 129x129
+tensor(0.4250)
+tensor(1.5361)
+>> Preprocessing completed, time elapsed:  26.17s
+0, err b: tensor([0.0049]), err u: tensor([0.0135]), fsolve flag:1, 3.2723870835305036e-10, 149
+1, err b: tensor([0.0039]), err u: tensor([0.0184]), fsolve flag:1, 8.49814663084203e-11, 148
+2, err b: tensor([0.0038]), err u: tensor([0.0084]), fsolve flag:1, 1.6065970775969163e-10, 150
+3, err b: tensor([0.0037]), err u: tensor([0.0129]), fsolve flag:1, 5.749856146763932e-11, 146
+4, err b: tensor([0.0035]), err u: tensor([0.0036]), fsolve flag:1, 3.2873453958970345e-11, 149
+5, err b: tensor([0.0036]), err u: tensor([0.0063]), fsolve flag:1, 1.862476839420424e-11, 150
+6, err b: tensor([0.0039]), err u: tensor([0.0137]), fsolve flag:1, 8.273220997168096e-10, 152
+7, err b: tensor([0.0040]), err u: tensor([0.0076]), fsolve flag:1, 7.616884900585319e-11, 152
+8, err b: tensor([0.0043]), err u: tensor([0.0037]), fsolve flag:1, 8.43503045189209e-12, 274
+9, err b: tensor([0.0039]), err u: tensor([0.0188]), fsolve flag:1, 7.715938998842375e-11, 148
+10, err b: tensor([0.0038]), err u: tensor([0.0050]), fsolve flag:1, 3.672717685532234e-11, 146
+11, err b: tensor([0.0045]), err u: tensor([0.0036]), fsolve flag:1, 1.800402049667582e-10, 152
+12, err b: tensor([0.0038]), err u: tensor([0.0091]), fsolve flag:1, 3.249318591969086e-10, 150
+13, err b: tensor([0.0043]), err u: tensor([0.0125]), fsolve flag:1, 2.0746643292213207e-10, 147
+14, err b: tensor([0.0043]), err u: tensor([0.0141]), fsolve flag:1, 3.351691424402503e-10, 148
+15, err b: tensor([0.0044]), err u: tensor([0.0080]), fsolve flag:1, 1.8606027829548566e-10, 147
+16, err b: tensor([0.0033]), err u: tensor([0.0103]), fsolve flag:1, 3.322950248296763e-11, 147
+17, err b: tensor([0.0039]), err u: tensor([0.0111]), fsolve flag:1, 1.9870916023734253e-10, 149
+18, err b: tensor([0.0039]), err u: tensor([0.0098]), fsolve flag:1, 3.0382063531675385e-10, 149
+19, err b: tensor([0.0039]), err u: tensor([0.0063]), fsolve flag:1, 1.82499126921698e-10, 150
+20, err b: tensor([0.0042]), err u: tensor([0.0090]), fsolve flag:1, 7.001343949042393e-11, 146
+21, err b: tensor([0.0038]), err u: tensor([0.0072]), fsolve flag:1, 2.773127283361987e-10, 147
+22, err b: tensor([0.0043]), err u: tensor([0.0168]), fsolve flag:1, 3.8299757809667767e-10, 152
+23, err b: tensor([0.0041]), err u: tensor([0.0057]), fsolve flag:1, 8.698208819879483e-11, 149
+24, err b: tensor([0.0042]), err u: tensor([0.0133]), fsolve flag:1, 1.5164897115838016e-10, 146
+25, err b: tensor([0.0035]), err u: tensor([0.0091]), fsolve flag:1, 1.406053606878288e-10, 150
+26, err b: tensor([0.0046]), err u: tensor([0.0183]), fsolve flag:1, 1.4790002555997717e-10, 149
+27, err b: tensor([0.0035]), err u: tensor([0.0107]), fsolve flag:1, 2.1125401428179202e-10, 153
+28, err b: tensor([0.0040]), err u: tensor([0.0197]), fsolve flag:1, 1.7387641326749304e-10, 149
+29, err b: tensor([0.0041]), err u: tensor([0.0065]), fsolve flag:1, 2.366690177169062e-10, 148
+30, err b: tensor([0.0040]), err u: tensor([0.0252]), fsolve flag:1, 2.420131595126662e-10, 149
+31, err b: tensor([0.0040]), err u: tensor([0.0110]), fsolve flag:1, 3.4427577455531377e-10, 150
+32, err b: tensor([0.0041]), err u: tensor([0.0056]), fsolve flag:1, 2.441456481427906e-10, 147
+33, err b: tensor([0.0041]), err u: tensor([0.0200]), fsolve flag:1, 6.851069711544255e-11, 150
+34, err b: tensor([0.0039]), err u: tensor([0.0167]), fsolve flag:1, 1.6064075070154615e-10, 148
+35, err b: tensor([0.0047]), err u: tensor([0.0140]), fsolve flag:1, 2.0443846615592065e-10, 154
+36, err b: tensor([0.0039]), err u: tensor([0.0061]), fsolve flag:1, 1.7762669113352558e-10, 150
+37, err b: tensor([0.0039]), err u: tensor([0.0205]), fsolve flag:1, 6.043510136777286e-11, 150
+38, err b: tensor([0.0047]), err u: tensor([0.0077]), fsolve flag:1, 4.3753223266662644e-11, 146
+39, err b: tensor([0.0042]), err u: tensor([0.0066]), fsolve flag:1, 1.6416645820527265e-11, 154
+40, err b: tensor([0.0038]), err u: tensor([0.0081]), fsolve flag:1, 1.474942945556279e-10, 148
+41, err b: tensor([0.0045]), err u: tensor([0.0104]), fsolve flag:1, 4.697081612548004e-11, 150
+42, err b: tensor([0.0038]), err u: tensor([0.0137]), fsolve flag:1, 3.485554067594876e-10, 147
+43, err b: tensor([0.0040]), err u: tensor([0.0154]), fsolve flag:1, 3.393652026062455e-11, 148
+44, err b: tensor([0.0034]), err u: tensor([0.0053]), fsolve flag:1, 2.108980767800972e-10, 150
+45, err b: tensor([0.0036]), err u: tensor([0.0069]), fsolve flag:1, 1.376834202204691e-10, 150
+46, err b: tensor([0.0045]), err u: tensor([0.0133]), fsolve flag:1, 2.0108548159925022e-10, 148
+47, err b: tensor([0.0046]), err u: tensor([0.0198]), fsolve flag:1, 1.5847487211395617e-10, 146
+48, err b: tensor([0.0042]), err u: tensor([0.0031]), fsolve flag:1, 7.895921694256458e-10, 153
+49, err b: tensor([0.0042]), err u: tensor([0.0065]), fsolve flag:1, 6.637074223547756e-11, 148
+Error of u: 1.3717e-03
+Error of b: 5.0498e-04
+Total number of parameters: 2049
+>> Training Mesh resolution: 257x257
+tensor(0.4236)
+tensor(1.5688)
+>> Preprocessing completed, time elapsed:  81.15s
+0, err b: tensor([0.0019]), err u: tensor([0.0064]), fsolve flag:1, 3.8170022698125194e-11, 284
+1, err b: tensor([0.0015]), err u: tensor([0.0090]), fsolve flag:1, 3.83086229405194e-10, 279
+2, err b: tensor([0.0015]), err u: tensor([0.0041]), fsolve flag:1, 6.123901385990393e-11, 283
+3, err b: tensor([0.0016]), err u: tensor([0.0064]), fsolve flag:1, 2.1639101621673262e-10, 275
+4, err b: tensor([0.0014]), err u: tensor([0.0017]), fsolve flag:1, 4.805469910884597e-10, 278
+5, err b: tensor([0.0015]), err u: tensor([0.0032]), fsolve flag:1, 7.9695472443575e-11, 280
+6, err b: tensor([0.0016]), err u: tensor([0.0068]), fsolve flag:1, 1.6216877840591337e-10, 285
+7, err b: tensor([0.0015]), err u: tensor([0.0038]), fsolve flag:1, 6.866808233141342e-10, 284
+8, err b: tensor([0.0017]), err u: tensor([0.0016]), fsolve flag:1, 1.1723677584285497e-10, 534
+9, err b: tensor([0.0018]), err u: tensor([0.0092]), fsolve flag:1, 2.2298968227474347e-11, 279
+10, err b: tensor([0.0017]), err u: tensor([0.0023]), fsolve flag:1, 6.681444286726901e-11, 275
+11, err b: tensor([0.0015]), err u: tensor([0.0015]), fsolve flag:1, 8.406408902317253e-11, 286
+12, err b: tensor([0.0014]), err u: tensor([0.0045]), fsolve flag:1, 3.562813377655516e-10, 282
+13, err b: tensor([0.0017]), err u: tensor([0.0063]), fsolve flag:1, 1.6996945517711026e-10, 278
+14, err b: tensor([0.0019]), err u: tensor([0.0066]), fsolve flag:1, 1.7793685969103024e-10, 279
+15, err b: tensor([0.0018]), err u: tensor([0.0040]), fsolve flag:1, 6.745892733306391e-11, 279
+16, err b: tensor([0.0014]), err u: tensor([0.0049]), fsolve flag:1, 8.575873344796037e-11, 278
+17, err b: tensor([0.0016]), err u: tensor([0.0054]), fsolve flag:1, 6.531700735834534e-10, 279
+18, err b: tensor([0.0017]), err u: tensor([0.0052]), fsolve flag:1, 1.2946654859291584e-10, 281
+19, err b: tensor([0.0016]), err u: tensor([0.0029]), fsolve flag:1, 9.200890049854138e-11, 280
+20, err b: tensor([0.0018]), err u: tensor([0.0047]), fsolve flag:1, 5.011073223037954e-10, 276
+21, err b: tensor([0.0016]), err u: tensor([0.0027]), fsolve flag:1, 5.988027296233156e-10, 277
+22, err b: tensor([0.0022]), err u: tensor([0.0083]), fsolve flag:1, 2.446427505020665e-10, 534
+23, err b: tensor([0.0016]), err u: tensor([0.0026]), fsolve flag:1, 2.428348633287669e-10, 279
+24, err b: tensor([0.0016]), err u: tensor([0.0062]), fsolve flag:1, 1.7456484868727529e-10, 275
+25, err b: tensor([0.0015]), err u: tensor([0.0044]), fsolve flag:1, 3.7558789411917815e-11, 283
+26, err b: tensor([0.0019]), err u: tensor([0.0097]), fsolve flag:1, 3.5704811329750896e-10, 281
+27, err b: tensor([0.0013]), err u: tensor([0.0053]), fsolve flag:1, 6.980504507758667e-10, 286
+28, err b: tensor([0.0016]), err u: tensor([0.0100]), fsolve flag:1, 7.542733104770605e-11, 282
+29, err b: tensor([0.0017]), err u: tensor([0.0033]), fsolve flag:1, 1.720814324368547e-10, 279
+30, err b: tensor([0.0016]), err u: tensor([0.0127]), fsolve flag:1, 4.3467496269045114e-10, 282
+31, err b: tensor([0.0018]), err u: tensor([0.0053]), fsolve flag:1, 3.035557361030783e-10, 280
+32, err b: tensor([0.0017]), err u: tensor([0.0029]), fsolve flag:1, 1.4100054457344413e-10, 277
+33, err b: tensor([0.0017]), err u: tensor([0.0096]), fsolve flag:1, 3.3518077202643326e-10, 281
+34, err b: tensor([0.0016]), err u: tensor([0.0079]), fsolve flag:1, 5.658813417852571e-10, 277
+35, err b: tensor([0.0016]), err u: tensor([0.0068]), fsolve flag:1, 3.744116128245878e-11, 293
+36, err b: tensor([0.0017]), err u: tensor([0.0029]), fsolve flag:1, 2.203329740879667e-10, 279
+37, err b: tensor([0.0018]), err u: tensor([0.0103]), fsolve flag:1, 1.2742146227040507e-10, 282
+38, err b: tensor([0.0018]), err u: tensor([0.0038]), fsolve flag:1, 3.2585545373109426e-11, 276
+39, err b: tensor([0.0015]), err u: tensor([0.0029]), fsolve flag:1, 8.083328451036209e-11, 287
+40, err b: tensor([0.0015]), err u: tensor([0.0041]), fsolve flag:1, 4.1695868979729767e-10, 279
+41, err b: tensor([0.0019]), err u: tensor([0.0051]), fsolve flag:1, 8.011996621704043e-11, 280
+42, err b: tensor([0.0016]), err u: tensor([0.0065]), fsolve flag:1, 5.142677950153995e-10, 278
+43, err b: tensor([0.0017]), err u: tensor([0.0070]), fsolve flag:1, 3.505173928886052e-11, 278
+44, err b: tensor([0.0014]), err u: tensor([0.0026]), fsolve flag:1, 8.122494343787423e-11, 283
+45, err b: tensor([0.0014]), err u: tensor([0.0037]), fsolve flag:1, 1.1494210028217822e-09, 283
+46, err b: tensor([0.0019]), err u: tensor([0.0070]), fsolve flag:1, 1.0548492357376205e-09, 279
+47, err b: tensor([0.0019]), err u: tensor([0.0096]), fsolve flag:1, 8.78371403389977e-11, 277
+48, err b: tensor([0.0015]), err u: tensor([0.0012]), fsolve flag:1, 3.076583432459756e-11, 533
+49, err b: tensor([0.0018]), err u: tensor([0.0034]), fsolve flag:1, 6.08164629767316e-11, 279
+Error of u: 6.7144e-04
+Error of b: 2.0581e-04

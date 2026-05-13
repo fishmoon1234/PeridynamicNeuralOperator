@@ -1,0 +1,23 @@
+PID: 50873
+/root/autodl-tmp/project/MPNO_final/BlatzKo_1d/ex35/MLP/PNO_BB_test_u_true_model.py:98: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_path))
+/root/autodl-tmp/project/MPNO_final/BlatzKo_1d/ex35/MLP/PNO_BB_test_u_true_model.py:130: UserWarning: torch.range is deprecated and will be removed in a future release because its behavior is inconsistent with Python's range builtin. Instead, use torch.arange, which produces values in [start, end).
+  ksi_range = torch.range(-m_fact, m_fact).int()
+tensor(0.8735)
+tensor(3.3651)
+/root/autodl-tmp/project/MPNO_final/BlatzKo_1d/ex35/MLP/egnn_gcl.py:404: UserWarning: torch.range is deprecated and will be removed in a future release because its behavior is inconsistent with Python's range builtin. Instead, use torch.arange, which produces values in [start, end).
+  ksi_range = torch.range(-m_fact, m_fact).int()
+(0, 'err_b:', '6.5745e-03', 'err_u:', '1.9555e-01', 5, np.float64(0.30916300415992737), 788)
+(1, 'err_b:', '4.3599e-03', 'err_u:', '9.1145e-02', 5, np.float64(0.44451403617858887), 788)
+(2, 'err_b:', '1.3512e-02', 'err_u:', '1.4243e-01', 4, np.float64(0.287601113319397), 2890)
+(3, 'err_b:', '5.0606e-03', 'err_u:', '4.1091e-06', 5, np.float64(7.506459951400757e-07), 2653)
+(4, 'err_b:', '2.2408e-03', 'err_u:', '1.9366e-01', 5, np.float64(0.17518343031406403), 528)
+(5, 'err_b:', '4.1621e-02', 'err_u:', '2.5687e-01', 5, np.float64(0.6930440068244934), 1573)
+(6, 'err_b:', '6.8061e-03', 'err_u:', '1.8661e-01', 5, np.float64(0.3234611749649048), 1048)
+(7, 'err_b:', '4.9923e-03', 'err_u:', '7.1474e-01', 5, np.float64(0.6239057183265686), 527)
+(8, 'err_b:', '2.6272e-03', 'err_u:', '7.1346e-01', 5, np.float64(1.4413995742797852), 527)
+(9, 'err_b:', '2.1553e-03', 'err_u:', '7.1333e-01', 5, np.float64(1.6456300020217896), 527)
+(10, 'err_b:', '1.9263e-03', 'err_u:', '7.1230e-01', 5, np.float64(1.105550765991211), 527)
+(11, 'err_b:', '1.0094e-02', 'err_u:', '2.0649e-01', 5, np.float64(0.456689715385437), 788)
+(12, 'err_b:', '2.1083e-03', 'err_u:', '7.1437e-01', 5, np.float64(1.090153694152832), 527)
+(13, 'err_b:', '6.0355e-03', 'err_u:', '3.2280e-01', 5, np.float64(0.7601069211959839), 528)

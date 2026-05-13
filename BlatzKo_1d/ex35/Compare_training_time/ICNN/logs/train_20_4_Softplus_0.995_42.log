@@ -1,0 +1,21 @@
+>> Device being used: cuda (NVIDIA GeForce RTX 4090)
+Total number of parameters: 1321
+>> Training Mesh resolution: 257x257
+tensor(0.8109)
+tensor(3.3456)
+>> Preprocessing completed, time elapsed:  0.26s
+>> ntrain: 300, lr: 0.01, gamma: 0.6, w_d: 0.0
+----------------------------------------------------------------------------------------------------
+Time per step: 1.328621843829751
+>> epoch [   1/3000], runtime:-0.00s, train err:1.9328e-04, valid err: 7.0358e-04, test err: 7.0656e-04, (best: 1.9328e-04/7.0358e-04)
+Time per step: 1.1328025665134192
+Time per step: 1.1216956675052643
+Time per step: 1.108239432796836
+Time per step: 1.1233114562928677
+Time per step: 1.1343652084469795
+Time per step: 1.1087896656244993
+Time per step: 1.1535036358982325
+Time per step: 1.1427735444158316
+Time per step: 1.1415110230445862
+Time per step: 1.1232135128229856
+Time per step: 1.1714225690811872

@@ -1,0 +1,112 @@
+>> Device being used: cuda (NVIDIA GeForce RTX 4090)
+Total number of parameters: 1321
+>> Training Mesh resolution: 257x257
+/root/autodl-tmp/project/MPNO_final/BlatzKo_1d/ex35/Compare_training_time/MLP/PNO_BB.py:141: UserWarning: torch.range is deprecated and will be removed in a future release because its behavior is inconsistent with Python's range builtin. Instead, use torch.arange, which produces values in [start, end).
+  ksi_range = torch.range(-m_fact, m_fact).int()
+tensor(0.8109)
+tensor(3.3456)
+>> Preprocessing completed, time elapsed:  0.28s
+>> ntrain: 300, lr: 0.01, gamma: 0.6, w_d: 0.0
+----------------------------------------------------------------------------------------------------
+Time per step: 0.9679391887038946
+>> epoch [   1/3000], runtime: 0.00s, train loss: 2.3066e-04, valid loss: 1.0636e-04 , test loss: 4.8787e-03
+Time per step: 0.7588265370577574
+>> epoch [   2/3000], runtime: 0.00s, train loss: 1.1558e-04, valid loss: 8.7208e-05 , test loss: 3.5061e-03
+Time per step: 0.7760868389159441
+>> epoch [   3/3000], runtime: 0.00s, train loss: 8.5883e-05, valid loss: 4.4157e-05 , test loss: 1.7534e-03
+Time per step: 0.7721946518868208
+>> epoch [   4/3000], runtime: 0.00s, train loss: 4.8898e-05, valid loss: 3.0799e-05 , test loss: 6.7355e-04
+Time per step: 0.7708596717566252
+>> epoch [   5/3000], runtime:  0.00s, train loss: 5.4360e-05 (best: 4.8898e-05/3.0799e-05)
+Time per step: 0.7789698000997305
+>> epoch [   6/3000], runtime: 0.00s, train loss: 4.3633e-05, valid loss: 3.0797e-05 , test loss: 9.3293e-04
+Time per step: 0.7973310239613056
+>> epoch [   7/3000], runtime:  0.00s, train loss: 2.0570e-05 (best: 4.3633e-05/3.0797e-05)
+Time per step: 0.8613691013306379
+>> epoch [   8/3000], runtime: 0.00s, train loss: 1.9965e-05, valid loss: 1.5721e-05 , test loss: 2.0870e-04
+Time per step: 0.7934751287102699
+>> epoch [   9/3000], runtime:  0.00s, train loss: 1.8802e-05 (best: 1.9965e-05/1.5721e-05)
+Time per step: 0.7927366830408573
+>> epoch [  10/3000], runtime:  0.00s, train loss: 2.9588e-05 (best: 1.9965e-05/1.5721e-05)
+Time per step: 0.7912282720208168
+>> epoch [  11/3000], runtime:  0.00s, train loss: 2.1743e-05 (best: 1.9965e-05/1.5721e-05)
+Time per step: 0.7868578918278217
+>> epoch [  12/3000], runtime:  0.00s, train loss: 2.0958e-05 (best: 1.9965e-05/1.5721e-05)
+Time per step: 0.8387150280177593
+>> epoch [  13/3000], runtime:  0.00s, train loss: 1.1596e-05 (best: 1.9965e-05/1.5721e-05)
+Time per step: 0.848464485257864
+>> epoch [  14/3000], runtime:  0.00s, train loss: 1.5613e-05 (best: 1.9965e-05/1.5721e-05)
+Time per step: 0.8294660598039627
+>> epoch [  15/3000], runtime: 0.00s, train loss: 1.4828e-05, valid loss: 1.2232e-05 , test loss: 1.9722e-04
+Time per step: 0.8005945757031441
+>> epoch [  16/3000], runtime:  0.00s, train loss: 3.2007e-05 (best: 1.4828e-05/1.2232e-05)
+Time per step: 0.8176753576844931
+>> epoch [  17/3000], runtime:  0.00s, train loss: 2.6044e-05 (best: 1.4828e-05/1.2232e-05)
+Time per step: 0.8206847403198481
+>> epoch [  18/3000], runtime:  0.00s, train loss: 2.7375e-05 (best: 1.4828e-05/1.2232e-05)
+Time per step: 0.7851951196789742
+>> epoch [  19/3000], runtime: 0.00s, train loss: 1.4754e-05, valid loss: 1.1156e-05 , test loss: 2.0199e-04
+Time per step: 0.8040341045707464
+>> epoch [  20/3000], runtime:  0.00s, train loss: 1.9297e-05 (best: 1.4754e-05/1.1156e-05)
+Time per step: 0.8195121139287949
+>> epoch [  21/3000], runtime:  0.00s, train loss: 1.6073e-05 (best: 1.4754e-05/1.1156e-05)
+Time per step: 0.8185440935194492
+>> epoch [  22/3000], runtime:  0.00s, train loss: 1.2398e-05 (best: 1.4754e-05/1.1156e-05)
+Time per step: 0.8157415129244328
+>> epoch [  23/3000], runtime:  0.00s, train loss: 1.3864e-05 (best: 1.4754e-05/1.1156e-05)
+Time per step: 0.8271931279450655
+>> epoch [  24/3000], runtime:  0.00s, train loss: 1.5734e-05 (best: 1.4754e-05/1.1156e-05)
+Time per step: 0.7867235001176596
+>> epoch [  25/3000], runtime: 0.00s, train loss: 1.1462e-05, valid loss: 1.0653e-05 , test loss: 1.8677e-04
+Time per step: 0.7960198428481817
+>> epoch [  26/3000], runtime:  0.00s, train loss: 1.3160e-05 (best: 1.1462e-05/1.0653e-05)
+Time per step: 0.7820418179035187
+>> epoch [  27/3000], runtime:  0.00s, train loss: 1.3901e-05 (best: 1.1462e-05/1.0653e-05)
+Time per step: 0.7788848727941513
+>> epoch [  28/3000], runtime:  0.00s, train loss: 2.0177e-05 (best: 1.1462e-05/1.0653e-05)
+Time per step: 0.7906063888221979
+>> epoch [  29/3000], runtime:  0.00s, train loss: 1.5276e-05 (best: 1.1462e-05/1.0653e-05)
+Time per step: 0.810033718124032
+>> epoch [  30/3000], runtime: 0.00s, train loss: 7.9420e-06, valid loss: 9.9580e-06 , test loss: 1.8825e-04
+Time per step: 0.835344735532999
+>> epoch [  31/3000], runtime:  0.00s, train loss: 1.1035e-05 (best: 7.9420e-06/9.9580e-06)
+Time per step: 0.7984727080911398
+>> epoch [  32/3000], runtime:  0.00s, train loss: 1.0975e-05 (best: 7.9420e-06/9.9580e-06)
+Time per step: 0.7974141165614128
+>> epoch [  33/3000], runtime:  0.00s, train loss: 1.4050e-05 (best: 7.9420e-06/9.9580e-06)
+Time per step: 0.7945113442838192
+>> epoch [  34/3000], runtime:  0.00s, train loss: 8.1628e-06 (best: 7.9420e-06/9.9580e-06)
+Time per step: 0.7999524865299463
+>> epoch [  35/3000], runtime:  0.00s, train loss: 1.0244e-05 (best: 7.9420e-06/9.9580e-06)
+Time per step: 0.846353355795145
+>> epoch [  36/3000], runtime:  0.00s, train loss: 9.4396e-06 (best: 7.9420e-06/9.9580e-06)
+Time per step: 0.7906254474073648
+>> epoch [  37/3000], runtime:  0.00s, train loss: 1.2349e-05 (best: 7.9420e-06/9.9580e-06)
+Time per step: 0.8115633502602577
+>> epoch [  38/3000], runtime:  0.00s, train loss: 2.3004e-05 (best: 7.9420e-06/9.9580e-06)
+Time per step: 0.8419602159410715
+>> epoch [  39/3000], runtime:  0.00s, train loss: 1.4548e-05 (best: 7.9420e-06/9.9580e-06)
+Time per step: 0.8123089093714952
+>> epoch [  40/3000], runtime:  0.00s, train loss: 1.6208e-05 (best: 7.9420e-06/9.9580e-06)
+Time per step: 0.7746405433863401
+>> epoch [  41/3000], runtime:  0.00s, train loss: 1.6607e-05 (best: 7.9420e-06/9.9580e-06)
+Time per step: 0.7747323848307133
+>> epoch [  42/3000], runtime:  0.00s, train loss: 2.3819e-05 (best: 7.9420e-06/9.9580e-06)
+Time per step: 0.7744191233068705
+>> epoch [  43/3000], runtime:  0.00s, train loss: 1.0784e-05 (best: 7.9420e-06/9.9580e-06)
+Time per step: 0.7792013790458441
+>> epoch [  44/3000], runtime:  0.00s, train loss: 7.5796e-06 (best: 7.9420e-06/9.9580e-06)
+Time per step: 0.8157292436808348
+>> epoch [  45/3000], runtime:  0.00s, train loss: 1.2822e-05 (best: 7.9420e-06/9.9580e-06)
+Time per step: 0.7613127585500479
+>> epoch [  46/3000], runtime:  0.00s, train loss: 1.0656e-05 (best: 7.9420e-06/9.9580e-06)
+Time per step: 0.7578027453273535
+>> epoch [  47/3000], runtime:  0.00s, train loss: 1.3005e-05 (best: 7.9420e-06/9.9580e-06)
+Time per step: 0.7641567140817642
+>> epoch [  48/3000], runtime:  0.00s, train loss: 1.4307e-05 (best: 7.9420e-06/9.9580e-06)
+Time per step: 0.7584669683128595
+>> epoch [  49/3000], runtime: 0.00s, train loss: 6.9045e-06, valid loss: 8.2232e-06 , test loss: 1.5992e-04
+Time per step: 0.7592562921345234
+>> epoch [  50/3000], runtime:  0.00s, train loss: 7.5691e-06 (best: 6.9045e-06/8.2232e-06)
+Time per step: 0.7573262248188257
+>> epoch [  51/3000], runtime:  0.00s, train loss: 9.4313e-06 (best: 6.9045e-06/8.2232e-06)

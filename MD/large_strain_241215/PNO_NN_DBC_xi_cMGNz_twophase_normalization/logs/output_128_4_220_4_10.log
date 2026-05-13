@@ -1,0 +1,571 @@
+PID: 167390
+>> Device being used: cuda (NVIDIA GeForce RTX 4090)
+Total number of parameters: 196664
+>> Preprocessing completed, time elapsed:  0.71s
+>> ntrain: 200, lr: 0.001, gamma: 0.5, w_d: 0.0
+>> epoch [   1/1000], runtime: 1.12s, train loss: 13.1002, train err: 1.0000, valid err:  1.0000,test err: 1.0000, best
+>> epoch [   2/1000], runtime: 0.88s, train loss: 10.0998, train err: 1.0000, valid err:  1.0000,test err: 1.0000, best
+>> epoch [   3/1000], runtime: 1.10s, train loss: 10.0856, train err: 1.0000, valid err:  1.0000,test err: 1.0000, best
+>> epoch [   4/1000], runtime:  1.33s, train loss: 10.0807, train err:  1.0000, valid err:  1.0001
+>> epoch [   5/1000], runtime:  1.59s, train err:  1.0000 (best:  1.0000/ 1.0000)
+>> epoch [   6/1000], runtime: 1.60s, train loss: 10.0751, train err: 1.0000, valid err:  0.9999,test err: 0.9999, best
+>> epoch [   7/1000], runtime:  1.66s, train err:  1.0000 (best:  1.0000/ 0.9999)
+>> epoch [   8/1000], runtime:  1.64s, train loss: 10.0708, train err:  1.0000, valid err:  1.0000
+>> epoch [   9/1000], runtime:  1.63s, train loss: 10.0706, train err:  1.0000, valid err:  1.0000
+>> epoch [  10/1000], runtime:  1.59s, train loss: 10.0668, train err:  1.0000, valid err:  1.0000
+>> epoch [  11/1000], runtime:  1.67s, train err:  1.0000 (best:  1.0000/ 0.9999)
+>> epoch [  12/1000], runtime:  1.53s, train err:  1.0001 (best:  1.0000/ 0.9999)
+>> epoch [  13/1000], runtime:  1.56s, train loss: 10.0657, train err:  1.0000, valid err:  1.0000
+>> epoch [  14/1000], runtime:  1.57s, train loss: 10.0599, train err:  1.0000, valid err:  1.0000
+>> epoch [  15/1000], runtime:  1.63s, train loss: 10.0742, train err:  1.0000, valid err:  1.0000
+>> epoch [  16/1000], runtime:  1.52s, train loss: 10.0653, train err:  0.9999, valid err:  1.0000
+>> epoch [  17/1000], runtime:  1.51s, train loss: 10.0675, train err:  1.0000, valid err:  1.0002
+>> epoch [  18/1000], runtime: 1.46s, train loss: 10.0725, train err: 0.9999, valid err:  0.9998,test err: 0.9998, best
+>> epoch [  19/1000], runtime: 1.59s, train loss: 10.0696, train err: 1.0000, valid err:  0.9998,test err: 0.9998, best
+>> epoch [  20/1000], runtime:  1.56s, train loss: 10.0632, train err:  1.0000, valid err:  1.0002
+>> epoch [  21/1000], runtime:  1.64s, train loss: 10.0647, train err:  1.0000, valid err:  1.0000
+>> epoch [  22/1000], runtime: 1.63s, train loss: 10.0611, train err: 1.0000, valid err:  0.9998,test err: 0.9998, best
+>> epoch [  23/1000], runtime:  1.64s, train err:  0.9999 (best:  1.0000/ 0.9998)
+>> epoch [  24/1000], runtime:  1.60s, train err:  1.0004 (best:  1.0000/ 0.9998)
+>> epoch [  25/1000], runtime:  1.60s, train err:  0.9995 (best:  1.0000/ 0.9998)
+>> epoch [  26/1000], runtime: 1.57s, train loss: 10.0244, train err: 0.9975, valid err:  0.9948,test err: 0.9947, best
+>> epoch [  27/1000], runtime: 1.57s, train loss: 7.6144, train err: 0.7901, valid err:  0.3713,test err: 0.3678, best
+>> epoch [  28/1000], runtime: 1.55s, train loss: 1.1005, train err: 0.2680, valid err:  0.2772,test err: 0.2778, best
+>> epoch [  29/1000], runtime: 1.67s, train loss: 0.8408, train err: 0.2343, valid err:  0.2080,test err: 0.2036, best
+>> epoch [  30/1000], runtime:  1.70s, train err:  0.2376 (best:  0.2343/ 0.2080)
+>> epoch [  31/1000], runtime: 1.58s, train loss: 0.7746, train err: 0.2266, valid err:  0.1839,test err: 0.1782, best
+>> epoch [  32/1000], runtime:  1.57s, train err:  0.2365 (best:  0.2266/ 0.1839)
+>> epoch [  33/1000], runtime:  1.61s, train err:  0.2343 (best:  0.2266/ 0.1839)
+>> epoch [  34/1000], runtime:  1.64s, train err:  0.2287 (best:  0.2266/ 0.1839)
+>> epoch [  35/1000], runtime:  1.62s, train err:  0.2265 (best:  0.2266/ 0.1839)
+>> epoch [  36/1000], runtime: 1.51s, train loss: 0.7542, train err: 0.2209, valid err:  0.1803,test err: 0.1744, best
+>> epoch [  37/1000], runtime:  1.65s, train loss: 0.7447, train err:  0.2179, valid err:  0.1824
+>> epoch [  38/1000], runtime:  1.68s, train err:  0.2170 (best:  0.2209/ 0.1803)
+>> epoch [  39/1000], runtime:  1.63s, train err:  0.2298 (best:  0.2209/ 0.1803)
+>> epoch [  40/1000], runtime:  1.65s, train err:  0.2255 (best:  0.2209/ 0.1803)
+>> epoch [  41/1000], runtime: 1.68s, train loss: 0.7234, train err: 0.2183, valid err:  0.1779,test err: 0.1711, best
+>> epoch [  42/1000], runtime:  1.62s, train err:  0.2237 (best:  0.2183/ 0.1779)
+>> epoch [  43/1000], runtime:  1.53s, train loss: 0.7216, train err:  0.2121, valid err:  0.1840
+>> epoch [  44/1000], runtime:  1.45s, train err:  0.2245 (best:  0.2183/ 0.1779)
+>> epoch [  45/1000], runtime:  1.54s, train loss: 0.7092, train err:  0.2094, valid err:  0.1952
+>> epoch [  46/1000], runtime:  1.53s, train err:  0.2242 (best:  0.2183/ 0.1779)
+>> epoch [  47/1000], runtime:  1.55s, train err:  0.2169 (best:  0.2183/ 0.1779)
+>> epoch [  48/1000], runtime:  1.48s, train err:  0.2120 (best:  0.2183/ 0.1779)
+>> epoch [  49/1000], runtime:  1.56s, train err:  0.2123 (best:  0.2183/ 0.1779)
+>> epoch [  50/1000], runtime:  1.54s, train loss: 0.7138, train err:  0.2151, valid err:  0.1795
+>> epoch [  51/1000], runtime:  1.59s, train loss: 0.6984, train err:  0.2132, valid err:  0.1933
+>> epoch [  52/1000], runtime:  1.58s, train loss: 0.6465, train err:  0.2058, valid err:  0.1819
+>> epoch [  53/1000], runtime: 1.63s, train loss: 0.7084, train err: 0.2127, valid err:  0.1683,test err: 0.1623, best
+>> epoch [  54/1000], runtime:  1.60s, train loss: 0.6360, train err:  0.2063, valid err:  0.1739
+>> epoch [  55/1000], runtime:  1.62s, train loss: 0.6451, train err:  0.2035, valid err:  0.1708
+>> epoch [  56/1000], runtime:  1.54s, train err:  0.2176 (best:  0.2127/ 0.1683)
+>> epoch [  57/1000], runtime:  1.66s, train loss: 0.5831, train err:  0.1938, valid err:  0.1842
+>> epoch [  58/1000], runtime:  1.56s, train loss: 0.6175, train err:  0.2023, valid err:  0.1731
+>> epoch [  59/1000], runtime:  1.63s, train loss: 0.5874, train err:  0.1970, valid err:  0.1756
+>> epoch [  60/1000], runtime: 1.59s, train loss: 0.6322, train err: 0.2030, valid err:  0.1545,test err: 0.1482, best
+>> epoch [  61/1000], runtime:  1.68s, train loss: 0.5014, train err:  0.1807, valid err:  0.1613
+>> epoch [  62/1000], runtime: 1.61s, train loss: 0.5725, train err: 0.1936, valid err:  0.1533,test err: 0.1511, best
+>> epoch [  63/1000], runtime: 1.55s, train loss: 0.4995, train err: 0.1763, valid err:  0.1481,test err: 0.1420, best
+>> epoch [  64/1000], runtime: 1.59s, train loss: 0.4507, train err: 0.1652, valid err:  0.1413,test err: 0.1379, best
+>> epoch [  65/1000], runtime:  1.58s, train loss: 0.4341, train err:  0.1668, valid err:  0.1445
+>> epoch [  66/1000], runtime:  1.69s, train loss: 0.3878, train err:  0.1542, valid err:  0.1601
+>> epoch [  67/1000], runtime: 1.55s, train loss: 0.4404, train err: 0.1653, valid err:  0.1286,test err: 0.1237, best
+>> epoch [  68/1000], runtime: 1.58s, train loss: 0.3895, train err: 0.1559, valid err:  0.1232,test err: 0.1232, best
+>> epoch [  69/1000], runtime:  1.62s, train loss: 0.3737, train err:  0.1466, valid err:  0.1263
+>> epoch [  70/1000], runtime: 1.65s, train loss: 0.3618, train err: 0.1458, valid err:  0.1178,test err: 0.1181, best
+>> epoch [  71/1000], runtime:  1.62s, train loss: 0.3227, train err:  0.1382, valid err:  0.1623
+>> epoch [  72/1000], runtime:  1.61s, train err:  0.1526 (best:  0.1458/ 0.1178)
+>> epoch [  73/1000], runtime:  1.62s, train loss: 0.3278, train err:  0.1401, valid err:  0.1239
+>> epoch [  74/1000], runtime: 1.68s, train loss: 0.3070, train err: 0.1279, valid err:  0.1094,test err: 0.1083, best
+>> epoch [  75/1000], runtime:  1.62s, train err:  0.1331 (best:  0.1279/ 0.1094)
+>> epoch [  76/1000], runtime:  1.65s, train loss: 0.2742, train err:  0.1244, valid err:  0.1476
+>> epoch [  77/1000], runtime: 1.67s, train loss: 0.2941, train err: 0.1286, valid err:  0.1093,test err: 0.1178, best
+>> epoch [  78/1000], runtime:  1.69s, train err:  0.1386 (best:  0.1286/ 0.1093)
+>> epoch [  79/1000], runtime:  1.56s, train loss: 0.2912, train err:  0.1284, valid err:  0.1101
+>> epoch [  80/1000], runtime:  1.54s, train loss: 0.2862, train err:  0.1286, valid err:  0.1563
+>> epoch [  81/1000], runtime:  1.64s, train err:  0.1334 (best:  0.1286/ 0.1093)
+>> epoch [  82/1000], runtime:  1.62s, train err:  0.1415 (best:  0.1286/ 0.1093)
+>> epoch [  83/1000], runtime:  1.66s, train loss: 0.2801, train err:  0.1247, valid err:  0.1194
+>> epoch [  84/1000], runtime: 1.64s, train loss: 0.2595, train err: 0.1178, valid err:  0.1069,test err: 0.1086, best
+>> epoch [  85/1000], runtime:  1.60s, train err:  0.1382 (best:  0.1178/ 0.1069)
+>> epoch [  86/1000], runtime:  1.59s, train err:  0.1322 (best:  0.1178/ 0.1069)
+>> epoch [  87/1000], runtime:  1.64s, train err:  0.1221 (best:  0.1178/ 0.1069)
+>> epoch [  88/1000], runtime:  1.63s, train loss: 0.2481, train err:  0.1161, valid err:  0.1292
+>> epoch [  89/1000], runtime:  1.63s, train err:  0.1280 (best:  0.1178/ 0.1069)
+>> epoch [  90/1000], runtime:  1.56s, train err:  0.1291 (best:  0.1178/ 0.1069)
+>> epoch [  91/1000], runtime:  1.69s, train err:  0.1316 (best:  0.1178/ 0.1069)
+>> epoch [  92/1000], runtime:  1.64s, train err:  0.1341 (best:  0.1178/ 0.1069)
+>> epoch [  93/1000], runtime:  1.57s, train err:  0.1322 (best:  0.1178/ 0.1069)
+>> epoch [  94/1000], runtime:  1.56s, train err:  0.1224 (best:  0.1178/ 0.1069)
+>> epoch [  95/1000], runtime:  1.56s, train err:  0.1268 (best:  0.1178/ 0.1069)
+>> epoch [  96/1000], runtime: 1.58s, train loss: 0.2565, train err: 0.1198, valid err:  0.1033,test err: 0.1102, best
+>> epoch [  97/1000], runtime:  1.60s, train err:  0.1236 (best:  0.1198/ 0.1033)
+>> epoch [  98/1000], runtime:  1.59s, train loss: 0.2543, train err:  0.1173, valid err:  0.1215
+>> epoch [  99/1000], runtime:  1.55s, train err:  0.1188 (best:  0.1198/ 0.1033)
+>> epoch [ 100/1000], runtime:  1.65s, train err:  0.1202 (best:  0.1198/ 0.1033)
+>> epoch [ 101/1000], runtime: 1.54s, train loss: 0.2540, train err: 0.1171, valid err:  0.1019,test err: 0.1125, best
+>> epoch [ 102/1000], runtime:  1.56s, train loss: 0.2356, train err:  0.1103, valid err:  0.1071
+>> epoch [ 103/1000], runtime:  1.64s, train loss: 0.2315, train err:  0.1135, valid err:  0.1225
+>> epoch [ 104/1000], runtime:  1.63s, train loss: 0.2110, train err:  0.1073, valid err:  0.1228
+>> epoch [ 105/1000], runtime:  1.29s, train loss: 0.2335, train err:  0.1108, valid err:  0.1344
+>> epoch [ 106/1000], runtime:  1.27s, train loss: 0.2389, train err:  0.1131, valid err:  0.1278
+>> epoch [ 107/1000], runtime:  1.23s, train loss: 0.2478, train err:  0.1161, valid err:  0.1112
+>> epoch [ 108/1000], runtime: 1.26s, train loss: 0.2177, train err: 0.1094, valid err:  0.0974,test err: 0.1019, best
+>> epoch [ 109/1000], runtime:  1.26s, train err:  0.1100 (best:  0.1094/ 0.0974)
+>> epoch [ 110/1000], runtime:  1.17s, train err:  0.1161 (best:  0.1094/ 0.0974)
+>> epoch [ 111/1000], runtime:  1.06s, train err:  0.1157 (best:  0.1094/ 0.0974)
+>> epoch [ 112/1000], runtime:  0.96s, train err:  0.1111 (best:  0.1094/ 0.0974)
+>> epoch [ 113/1000], runtime:  0.94s, train err:  0.1083 (best:  0.1094/ 0.0974)
+>> epoch [ 114/1000], runtime:  0.99s, train err:  0.1151 (best:  0.1094/ 0.0974)
+>> epoch [ 115/1000], runtime:  0.92s, train loss: 0.2175, train err:  0.1071, valid err:  0.1159
+>> epoch [ 116/1000], runtime:  1.00s, train err:  0.1128 (best:  0.1094/ 0.0974)
+>> epoch [ 117/1000], runtime:  0.96s, train err:  0.1147 (best:  0.1094/ 0.0974)
+>> epoch [ 118/1000], runtime: 0.95s, train loss: 0.2168, train err: 0.1068, valid err:  0.0958,test err: 0.0964, best
+>> epoch [ 119/1000], runtime:  0.96s, train err:  0.1085 (best:  0.1068/ 0.0958)
+>> epoch [ 120/1000], runtime:  1.00s, train err:  0.1129 (best:  0.1068/ 0.0958)
+>> epoch [ 121/1000], runtime:  0.97s, train err:  0.1076 (best:  0.1068/ 0.0958)
+>> epoch [ 122/1000], runtime:  0.95s, train loss: 0.2143, train err:  0.1071, valid err:  0.1147
+>> epoch [ 123/1000], runtime:  0.94s, train err:  0.1103 (best:  0.1068/ 0.0958)
+>> epoch [ 124/1000], runtime:  0.94s, train err:  0.1144 (best:  0.1068/ 0.0958)
+>> epoch [ 125/1000], runtime:  0.92s, train err:  0.1128 (best:  0.1068/ 0.0958)
+>> epoch [ 126/1000], runtime:  0.89s, train err:  0.1092 (best:  0.1068/ 0.0958)
+>> epoch [ 127/1000], runtime:  0.97s, train err:  0.1087 (best:  0.1068/ 0.0958)
+>> epoch [ 128/1000], runtime:  0.93s, train err:  0.1093 (best:  0.1068/ 0.0958)
+>> epoch [ 129/1000], runtime: 0.96s, train loss: 0.2144, train err: 0.1089, valid err:  0.0958,test err: 0.0952, best
+>> epoch [ 130/1000], runtime:  0.93s, train err:  0.1270 (best:  0.1089/ 0.0958)
+>> epoch [ 131/1000], runtime:  0.94s, train loss: 0.2084, train err:  0.1069, valid err:  0.1095
+>> epoch [ 132/1000], runtime:  0.99s, train err:  0.1125 (best:  0.1089/ 0.0958)
+>> epoch [ 133/1000], runtime:  1.00s, train loss: 0.1916, train err:  0.1021, valid err:  0.1039
+>> epoch [ 134/1000], runtime: 0.97s, train loss: 0.2008, train err: 0.1051, valid err:  0.0937,test err: 0.0962, best
+>> epoch [ 135/1000], runtime: 0.97s, train loss: 0.1888, train err: 0.1009, valid err:  0.0907,test err: 0.0939, best
+>> epoch [ 136/1000], runtime:  0.94s, train err:  0.1070 (best:  0.1009/ 0.0907)
+>> epoch [ 137/1000], runtime:  0.95s, train loss: 0.1866, train err:  0.1009, valid err:  0.0965
+>> epoch [ 138/1000], runtime:  0.96s, train err:  0.1143 (best:  0.1009/ 0.0907)
+>> epoch [ 139/1000], runtime:  0.96s, train err:  0.1016 (best:  0.1009/ 0.0907)
+>> epoch [ 140/1000], runtime:  0.94s, train err:  0.1111 (best:  0.1009/ 0.0907)
+>> epoch [ 141/1000], runtime:  0.95s, train err:  0.1004 (best:  0.1009/ 0.0907)
+>> epoch [ 142/1000], runtime:  0.95s, train err:  0.1043 (best:  0.1009/ 0.0907)
+>> epoch [ 143/1000], runtime:  0.97s, train err:  0.1037 (best:  0.1009/ 0.0907)
+>> epoch [ 144/1000], runtime:  0.95s, train err:  0.1036 (best:  0.1009/ 0.0907)
+>> epoch [ 145/1000], runtime:  0.96s, train err:  0.1016 (best:  0.1009/ 0.0907)
+>> epoch [ 146/1000], runtime: 0.96s, train loss: 0.1794, train err: 0.0969, valid err:  0.0885,test err: 0.0990, best
+>> epoch [ 147/1000], runtime:  0.96s, train err:  0.1020 (best:  0.0969/ 0.0885)
+>> epoch [ 148/1000], runtime: 0.92s, train loss: 0.1778, train err: 0.0954, valid err:  0.0859,test err: 0.0884, best
+>> epoch [ 149/1000], runtime:  0.96s, train err:  0.1028 (best:  0.0954/ 0.0859)
+>> epoch [ 150/1000], runtime:  0.91s, train loss: 0.1669, train err:  0.0941, valid err:  0.1044
+>> epoch [ 151/1000], runtime:  0.87s, train err:  0.1025 (best:  0.0954/ 0.0859)
+>> epoch [ 152/1000], runtime:  0.99s, train err:  0.1054 (best:  0.0954/ 0.0859)
+>> epoch [ 153/1000], runtime:  0.96s, train err:  0.1051 (best:  0.0954/ 0.0859)
+>> epoch [ 154/1000], runtime:  0.97s, train err:  0.1006 (best:  0.0954/ 0.0859)
+>> epoch [ 155/1000], runtime: 0.97s, train loss: 0.1700, train err: 0.0932, valid err:  0.0788,test err: 0.0827, best
+>> epoch [ 156/1000], runtime:  0.98s, train err:  0.0992 (best:  0.0932/ 0.0788)
+>> epoch [ 157/1000], runtime:  1.00s, train err:  0.0954 (best:  0.0932/ 0.0788)
+>> epoch [ 158/1000], runtime:  0.99s, train loss: 0.1681, train err:  0.0968, valid err:  0.0859
+>> epoch [ 159/1000], runtime:  0.93s, train loss: 0.1465, train err:  0.0881, valid err:  0.0932
+>> epoch [ 160/1000], runtime:  0.96s, train loss: 0.1588, train err:  0.0949, valid err:  0.0860
+>> epoch [ 161/1000], runtime:  0.98s, train loss: 0.1414, train err:  0.0849, valid err:  0.1253
+>> epoch [ 162/1000], runtime:  1.01s, train err:  0.0990 (best:  0.0932/ 0.0788)
+>> epoch [ 163/1000], runtime:  1.01s, train loss: 0.1506, train err:  0.0877, valid err:  0.0852
+>> epoch [ 164/1000], runtime: 1.02s, train loss: 0.1464, train err: 0.0867, valid err:  0.0749,test err: 0.0805, best
+>> epoch [ 165/1000], runtime:  0.99s, train loss: 0.1421, train err:  0.0838, valid err:  0.0752
+>> epoch [ 166/1000], runtime: 0.94s, train loss: 0.1371, train err: 0.0815, valid err:  0.0738,test err: 0.0776, best
+>> epoch [ 167/1000], runtime:  0.99s, train err:  0.0895 (best:  0.0815/ 0.0738)
+>> epoch [ 168/1000], runtime:  0.93s, train err:  0.0838 (best:  0.0815/ 0.0738)
+>> epoch [ 169/1000], runtime:  0.97s, train err:  0.0950 (best:  0.0815/ 0.0738)
+>> epoch [ 170/1000], runtime:  0.96s, train loss: 0.1341, train err:  0.0815, valid err:  0.0746
+>> epoch [ 171/1000], runtime:  0.99s, train loss: 0.1355, train err:  0.0834, valid err:  0.0903
+>> epoch [ 172/1000], runtime: 0.97s, train loss: 0.1344, train err: 0.0812, valid err:  0.0738,test err: 0.0784, best
+>> epoch [ 173/1000], runtime:  0.97s, train loss: 0.1234, train err:  0.0803, valid err:  0.0755
+>> epoch [ 174/1000], runtime:  0.92s, train err:  0.0905 (best:  0.0812/ 0.0738)
+>> epoch [ 175/1000], runtime:  0.92s, train err:  0.0917 (best:  0.0812/ 0.0738)
+>> epoch [ 176/1000], runtime:  0.95s, train loss: 0.1277, train err:  0.0819, valid err:  0.1117
+>> epoch [ 177/1000], runtime:  0.92s, train err:  0.0867 (best:  0.0812/ 0.0738)
+>> epoch [ 178/1000], runtime:  0.96s, train loss: 0.1282, train err:  0.0826, valid err:  0.0920
+>> epoch [ 179/1000], runtime:  0.97s, train err:  0.0854 (best:  0.0812/ 0.0738)
+>> epoch [ 180/1000], runtime:  0.96s, train err:  0.0849 (best:  0.0812/ 0.0738)
+>> epoch [ 181/1000], runtime:  0.95s, train err:  0.0867 (best:  0.0812/ 0.0738)
+>> epoch [ 182/1000], runtime:  0.99s, train loss: 0.1319, train err:  0.0828, valid err:  0.0966
+>> epoch [ 183/1000], runtime:  0.95s, train loss: 0.1265, train err:  0.0804, valid err:  0.0772
+>> epoch [ 184/1000], runtime:  0.98s, train loss: 0.1199, train err:  0.0783, valid err:  0.0889
+>> epoch [ 185/1000], runtime:  0.94s, train err:  0.0894 (best:  0.0812/ 0.0738)
+>> epoch [ 186/1000], runtime: 0.97s, train loss: 0.1263, train err: 0.0803, valid err:  0.0713,test err: 0.0746, best
+>> epoch [ 187/1000], runtime:  1.01s, train err:  0.0820 (best:  0.0803/ 0.0713)
+>> epoch [ 188/1000], runtime:  0.98s, train err:  0.0858 (best:  0.0803/ 0.0713)
+>> epoch [ 189/1000], runtime:  0.99s, train loss: 0.1182, train err:  0.0798, valid err:  0.0878
+>> epoch [ 190/1000], runtime:  0.96s, train err:  0.0865 (best:  0.0803/ 0.0713)
+>> epoch [ 191/1000], runtime:  1.00s, train loss: 0.1256, train err:  0.0805, valid err:  0.0740
+>> epoch [ 192/1000], runtime:  1.02s, train loss: 0.1148, train err:  0.0769, valid err:  0.0770
+>> epoch [ 193/1000], runtime:  0.99s, train err:  0.0804 (best:  0.0803/ 0.0713)
+>> epoch [ 194/1000], runtime:  0.96s, train loss: 0.1253, train err:  0.0790, valid err:  0.0773
+>> epoch [ 195/1000], runtime:  0.97s, train err:  0.0837 (best:  0.0803/ 0.0713)
+>> epoch [ 196/1000], runtime:  1.00s, train err:  0.0873 (best:  0.0803/ 0.0713)
+>> epoch [ 197/1000], runtime:  0.95s, train err:  0.0830 (best:  0.0803/ 0.0713)
+>> epoch [ 198/1000], runtime:  1.01s, train err:  0.0802 (best:  0.0803/ 0.0713)
+>> epoch [ 199/1000], runtime:  0.97s, train err:  0.0849 (best:  0.0803/ 0.0713)
+>> epoch [ 200/1000], runtime:  1.00s, train loss: 0.1208, train err:  0.0787, valid err:  0.0903
+>> epoch [ 201/1000], runtime:  0.95s, train loss: 0.1248, train err:  0.0776, valid err:  0.0718
+>> epoch [ 202/1000], runtime:  0.99s, train loss: 0.1085, train err:  0.0740, valid err:  0.0728
+>> epoch [ 203/1000], runtime:  0.98s, train loss: 0.1251, train err:  0.0793, valid err:  0.0730
+>> epoch [ 204/1000], runtime:  0.99s, train loss: 0.1094, train err:  0.0747, valid err:  0.0739
+>> epoch [ 205/1000], runtime:  0.95s, train loss: 0.1201, train err:  0.0776, valid err:  0.0734
+>> epoch [ 206/1000], runtime:  0.96s, train loss: 0.1217, train err:  0.0793, valid err:  0.0727
+>> epoch [ 207/1000], runtime:  0.96s, train loss: 0.1101, train err:  0.0750, valid err:  0.0732
+>> epoch [ 208/1000], runtime:  0.90s, train loss: 0.1114, train err:  0.0755, valid err:  0.0716
+>> epoch [ 209/1000], runtime:  0.93s, train loss: 0.1099, train err:  0.0747, valid err:  0.0779
+>> epoch [ 210/1000], runtime:  0.95s, train loss: 0.1196, train err:  0.0759, valid err:  0.0714
+>> epoch [ 211/1000], runtime:  0.98s, train loss: 0.1184, train err:  0.0749, valid err:  0.0722
+>> epoch [ 212/1000], runtime:  0.97s, train loss: 0.1176, train err:  0.0770, valid err:  0.0717
+>> epoch [ 213/1000], runtime:  0.98s, train loss: 0.1156, train err:  0.0738, valid err:  0.0885
+>> epoch [ 214/1000], runtime:  1.01s, train loss: 0.1166, train err:  0.0752, valid err:  0.0819
+>> epoch [ 215/1000], runtime:  1.02s, train loss: 0.1142, train err:  0.0742, valid err:  0.0737
+>> epoch [ 216/1000], runtime:  0.94s, train loss: 0.1175, train err:  0.0749, valid err:  0.0727
+>> epoch [ 217/1000], runtime:  0.95s, train loss: 0.1136, train err:  0.0769, valid err:  0.0729
+>> epoch [ 218/1000], runtime:  0.94s, train loss: 0.1089, train err:  0.0748, valid err:  0.0722
+>> epoch [ 219/1000], runtime:  0.90s, train loss: 0.1149, train err:  0.0747, valid err:  0.0824
+>> epoch [ 220/1000], runtime:  0.94s, train loss: 0.1107, train err:  0.0750, valid err:  0.0747
+>> epoch [ 221/1000], runtime:  0.99s, train loss: 0.1181, train err:  0.0779, valid err:  0.0758
+>> epoch [ 222/1000], runtime:  0.97s, train loss: 0.1149, train err:  0.0764, valid err:  0.0762
+>> epoch [ 223/1000], runtime:  0.98s, train loss: 0.1242, train err:  0.0778, valid err:  0.0802
+>> epoch [ 224/1000], runtime:  0.98s, train loss: 0.1167, train err:  0.0758, valid err:  0.0736
+>> epoch [ 225/1000], runtime:  0.98s, train loss: 0.1068, train err:  0.0729, valid err:  0.0779
+>> epoch [ 226/1000], runtime:  0.99s, train loss: 0.1173, train err:  0.0781, valid err:  0.0780
+>> epoch [ 227/1000], runtime:  0.95s, train loss: 0.1146, train err:  0.0748, valid err:  0.0883
+>> epoch [ 228/1000], runtime:  0.93s, train loss: 0.1173, train err:  0.0762, valid err:  0.0730
+>> epoch [ 229/1000], runtime:  0.94s, train loss: 0.1236, train err:  0.0771, valid err:  0.0777
+>> epoch [ 230/1000], runtime:  0.94s, train loss: 0.1075, train err:  0.0735, valid err:  0.0719
+>> epoch [ 231/1000], runtime:  1.02s, train loss: 0.1192, train err:  0.0782, valid err:  0.0740
+>> epoch [ 232/1000], runtime:  0.90s, train loss: 0.1091, train err:  0.0741, valid err:  0.0747
+>> epoch [ 233/1000], runtime:  0.99s, train loss: 0.1098, train err:  0.0737, valid err:  0.0918
+>> epoch [ 234/1000], runtime:  0.99s, train loss: 0.1177, train err:  0.0754, valid err:  0.0907
+>> epoch [ 235/1000], runtime:  1.00s, train loss: 0.1109, train err:  0.0756, valid err:  0.0715
+>> epoch [ 236/1000], runtime:  0.98s, train loss: 0.1182, train err:  0.0762, valid err:  0.0782
+>> epoch [ 237/1000], runtime:  0.96s, train loss: 0.1119, train err:  0.0765, valid err:  0.0730
+>> epoch [ 238/1000], runtime:  0.94s, train loss: 0.1151, train err:  0.0754, valid err:  0.0896
+>> epoch [ 239/1000], runtime:  0.97s, train loss: 0.1184, train err:  0.0759, valid err:  0.0764
+>> epoch [ 240/1000], runtime:  0.96s, train loss: 0.1239, train err:  0.0785, valid err:  0.0762
+>> epoch [ 241/1000], runtime:  1.01s, train loss: 0.1164, train err:  0.0774, valid err:  0.0800
+>> epoch [ 242/1000], runtime:  0.96s, train loss: 0.1153, train err:  0.0756, valid err:  0.0836
+>> epoch [ 243/1000], runtime:  1.02s, train loss: 0.1138, train err:  0.0763, valid err:  0.0906
+>> epoch [ 244/1000], runtime:  0.88s, train loss: 0.1183, train err:  0.0765, valid err:  0.0741
+>> epoch [ 245/1000], runtime:  0.91s, train loss: 0.1085, train err:  0.0745, valid err:  0.0739
+>> epoch [ 246/1000], runtime:  0.93s, train loss: 0.1088, train err:  0.0742, valid err:  0.0802
+>> epoch [ 247/1000], runtime:  0.94s, train loss: 0.1131, train err:  0.0747, valid err:  0.0732
+>> epoch [ 248/1000], runtime:  0.92s, train loss: 0.1162, train err:  0.0775, valid err:  0.0728
+>> epoch [ 249/1000], runtime:  0.96s, train loss: 0.1118, train err:  0.0744, valid err:  0.0741
+>> epoch [ 250/1000], runtime:  0.96s, train loss: 0.1168, train err:  0.0770, valid err:  0.0747
+>> epoch [ 251/1000], runtime:  0.93s, train loss: 0.1235, train err:  0.0772, valid err:  0.0791
+>> epoch [ 252/1000], runtime:  0.91s, train err:  0.0810 (best:  0.0803/ 0.0713)
+>> epoch [ 253/1000], runtime:  0.85s, train loss: 0.1146, train err:  0.0742, valid err:  0.0751
+>> epoch [ 254/1000], runtime:  0.86s, train loss: 0.1167, train err:  0.0759, valid err:  0.0741
+>> epoch [ 255/1000], runtime:  0.90s, train loss: 0.1133, train err:  0.0747, valid err:  0.0748
+>> epoch [ 256/1000], runtime:  0.89s, train loss: 0.1142, train err:  0.0753, valid err:  0.0728
+>> epoch [ 257/1000], runtime:  0.95s, train loss: 0.1128, train err:  0.0751, valid err:  0.0743
+>> epoch [ 258/1000], runtime:  1.02s, train loss: 0.1124, train err:  0.0749, valid err:  0.0759
+>> epoch [ 259/1000], runtime:  1.03s, train loss: 0.1173, train err:  0.0768, valid err:  0.0749
+>> epoch [ 260/1000], runtime:  1.01s, train loss: 0.1176, train err:  0.0776, valid err:  0.0737
+>> epoch [ 261/1000], runtime:  0.99s, train loss: 0.1158, train err:  0.0748, valid err:  0.0730
+>> epoch [ 262/1000], runtime:  1.02s, train loss: 0.1225, train err:  0.0763, valid err:  0.0727
+>> epoch [ 263/1000], runtime:  0.97s, train loss: 0.1148, train err:  0.0755, valid err:  0.0747
+>> epoch [ 264/1000], runtime:  0.97s, train loss: 0.1160, train err:  0.0746, valid err:  0.0775
+>> epoch [ 265/1000], runtime:  1.00s, train loss: 0.1156, train err:  0.0766, valid err:  0.0793
+>> epoch [ 266/1000], runtime:  0.96s, train loss: 0.1121, train err:  0.0753, valid err:  0.0773
+>> epoch [ 267/1000], runtime:  1.00s, train loss: 0.1142, train err:  0.0754, valid err:  0.0754
+>> epoch [ 268/1000], runtime: 1.01s, train loss: 0.1121, train err: 0.0740, valid err:  0.0713,test err: 0.0757, best
+>> epoch [ 269/1000], runtime:  1.00s, train err:  0.0784 (best:  0.0740/ 0.0713)
+>> epoch [ 270/1000], runtime:  1.02s, train err:  0.0827 (best:  0.0740/ 0.0713)
+>> epoch [ 271/1000], runtime:  1.01s, train loss: 0.1106, train err:  0.0744, valid err:  0.0834
+>> epoch [ 272/1000], runtime:  1.03s, train err:  0.0770 (best:  0.0740/ 0.0713)
+>> epoch [ 273/1000], runtime:  0.94s, train err:  0.0789 (best:  0.0740/ 0.0713)
+>> epoch [ 274/1000], runtime:  0.99s, train err:  0.0802 (best:  0.0740/ 0.0713)
+>> epoch [ 275/1000], runtime:  0.96s, train loss: 0.1088, train err:  0.0733, valid err:  0.0756
+>> epoch [ 276/1000], runtime:  0.99s, train err:  0.0766 (best:  0.0740/ 0.0713)
+>> epoch [ 277/1000], runtime:  0.96s, train err:  0.0808 (best:  0.0740/ 0.0713)
+>> epoch [ 278/1000], runtime:  1.01s, train err:  0.0742 (best:  0.0740/ 0.0713)
+>> epoch [ 279/1000], runtime:  0.96s, train loss: 0.1104, train err:  0.0732, valid err:  0.0718
+>> epoch [ 280/1000], runtime:  0.99s, train err:  0.0770 (best:  0.0740/ 0.0713)
+>> epoch [ 281/1000], runtime:  1.00s, train err:  0.0735 (best:  0.0740/ 0.0713)
+>> epoch [ 282/1000], runtime:  0.99s, train loss: 0.1119, train err:  0.0761, valid err:  0.0750
+>> epoch [ 283/1000], runtime:  1.00s, train err:  0.0743 (best:  0.0740/ 0.0713)
+>> epoch [ 284/1000], runtime:  1.01s, train err:  0.0768 (best:  0.0740/ 0.0713)
+>> epoch [ 285/1000], runtime:  0.99s, train err:  0.0759 (best:  0.0740/ 0.0713)
+>> epoch [ 286/1000], runtime:  0.95s, train err:  0.0758 (best:  0.0740/ 0.0713)
+>> epoch [ 287/1000], runtime:  0.99s, train err:  0.0744 (best:  0.0740/ 0.0713)
+>> epoch [ 288/1000], runtime:  1.00s, train err:  0.0766 (best:  0.0740/ 0.0713)
+>> epoch [ 289/1000], runtime:  1.02s, train loss: 0.1085, train err:  0.0761, valid err:  0.0900
+>> epoch [ 290/1000], runtime:  1.00s, train err:  0.0750 (best:  0.0740/ 0.0713)
+>> epoch [ 291/1000], runtime:  0.96s, train err:  0.0757 (best:  0.0740/ 0.0713)
+>> epoch [ 292/1000], runtime:  1.02s, train loss: 0.1115, train err:  0.0730, valid err:  0.0739
+>> epoch [ 293/1000], runtime:  0.97s, train err:  0.0784 (best:  0.0740/ 0.0713)
+>> epoch [ 294/1000], runtime:  1.00s, train err:  0.0757 (best:  0.0740/ 0.0713)
+>> epoch [ 295/1000], runtime:  0.97s, train loss: 0.1120, train err:  0.0747, valid err:  0.0770
+>> epoch [ 296/1000], runtime:  0.93s, train err:  0.0767 (best:  0.0740/ 0.0713)
+>> epoch [ 297/1000], runtime:  1.01s, train loss: 0.1074, train err:  0.0731, valid err:  0.0729
+>> epoch [ 298/1000], runtime:  1.03s, train err:  0.0780 (best:  0.0740/ 0.0713)
+>> epoch [ 299/1000], runtime:  0.97s, train err:  0.0748 (best:  0.0740/ 0.0713)
+>> epoch [ 300/1000], runtime:  0.94s, train err:  0.0763 (best:  0.0740/ 0.0713)
+>> epoch [ 301/1000], runtime:  0.95s, train loss: 0.1093, train err:  0.0729, valid err:  0.0718
+>> epoch [ 302/1000], runtime:  0.97s, train loss: 0.1098, train err:  0.0725, valid err:  0.0718
+>> epoch [ 303/1000], runtime:  0.95s, train loss: 0.1047, train err:  0.0724, valid err:  0.0729
+>> epoch [ 304/1000], runtime:  0.97s, train loss: 0.1069, train err:  0.0728, valid err:  0.0761
+>> epoch [ 305/1000], runtime:  0.99s, train loss: 0.1074, train err:  0.0725, valid err:  0.0714
+>> epoch [ 306/1000], runtime:  1.00s, train loss: 0.1099, train err:  0.0732, valid err:  0.0717
+>> epoch [ 307/1000], runtime:  0.89s, train err:  0.0741 (best:  0.0740/ 0.0713)
+>> epoch [ 308/1000], runtime:  0.99s, train loss: 0.1064, train err:  0.0740, valid err:  0.0727
+>> epoch [ 309/1000], runtime:  1.02s, train loss: 0.1093, train err:  0.0731, valid err:  0.0800
+>> epoch [ 310/1000], runtime:  1.02s, train loss: 0.1098, train err:  0.0729, valid err:  0.0735
+>> epoch [ 311/1000], runtime:  0.99s, train loss: 0.1115, train err:  0.0733, valid err:  0.0726
+>> epoch [ 312/1000], runtime:  1.00s, train err:  0.0730 (best:  0.0740/ 0.0713)
+>> epoch [ 313/1000], runtime:  0.99s, train err:  0.0737 (best:  0.0740/ 0.0713)
+>> epoch [ 314/1000], runtime:  0.98s, train loss: 0.1106, train err:  0.0739, valid err:  0.0726
+>> epoch [ 315/1000], runtime:  1.00s, train loss: 0.1084, train err:  0.0723, valid err:  0.0716
+>> epoch [ 316/1000], runtime:  1.00s, train loss: 0.1094, train err:  0.0724, valid err:  0.0744
+>> epoch [ 317/1000], runtime:  0.95s, train err:  0.0743 (best:  0.0740/ 0.0713)
+>> epoch [ 318/1000], runtime: 0.98s, train loss: 0.1080, train err: 0.0729, valid err:  0.0711,test err: 0.0757, best
+>> epoch [ 319/1000], runtime:  1.01s, train err:  0.0724 (best:  0.0729/ 0.0711)
+>> epoch [ 320/1000], runtime:  1.02s, train err:  0.0727 (best:  0.0729/ 0.0711)
+>> epoch [ 321/1000], runtime:  0.99s, train err:  0.0725 (best:  0.0729/ 0.0711)
+>> epoch [ 322/1000], runtime:  1.02s, train err:  0.0751 (best:  0.0729/ 0.0711)
+>> epoch [ 323/1000], runtime:  1.00s, train err:  0.0733 (best:  0.0729/ 0.0711)
+>> epoch [ 324/1000], runtime:  0.99s, train err:  0.0740 (best:  0.0729/ 0.0711)
+>> epoch [ 325/1000], runtime:  0.98s, train loss: 0.1022, train err:  0.0712, valid err:  0.0857
+>> epoch [ 326/1000], runtime:  0.98s, train err:  0.0765 (best:  0.0729/ 0.0711)
+>> epoch [ 327/1000], runtime:  0.98s, train err:  0.0724 (best:  0.0729/ 0.0711)
+>> epoch [ 328/1000], runtime:  0.99s, train err:  0.0735 (best:  0.0729/ 0.0711)
+>> epoch [ 329/1000], runtime:  0.97s, train err:  0.0739 (best:  0.0729/ 0.0711)
+>> epoch [ 330/1000], runtime:  0.91s, train loss: 0.1079, train err:  0.0717, valid err:  0.0764
+>> epoch [ 331/1000], runtime:  0.97s, train err:  0.0773 (best:  0.0729/ 0.0711)
+>> epoch [ 332/1000], runtime:  0.95s, train loss: 0.1066, train err:  0.0720, valid err:  0.0726
+>> epoch [ 333/1000], runtime:  0.95s, train err:  0.0720 (best:  0.0729/ 0.0711)
+>> epoch [ 334/1000], runtime:  0.95s, train loss: 0.1057, train err:  0.0720, valid err:  0.0727
+>> epoch [ 335/1000], runtime:  0.96s, train err:  0.0723 (best:  0.0729/ 0.0711)
+>> epoch [ 336/1000], runtime:  0.96s, train err:  0.0728 (best:  0.0729/ 0.0711)
+>> epoch [ 337/1000], runtime:  0.92s, train err:  0.0724 (best:  0.0729/ 0.0711)
+>> epoch [ 338/1000], runtime:  0.95s, train err:  0.0738 (best:  0.0729/ 0.0711)
+>> epoch [ 339/1000], runtime:  0.98s, train err:  0.0740 (best:  0.0729/ 0.0711)
+>> epoch [ 340/1000], runtime:  0.99s, train err:  0.0741 (best:  0.0729/ 0.0711)
+>> epoch [ 341/1000], runtime:  0.98s, train err:  0.0735 (best:  0.0729/ 0.0711)
+>> epoch [ 342/1000], runtime:  0.97s, train err:  0.0744 (best:  0.0729/ 0.0711)
+>> epoch [ 343/1000], runtime:  0.97s, train err:  0.0735 (best:  0.0729/ 0.0711)
+>> epoch [ 344/1000], runtime:  0.97s, train err:  0.0730 (best:  0.0729/ 0.0711)
+>> epoch [ 345/1000], runtime:  1.00s, train err:  0.0729 (best:  0.0729/ 0.0711)
+>> epoch [ 346/1000], runtime:  1.00s, train err:  0.0747 (best:  0.0729/ 0.0711)
+>> epoch [ 347/1000], runtime:  1.00s, train loss: 0.1045, train err:  0.0726, valid err:  0.0724
+>> epoch [ 348/1000], runtime:  1.02s, train loss: 0.1071, train err:  0.0737, valid err:  0.0713
+>> epoch [ 349/1000], runtime:  0.99s, train err:  0.0745 (best:  0.0729/ 0.0711)
+>> epoch [ 350/1000], runtime:  0.98s, train err:  0.0726 (best:  0.0729/ 0.0711)
+>> epoch [ 351/1000], runtime:  0.99s, train err:  0.0720 (best:  0.0729/ 0.0711)
+>> epoch [ 352/1000], runtime:  0.98s, train err:  0.0732 (best:  0.0729/ 0.0711)
+>> epoch [ 353/1000], runtime:  0.99s, train err:  0.0724 (best:  0.0729/ 0.0711)
+>> epoch [ 354/1000], runtime:  0.98s, train err:  0.0721 (best:  0.0729/ 0.0711)
+>> epoch [ 355/1000], runtime:  0.99s, train loss: 0.1068, train err:  0.0735, valid err:  0.0734
+>> epoch [ 356/1000], runtime:  0.99s, train loss: 0.1053, train err:  0.0729, valid err:  0.0759
+>> epoch [ 357/1000], runtime:  0.99s, train err:  0.0736 (best:  0.0729/ 0.0711)
+>> epoch [ 358/1000], runtime:  1.01s, train err:  0.0719 (best:  0.0729/ 0.0711)
+>> epoch [ 359/1000], runtime:  0.98s, train err:  0.0738 (best:  0.0729/ 0.0711)
+>> epoch [ 360/1000], runtime:  0.99s, train err:  0.0736 (best:  0.0729/ 0.0711)
+>> epoch [ 361/1000], runtime:  1.00s, train loss: 0.1013, train err:  0.0724, valid err:  0.0753
+>> epoch [ 362/1000], runtime:  0.97s, train err:  0.0735 (best:  0.0729/ 0.0711)
+>> epoch [ 363/1000], runtime:  0.98s, train err:  0.0731 (best:  0.0729/ 0.0711)
+>> epoch [ 364/1000], runtime:  0.96s, train err:  0.0740 (best:  0.0729/ 0.0711)
+>> epoch [ 365/1000], runtime:  0.99s, train loss: 0.1069, train err:  0.0724, valid err:  0.0714
+>> epoch [ 366/1000], runtime:  1.00s, train err:  0.0714 (best:  0.0729/ 0.0711)
+>> epoch [ 367/1000], runtime:  0.99s, train err:  0.0719 (best:  0.0729/ 0.0711)
+>> epoch [ 368/1000], runtime:  0.99s, train err:  0.0744 (best:  0.0729/ 0.0711)
+>> epoch [ 369/1000], runtime:  0.99s, train err:  0.0730 (best:  0.0729/ 0.0711)
+>> epoch [ 370/1000], runtime:  1.01s, train err:  0.0722 (best:  0.0729/ 0.0711)
+>> epoch [ 371/1000], runtime:  0.99s, train err:  0.0718 (best:  0.0729/ 0.0711)
+>> epoch [ 372/1000], runtime:  1.00s, train err:  0.0745 (best:  0.0729/ 0.0711)
+>> epoch [ 373/1000], runtime:  1.00s, train err:  0.0746 (best:  0.0729/ 0.0711)
+>> epoch [ 374/1000], runtime:  1.01s, train loss: 0.1037, train err:  0.0721, valid err:  0.0759
+>> epoch [ 375/1000], runtime:  0.96s, train err:  0.0734 (best:  0.0729/ 0.0711)
+>> epoch [ 376/1000], runtime:  1.02s, train err:  0.0717 (best:  0.0729/ 0.0711)
+>> epoch [ 377/1000], runtime:  0.99s, train err:  0.0749 (best:  0.0729/ 0.0711)
+>> epoch [ 378/1000], runtime:  0.97s, train err:  0.0723 (best:  0.0729/ 0.0711)
+>> epoch [ 379/1000], runtime:  0.98s, train err:  0.0720 (best:  0.0729/ 0.0711)
+>> epoch [ 380/1000], runtime:  0.96s, train err:  0.0724 (best:  0.0729/ 0.0711)
+>> epoch [ 381/1000], runtime:  1.01s, train err:  0.0729 (best:  0.0729/ 0.0711)
+>> epoch [ 382/1000], runtime:  0.96s, train err:  0.0736 (best:  0.0729/ 0.0711)
+>> epoch [ 383/1000], runtime:  0.91s, train err:  0.0728 (best:  0.0729/ 0.0711)
+>> epoch [ 384/1000], runtime:  1.01s, train loss: 0.1046, train err:  0.0720, valid err:  0.0716
+>> epoch [ 385/1000], runtime:  1.02s, train loss: 0.1066, train err:  0.0717, valid err:  0.0722
+>> epoch [ 386/1000], runtime:  0.99s, train err:  0.0758 (best:  0.0729/ 0.0711)
+>> epoch [ 387/1000], runtime:  1.00s, train err:  0.0737 (best:  0.0729/ 0.0711)
+>> epoch [ 388/1000], runtime:  1.02s, train err:  0.0731 (best:  0.0729/ 0.0711)
+>> epoch [ 389/1000], runtime:  0.99s, train err:  0.0734 (best:  0.0729/ 0.0711)
+>> epoch [ 390/1000], runtime:  1.00s, train err:  0.0717 (best:  0.0729/ 0.0711)
+>> epoch [ 391/1000], runtime:  1.02s, train loss: 0.1078, train err:  0.0722, valid err:  0.0724
+>> epoch [ 392/1000], runtime:  1.03s, train err:  0.0717 (best:  0.0729/ 0.0711)
+>> epoch [ 393/1000], runtime:  1.01s, train err:  0.0739 (best:  0.0729/ 0.0711)
+>> epoch [ 394/1000], runtime:  1.02s, train err:  0.0734 (best:  0.0729/ 0.0711)
+>> epoch [ 395/1000], runtime:  1.00s, train loss: 0.1077, train err:  0.0721, valid err:  0.0725
+>> epoch [ 396/1000], runtime:  1.00s, train err:  0.0731 (best:  0.0729/ 0.0711)
+>> epoch [ 397/1000], runtime:  0.97s, train err:  0.0735 (best:  0.0729/ 0.0711)
+>> epoch [ 398/1000], runtime:  0.95s, train err:  0.0722 (best:  0.0729/ 0.0711)
+>> epoch [ 399/1000], runtime:  0.96s, train err:  0.0734 (best:  0.0729/ 0.0711)
+>> epoch [ 400/1000], runtime:  1.00s, train loss: 0.1067, train err:  0.0759, valid err:  0.0723
+>> epoch [ 401/1000], runtime:  1.00s, train err:  0.0716 (best:  0.0729/ 0.0711)
+>> epoch [ 402/1000], runtime:  1.00s, train loss: 0.1071, train err:  0.0711, valid err:  0.0717
+>> epoch [ 403/1000], runtime:  1.02s, train err:  0.0717 (best:  0.0729/ 0.0711)
+>> epoch [ 404/1000], runtime:  1.02s, train loss: 0.1070, train err:  0.0720, valid err:  0.0759
+>> epoch [ 405/1000], runtime: 1.00s, train loss: 0.1026, train err: 0.0722, valid err:  0.0709,test err: 0.0755, best
+>> epoch [ 406/1000], runtime:  1.00s, train err:  0.0712 (best:  0.0722/ 0.0709)
+>> epoch [ 407/1000], runtime:  0.98s, train err:  0.0715 (best:  0.0722/ 0.0709)
+>> epoch [ 408/1000], runtime:  0.98s, train err:  0.0712 (best:  0.0722/ 0.0709)
+>> epoch [ 409/1000], runtime:  1.00s, train loss: 0.1020, train err:  0.0709, valid err:  0.0754
+>> epoch [ 410/1000], runtime:  0.99s, train err:  0.0715 (best:  0.0722/ 0.0709)
+>> epoch [ 411/1000], runtime:  0.95s, train err:  0.0715 (best:  0.0722/ 0.0709)
+>> epoch [ 412/1000], runtime:  0.95s, train err:  0.0718 (best:  0.0722/ 0.0709)
+>> epoch [ 413/1000], runtime:  0.98s, train err:  0.0722 (best:  0.0722/ 0.0709)
+>> epoch [ 414/1000], runtime:  0.97s, train err:  0.0711 (best:  0.0722/ 0.0709)
+>> epoch [ 415/1000], runtime:  0.99s, train err:  0.0706 (best:  0.0722/ 0.0709)
+>> epoch [ 416/1000], runtime:  0.98s, train err:  0.0716 (best:  0.0722/ 0.0709)
+>> epoch [ 417/1000], runtime:  0.91s, train err:  0.0724 (best:  0.0722/ 0.0709)
+>> epoch [ 418/1000], runtime:  0.98s, train loss: 0.1017, train err:  0.0718, valid err:  0.0710
+>> epoch [ 419/1000], runtime:  0.95s, train err:  0.0709 (best:  0.0722/ 0.0709)
+>> epoch [ 420/1000], runtime:  1.17s, train loss: 0.1016, train err:  0.0708, valid err:  0.0729
+>> epoch [ 421/1000], runtime:  1.41s, train err:  0.0714 (best:  0.0722/ 0.0709)
+>> epoch [ 422/1000], runtime:  1.60s, train err:  0.0713 (best:  0.0722/ 0.0709)
+>> epoch [ 423/1000], runtime:  1.66s, train err:  0.0720 (best:  0.0722/ 0.0709)
+>> epoch [ 424/1000], runtime:  1.61s, train err:  0.0714 (best:  0.0722/ 0.0709)
+>> epoch [ 425/1000], runtime:  1.62s, train err:  0.0709 (best:  0.0722/ 0.0709)
+>> epoch [ 426/1000], runtime:  1.55s, train err:  0.0714 (best:  0.0722/ 0.0709)
+>> epoch [ 427/1000], runtime:  1.78s, train err:  0.0721 (best:  0.0722/ 0.0709)
+>> epoch [ 428/1000], runtime:  1.64s, train err:  0.0716 (best:  0.0722/ 0.0709)
+>> epoch [ 429/1000], runtime:  1.70s, train err:  0.0714 (best:  0.0722/ 0.0709)
+>> epoch [ 430/1000], runtime:  1.59s, train err:  0.0712 (best:  0.0722/ 0.0709)
+>> epoch [ 431/1000], runtime:  1.56s, train err:  0.0723 (best:  0.0722/ 0.0709)
+>> epoch [ 432/1000], runtime:  1.61s, train err:  0.0717 (best:  0.0722/ 0.0709)
+>> epoch [ 433/1000], runtime:  1.58s, train err:  0.0728 (best:  0.0722/ 0.0709)
+>> epoch [ 434/1000], runtime:  1.59s, train err:  0.0709 (best:  0.0722/ 0.0709)
+>> epoch [ 435/1000], runtime:  1.53s, train err:  0.0722 (best:  0.0722/ 0.0709)
+>> epoch [ 436/1000], runtime:  1.71s, train err:  0.0721 (best:  0.0722/ 0.0709)
+>> epoch [ 437/1000], runtime:  1.65s, train err:  0.0709 (best:  0.0722/ 0.0709)
+>> epoch [ 438/1000], runtime:  1.62s, train err:  0.0720 (best:  0.0722/ 0.0709)
+>> epoch [ 439/1000], runtime:  1.59s, train err:  0.0723 (best:  0.0722/ 0.0709)
+>> epoch [ 440/1000], runtime:  1.68s, train err:  0.0714 (best:  0.0722/ 0.0709)
+>> epoch [ 441/1000], runtime:  1.66s, train err:  0.0714 (best:  0.0722/ 0.0709)
+>> epoch [ 442/1000], runtime:  1.66s, train err:  0.0721 (best:  0.0722/ 0.0709)
+>> epoch [ 443/1000], runtime:  1.59s, train err:  0.0716 (best:  0.0722/ 0.0709)
+>> epoch [ 444/1000], runtime:  1.71s, train err:  0.0715 (best:  0.0722/ 0.0709)
+>> epoch [ 445/1000], runtime:  1.68s, train err:  0.0718 (best:  0.0722/ 0.0709)
+>> epoch [ 446/1000], runtime:  1.70s, train err:  0.0717 (best:  0.0722/ 0.0709)
+>> epoch [ 447/1000], runtime:  1.61s, train err:  0.0719 (best:  0.0722/ 0.0709)
+>> epoch [ 448/1000], runtime:  1.49s, train err:  0.0720 (best:  0.0722/ 0.0709)
+>> epoch [ 449/1000], runtime:  1.64s, train err:  0.0712 (best:  0.0722/ 0.0709)
+>> epoch [ 450/1000], runtime:  1.57s, train err:  0.0723 (best:  0.0722/ 0.0709)
+>> epoch [ 451/1000], runtime:  1.72s, train err:  0.0713 (best:  0.0722/ 0.0709)
+>> epoch [ 452/1000], runtime:  1.68s, train err:  0.0712 (best:  0.0722/ 0.0709)
+>> epoch [ 453/1000], runtime:  1.62s, train err:  0.0712 (best:  0.0722/ 0.0709)
+>> epoch [ 454/1000], runtime: 1.62s, train loss: 0.0979, train err: 0.0711, valid err:  0.0708,test err: 0.0750, best
+>> epoch [ 455/1000], runtime:  1.57s, train err:  0.0718 (best:  0.0711/ 0.0708)
+>> epoch [ 456/1000], runtime:  1.70s, train err:  0.0713 (best:  0.0711/ 0.0708)
+>> epoch [ 457/1000], runtime:  1.63s, train err:  0.0716 (best:  0.0711/ 0.0708)
+>> epoch [ 458/1000], runtime:  1.71s, train err:  0.0713 (best:  0.0711/ 0.0708)
+>> epoch [ 459/1000], runtime:  1.67s, train err:  0.0727 (best:  0.0711/ 0.0708)
+>> epoch [ 460/1000], runtime:  1.67s, train err:  0.0727 (best:  0.0711/ 0.0708)
+>> epoch [ 461/1000], runtime:  1.60s, train err:  0.0715 (best:  0.0711/ 0.0708)
+>> epoch [ 462/1000], runtime:  1.60s, train err:  0.0714 (best:  0.0711/ 0.0708)
+>> epoch [ 463/1000], runtime:  1.67s, train err:  0.0723 (best:  0.0711/ 0.0708)
+>> epoch [ 464/1000], runtime:  1.68s, train err:  0.0715 (best:  0.0711/ 0.0708)
+>> epoch [ 465/1000], runtime:  1.58s, train err:  0.0718 (best:  0.0711/ 0.0708)
+>> epoch [ 466/1000], runtime:  1.67s, train err:  0.0716 (best:  0.0711/ 0.0708)
+>> epoch [ 467/1000], runtime:  1.74s, train err:  0.0723 (best:  0.0711/ 0.0708)
+>> epoch [ 468/1000], runtime:  1.64s, train err:  0.0721 (best:  0.0711/ 0.0708)
+>> epoch [ 469/1000], runtime:  1.66s, train err:  0.0719 (best:  0.0711/ 0.0708)
+>> epoch [ 470/1000], runtime:  1.59s, train err:  0.0723 (best:  0.0711/ 0.0708)
+>> epoch [ 471/1000], runtime:  1.60s, train err:  0.0713 (best:  0.0711/ 0.0708)
+>> epoch [ 472/1000], runtime:  1.58s, train err:  0.0711 (best:  0.0711/ 0.0708)
+>> epoch [ 473/1000], runtime:  1.54s, train err:  0.0716 (best:  0.0711/ 0.0708)
+>> epoch [ 474/1000], runtime:  1.56s, train err:  0.0717 (best:  0.0711/ 0.0708)
+>> epoch [ 475/1000], runtime:  1.60s, train err:  0.0725 (best:  0.0711/ 0.0708)
+>> epoch [ 476/1000], runtime:  1.61s, train err:  0.0706 (best:  0.0711/ 0.0708)
+>> epoch [ 477/1000], runtime:  1.68s, train err:  0.0714 (best:  0.0711/ 0.0708)
+>> epoch [ 478/1000], runtime:  1.70s, train err:  0.0716 (best:  0.0711/ 0.0708)
+>> epoch [ 479/1000], runtime:  1.68s, train err:  0.0711 (best:  0.0711/ 0.0708)
+>> epoch [ 480/1000], runtime:  1.65s, train err:  0.0722 (best:  0.0711/ 0.0708)
+>> epoch [ 481/1000], runtime:  1.59s, train err:  0.0713 (best:  0.0711/ 0.0708)
+>> epoch [ 482/1000], runtime:  1.63s, train err:  0.0714 (best:  0.0711/ 0.0708)
+>> epoch [ 483/1000], runtime:  1.62s, train err:  0.0703 (best:  0.0711/ 0.0708)
+>> epoch [ 484/1000], runtime:  1.60s, train err:  0.0710 (best:  0.0711/ 0.0708)
+>> epoch [ 485/1000], runtime:  1.63s, train err:  0.0718 (best:  0.0711/ 0.0708)
+>> epoch [ 486/1000], runtime:  1.64s, train err:  0.0722 (best:  0.0711/ 0.0708)
+>> epoch [ 487/1000], runtime:  1.64s, train err:  0.0710 (best:  0.0711/ 0.0708)
+>> epoch [ 488/1000], runtime:  1.61s, train err:  0.0718 (best:  0.0711/ 0.0708)
+>> epoch [ 489/1000], runtime:  1.63s, train err:  0.0720 (best:  0.0711/ 0.0708)
+>> epoch [ 490/1000], runtime:  1.57s, train err:  0.0710 (best:  0.0711/ 0.0708)
+>> epoch [ 491/1000], runtime:  1.59s, train err:  0.0713 (best:  0.0711/ 0.0708)
+>> epoch [ 492/1000], runtime:  1.60s, train err:  0.0724 (best:  0.0711/ 0.0708)
+>> epoch [ 493/1000], runtime:  1.55s, train err:  0.0716 (best:  0.0711/ 0.0708)
+>> epoch [ 494/1000], runtime:  1.59s, train err:  0.0716 (best:  0.0711/ 0.0708)
+>> epoch [ 495/1000], runtime:  1.68s, train err:  0.0711 (best:  0.0711/ 0.0708)
+>> epoch [ 496/1000], runtime:  1.67s, train err:  0.0717 (best:  0.0711/ 0.0708)
+>> epoch [ 497/1000], runtime:  1.62s, train err:  0.0708 (best:  0.0711/ 0.0708)
+>> epoch [ 498/1000], runtime:  1.55s, train err:  0.0714 (best:  0.0711/ 0.0708)
+>> epoch [ 499/1000], runtime:  1.61s, train err:  0.0722 (best:  0.0711/ 0.0708)
+>> epoch [ 500/1000], runtime:  1.62s, train err:  0.0725 (best:  0.0711/ 0.0708)
+>> epoch [ 501/1000], runtime:  1.68s, train err:  0.0710 (best:  0.0711/ 0.0708)
+>> epoch [ 502/1000], runtime:  1.57s, train err:  0.0706 (best:  0.0711/ 0.0708)
+>> epoch [ 503/1000], runtime:  1.51s, train err:  0.0710 (best:  0.0711/ 0.0708)
+>> epoch [ 504/1000], runtime:  1.66s, train err:  0.0712 (best:  0.0711/ 0.0708)
+>> epoch [ 505/1000], runtime:  1.57s, train err:  0.0710 (best:  0.0711/ 0.0708)
+>> epoch [ 506/1000], runtime:  1.63s, train err:  0.0710 (best:  0.0711/ 0.0708)
+>> epoch [ 507/1000], runtime:  1.60s, train err:  0.0703 (best:  0.0711/ 0.0708)
+>> epoch [ 508/1000], runtime:  1.64s, train err:  0.0708 (best:  0.0711/ 0.0708)
+>> epoch [ 509/1000], runtime:  1.67s, train err:  0.0714 (best:  0.0711/ 0.0708)
+>> epoch [ 510/1000], runtime:  1.66s, train err:  0.0706 (best:  0.0711/ 0.0708)
+>> epoch [ 511/1000], runtime:  1.66s, train err:  0.0709 (best:  0.0711/ 0.0708)
+>> epoch [ 512/1000], runtime:  1.59s, train err:  0.0710 (best:  0.0711/ 0.0708)
+>> epoch [ 513/1000], runtime:  1.69s, train err:  0.0713 (best:  0.0711/ 0.0708)
+>> epoch [ 514/1000], runtime:  1.69s, train err:  0.0710 (best:  0.0711/ 0.0708)
+>> epoch [ 515/1000], runtime:  1.66s, train err:  0.0707 (best:  0.0711/ 0.0708)
+>> epoch [ 516/1000], runtime:  1.66s, train err:  0.0714 (best:  0.0711/ 0.0708)
+>> epoch [ 517/1000], runtime:  1.59s, train err:  0.0706 (best:  0.0711/ 0.0708)
+>> epoch [ 518/1000], runtime:  1.63s, train err:  0.0709 (best:  0.0711/ 0.0708)
+>> epoch [ 519/1000], runtime:  1.68s, train err:  0.0708 (best:  0.0711/ 0.0708)
+>> epoch [ 520/1000], runtime:  1.71s, train err:  0.0706 (best:  0.0711/ 0.0708)
+>> epoch [ 521/1000], runtime:  1.69s, train err:  0.0708 (best:  0.0711/ 0.0708)
+>> epoch [ 522/1000], runtime:  1.63s, train err:  0.0709 (best:  0.0711/ 0.0708)
+>> epoch [ 523/1000], runtime:  1.68s, train err:  0.0708 (best:  0.0711/ 0.0708)
+>> epoch [ 524/1000], runtime:  1.58s, train err:  0.0715 (best:  0.0711/ 0.0708)
+>> epoch [ 525/1000], runtime:  1.63s, train err:  0.0710 (best:  0.0711/ 0.0708)
+>> epoch [ 526/1000], runtime:  1.69s, train err:  0.0703 (best:  0.0711/ 0.0708)
+>> epoch [ 527/1000], runtime:  1.59s, train err:  0.0707 (best:  0.0711/ 0.0708)
+>> epoch [ 528/1000], runtime:  1.72s, train err:  0.0707 (best:  0.0711/ 0.0708)
+>> epoch [ 529/1000], runtime:  1.68s, train err:  0.0704 (best:  0.0711/ 0.0708)
+>> epoch [ 530/1000], runtime:  1.65s, train err:  0.0714 (best:  0.0711/ 0.0708)
+>> epoch [ 531/1000], runtime:  1.64s, train err:  0.0704 (best:  0.0711/ 0.0708)
+>> epoch [ 532/1000], runtime:  1.64s, train err:  0.0702 (best:  0.0711/ 0.0708)
+>> epoch [ 533/1000], runtime:  1.64s, train err:  0.0710 (best:  0.0711/ 0.0708)
+>> epoch [ 534/1000], runtime:  1.62s, train err:  0.0714 (best:  0.0711/ 0.0708)
+>> epoch [ 535/1000], runtime:  1.70s, train err:  0.0713 (best:  0.0711/ 0.0708)
+>> epoch [ 536/1000], runtime:  1.73s, train err:  0.0711 (best:  0.0711/ 0.0708)
+>> epoch [ 537/1000], runtime:  1.66s, train err:  0.0708 (best:  0.0711/ 0.0708)
+>> epoch [ 538/1000], runtime:  1.65s, train err:  0.0706 (best:  0.0711/ 0.0708)
+>> epoch [ 539/1000], runtime:  1.67s, train err:  0.0702 (best:  0.0711/ 0.0708)
+>> epoch [ 540/1000], runtime:  1.60s, train err:  0.0713 (best:  0.0711/ 0.0708)
+>> epoch [ 541/1000], runtime:  1.68s, train err:  0.0701 (best:  0.0711/ 0.0708)
+>> epoch [ 542/1000], runtime:  1.69s, train err:  0.0715 (best:  0.0711/ 0.0708)
+>> epoch [ 543/1000], runtime:  1.63s, train err:  0.0711 (best:  0.0711/ 0.0708)
+>> epoch [ 544/1000], runtime:  1.67s, train err:  0.0708 (best:  0.0711/ 0.0708)
+>> epoch [ 545/1000], runtime:  1.60s, train err:  0.0706 (best:  0.0711/ 0.0708)
+>> epoch [ 546/1000], runtime:  1.63s, train err:  0.0711 (best:  0.0711/ 0.0708)
+>> epoch [ 547/1000], runtime:  1.62s, train err:  0.0709 (best:  0.0711/ 0.0708)
+>> epoch [ 548/1000], runtime:  1.64s, train err:  0.0706 (best:  0.0711/ 0.0708)
+>> epoch [ 549/1000], runtime:  1.62s, train err:  0.0708 (best:  0.0711/ 0.0708)
+>> epoch [ 550/1000], runtime:  1.70s, train err:  0.0704 (best:  0.0711/ 0.0708)
+>> epoch [ 551/1000], runtime:  1.64s, train err:  0.0711 (best:  0.0711/ 0.0708)
+>> epoch [ 552/1000], runtime:  1.63s, train err:  0.0702 (best:  0.0711/ 0.0708)
+>> epoch [ 553/1000], runtime:  1.63s, train err:  0.0707 (best:  0.0711/ 0.0708)
+>> epoch [ 554/1000], runtime:  1.73s, train err:  0.0708 (best:  0.0711/ 0.0708)
+>> epoch [ 555/1000], runtime:  1.71s, train err:  0.0707 (best:  0.0711/ 0.0708)
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+>> ntrain: 200, lr: 0.001, gamma: 0.5, w_d: 0.0
+>> Best train loss:  0.0979
+>> Best train error:  0.0711
+>> Best valid error:  0.0708
+>> Best test error:  0.0750
+>> Best epoch: 453
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+>> Training Completed!!

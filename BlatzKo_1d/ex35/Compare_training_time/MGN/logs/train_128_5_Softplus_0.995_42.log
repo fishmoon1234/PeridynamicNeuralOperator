@@ -1,0 +1,24 @@
+>> Device being used: cuda (NVIDIA GeForce RTX 4090)
+Total number of parameters: 1153
+>> Training Mesh resolution: 257x257
+/root/autodl-tmp/project/MPNO_final/BlatzKo_1d/ex35/Compare_training_time/MGN/PNO_BB.py:138: UserWarning: torch.range is deprecated and will be removed in a future release because its behavior is inconsistent with Python's range builtin. Instead, use torch.arange, which produces values in [start, end).
+  ksi_range = torch.range(-m_fact, m_fact).int()
+tensor(0.8109)
+tensor(3.3456)
+>> Preprocessing completed, time elapsed:  0.27s
+>> ntrain: 300, lr: 0.01, gamma: 0.6, w_d: 0.0
+----------------------------------------------------------------------------------------------------
+Time per step: 8.340578520670533
+>> epoch [   1/3000], runtime: 0.00s, train loss: 2.3385e-03, valid loss: 3.7026e-05 , test loss: 7.3176e-03
+Time per step: 8.347032822668552
+>> epoch [   2/3000], runtime: 0.00s, train loss: 1.5029e-04, valid loss: 2.4806e-05 , test loss: 3.9830e-03
+Time per step: 8.365193091332912
+>> epoch [   3/3000], runtime: 0.00s, train loss: 1.1879e-04, valid loss: 2.4169e-05 , test loss: 3.4977e-03
+Time per step: 8.381405087187886
+>> epoch [   4/3000], runtime: 0.00s, train loss: 1.0908e-04, valid loss: 2.1497e-05 , test loss: 2.5998e-03
+Time per step: 8.350020211189985
+>> epoch [   5/3000], runtime:  0.00s, train loss: 1.0120e-04 (best: 1.0908e-04/2.1497e-05)
+Time per step: 8.362928159534931
+>> epoch [   6/3000], runtime: 0.00s, train loss: 9.4996e-05, valid loss: 1.7853e-05 , test loss: 1.7411e-03
+Time per step: 8.374399388208985
+>> epoch [   7/3000], runtime: 0.00s, train loss: 8.8656e-05, valid loss: 1.7201e-05 , test loss: 1.2481e-03

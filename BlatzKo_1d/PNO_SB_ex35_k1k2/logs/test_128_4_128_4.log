@@ -1,0 +1,121 @@
+PID: 883478
+>> Device being used: cuda (NVIDIA GeForce RTX 4090)
+Total number of parameters: 100226
+>> Training Mesh resolution: 257x257
+>> Preprocessing completed, time elapsed:  0.40s
+/root/autodl-tmp/project/MPNO_final/BlatzKo_1d/PNO_SB_ex35_k1k2/PNO_SB.py:475: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_path))
+0, 0.5631695985794067, fsolve flag:4, 0.040255574162352, 2362
+
+1, 0.7126981019973755, fsolve flag:4, 0.08429859263864223, 2090
+
+2, 0.026095200330018997, fsolve flag:4, 1.3052504544808219e-05, 3663
+
+3, 0.6311303973197937, fsolve flag:4, 0.08652662102757551, 2358
+
+4, 0.500856876373291, fsolve flag:4, 0.01092473572115647, 3673
+
+5, 0.5965579748153687, fsolve flag:5, 0.03967223987990712, 2100
+
+6, 0.7121215462684631, fsolve flag:5, 0.06794073434624381, 2103
+
+7, 0.634587824344635, fsolve flag:4, 0.13329529586935646, 2876
+
+8, 0.7126973271369934, fsolve flag:5, 0.17092630665218808, 527
+
+9, 0.0032482934184372425, fsolve flag:1, 4.5602410736478305e-14, 285
+
+10, 0.4836292266845703, fsolve flag:4, 0.024104629213377294, 2873
+
+11, 0.7127346396446228, fsolve flag:5, 0.18938446191730307, 527
+
+12, 0.6621060371398926, fsolve flag:4, 0.05574991440854163, 2105
+
+13, 0.6893055438995361, fsolve flag:4, 0.04732537835747624, 2617
+
+14, 0.6326249837875366, fsolve flag:4, 0.04854706704338427, 2367
+
+15, 0.5388567447662354, fsolve flag:5, 0.048912795603446545, 2101
+
+16, 0.4762057065963745, fsolve flag:5, 0.022298958542659175, 2354
+
+17, 0.7133437395095825, fsolve flag:5, 0.19751949359630236, 527
+
+18, 0.01020926795899868, fsolve flag:1, 9.811595980124821e-14, 537
+
+19, 0.6798650622367859, fsolve flag:4, 0.04991049792366554, 2117
+
+20, 0.475299209356308, fsolve flag:5, 0.062407477257668445, 1057
+
+21, 0.7097244262695312, fsolve flag:4, 0.048391554956419405, 2627
+
+22, 0.5710306167602539, fsolve flag:4, 0.042784678428509984, 2353
+
+23, 0.4777393341064453, fsolve flag:5, 0.08521952707848296, 2894
+
+24, 0.5061699151992798, fsolve flag:4, 0.07678350535236908, 2098
+
+25, 0.5061331391334534, fsolve flag:4, 0.05224819796588529, 2120
+
+26, 0.7187945246696472, fsolve flag:4, 0.06245358290608229, 2090
+
+27, 0.5661345720291138, fsolve flag:4, 0.1035802934580475, 2099
+
+28, 0.7154563069343567, fsolve flag:4, 0.0567314730058399, 2102
+
+29, 0.5869064927101135, fsolve flag:4, 0.06141665710503889, 2874
+
+30, 0.5628200769424438, fsolve flag:4, 0.09851639127977412, 2620
+
+31, 0.7191942930221558, fsolve flag:4, 0.14841454821455063, 2091
+
+32, 0.48391473293304443, fsolve flag:4, 0.03025427227513039, 2621
+
+33, 0.48769518733024597, fsolve flag:4, 0.04399077177420124, 2627
+
+34, 0.712847113609314, fsolve flag:5, 0.21011156792638402, 527
+
+35, 0.5356219410896301, fsolve flag:5, 0.04232833141507206, 2112
+
+36, 0.527829110622406, fsolve flag:5, 0.023818988298510427, 2881
+
+37, 0.5162379145622253, fsolve flag:4, 0.12347352261483052, 2102
+
+38, 0.710628092288971, fsolve flag:4, 0.07639336926735667, 2103
+
+39, 0.5136447548866272, fsolve flag:4, 0.045102869339818, 2370
+
+40, 0.6648313999176025, fsolve flag:5, 0.07994117919611426, 1331
+
+41, 0.712826132774353, fsolve flag:5, 0.18415444661496094, 527
+
+42, 0.713628351688385, fsolve flag:5, 0.1561895037116817, 527
+
+43, 0.001996950712054968, fsolve flag:1, 2.4270863097086703e-13, 539
+
+44, 0.5380101203918457, fsolve flag:4, 0.03452143903338917, 2358
+
+45, 0.009523982182145119, fsolve flag:1, 1.0458300891968975e-13, 534
+
+46, 0.6886494755744934, fsolve flag:5, 0.03237349758704947, 2091
+
+47, 0.4969790577888489, fsolve flag:4, 0.07406515338438263, 2092
+
+48, 0.7133888006210327, fsolve flag:5, 0.15666743364072333, 527
+
+49, 0.48911094665527344, fsolve flag:4, 0.03513200512649513, 2616
+
+Traceback (most recent call last):
+  File "/root/autodl-tmp/project/MPNO_final/BlatzKo_1d/PNO_SB_ex35_k1k2/PNO_SB.py", line 584, in <module>
+    main()
+  File "/root/autodl-tmp/project/MPNO_final/BlatzKo_1d/PNO_SB_ex35_k1k2/PNO_SB.py", line 553, in main
+    test_solver(data_test, ntest, base_dir, 'test')       
+  File "/root/autodl-tmp/project/MPNO_final/BlatzKo_1d/PNO_SB_ex35_k1k2/PNO_SB.py", line 544, in test_solver
+    print('Relative L2 error for %s b: %s' % (name, np.mean(err_b)) )
+  File "/root/miniconda3/envs/NPO310/lib/python3.10/site-packages/numpy/_core/fromnumeric.py", line 3594, in mean
+    return mean(axis=axis, dtype=dtype, out=out, **kwargs)
+TypeError: mean() received an invalid combination of arguments - got (dtype=NoneType, out=NoneType, axis=NoneType, ), but expected one of:
+ * (*, torch.dtype dtype = None)
+ * (tuple of ints dim, bool keepdim = False, *, torch.dtype dtype = None)
+ * (tuple of names dim, bool keepdim = False, *, torch.dtype dtype = None)
+

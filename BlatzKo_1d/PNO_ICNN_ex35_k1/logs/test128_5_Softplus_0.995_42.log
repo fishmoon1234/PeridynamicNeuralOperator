@@ -1,0 +1,61 @@
+>> Device being used: cuda (NVIDIA GeForce RTX 4090)
+Total number of parameters: 66433
+>> Training Mesh resolution: 257x257
+tensor(0.8109)
+tensor(3.3456)
+>> Preprocessing completed, time elapsed:  0.36s
+/root/autodl-tmp/project/MPNO_final/BlatzKo_1d/PNO_ICNN_ex35_k1/PNO_BB.py:399: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_path))
+0, Error of b: 2.94e-01
+1, Error of b: 1.69e-03
+2, Error of b: 1.60e-03
+3, Error of b: 2.29e-03
+4, Error of b: 2.07e-02
+5, Error of b: 9.06e-04
+6, Error of b: 8.78e-04
+7, Error of b: 1.12e-03
+8, Error of b: 1.24e-03
+9, Error of b: 4.96e-03
+10, Error of b: 9.55e-02
+11, Error of b: 1.30e-03
+12, Error of b: 1.35e-03
+13, Error of b: 8.49e-04
+14, Error of b: 1.12e-03
+15, Error of b: 1.01e-03
+16, Error of b: 1.76e-02
+17, Error of b: 1.24e-03
+18, Error of b: 1.26e-03
+19, Error of b: 1.34e-03
+20, Error of b: 7.85e-04
+21, Error of b: 8.32e-04
+22, Error of b: 8.69e-04
+23, Error of b: 1.27e-03
+24, Error of b: 9.26e-04
+25, Error of b: 9.00e-04
+26, Error of b: 2.01e-03
+27, Error of b: 7.19e-03
+28, Error of b: 9.28e-04
+29, Error of b: 1.09e-03
+30, Error of b: 6.09e-03
+31, Error of b: 1.19e-03
+32, Error of b: 2.11e-03
+33, Error of b: 2.12e-03
+34, Error of b: 3.21e-03
+35, Error of b: 2.30e-03
+36, Error of b: 2.58e-02
+37, Error of b: 3.26e-03
+38, Error of b: 2.43e-03
+39, Error of b: 2.92e-01
+40, Error of b: 5.39e-03
+41, Error of b: 8.56e-04
+42, Error of b: 2.51e-03
+43, Error of b: 1.82e-03
+44, Error of b: 1.76e-03
+45, Error of b: 4.11e-03
+46, Error of b: 1.14e-03
+47, Error of b: 2.71e-01
+48, Error of b: 1.19e-03
+49, Error of b: 4.26e-02
+>> Mean error of b: 2.28e-02
+/root/autodl-tmp/project/MPNO_final/BlatzKo_1d/PNO_ICNN_ex35_k1/PNO_BB.py:469: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  g_fun = lambda x: np.pi*(x - x**(-3)) + np.sin(np.pi*x)

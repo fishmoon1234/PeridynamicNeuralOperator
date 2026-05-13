@@ -1,0 +1,3 @@
+usage: Train or Test Arg!  [-h] [--test] [--layer_info LAYER_INFO]
+                           [--act_xi ACT_XI] [--lr LR] [--seed SEED]
+Train or Test Arg! : error: argument --seed: expected one argument

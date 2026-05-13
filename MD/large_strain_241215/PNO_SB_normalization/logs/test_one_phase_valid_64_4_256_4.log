@@ -1,0 +1,111 @@
+PID: 175853
+>> Device being used: cuda (NVIDIA GeForce RTX 4090)
+Total number of parameters: 211650
+>> Preprocessing completed, time elapsed:  0.74s
+/root/autodl-tmp/project/MPNO_final/MD/large_strain_241215/PNO_SB_normalization/PNO_SB.py:474: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_path))
+0, 7.37e-02, 4.59e-02, fsolve flag:1, 7.187286428234074e-06, 919
+
+1, 6.02e-02, 2.25e-02, fsolve flag:1, 7.987022399902344e-06, 918
+
+2, 5.61e-02, 1.13e-02, fsolve flag:1, 8.940696716308594e-06, 470
+
+3, 5.63e-02, 1.53e-02, fsolve flag:1, 9.417533874511719e-06, 920
+
+4, 9.01e-02, 4.97e-02, fsolve flag:1, 7.934262612252496e-06, 922
+
+5, 4.05e-02, 2.96e-02, fsolve flag:1, 8.11554491519928e-06, 919
+
+6, 9.14e-02, 8.84e-02, fsolve flag:1, 9.18928435567068e-06, 918
+
+7, 4.56e-02, 9.81e-03, fsolve flag:1, 9.138602763414383e-06, 920
+
+8, 4.65e-02, 9.40e-03, fsolve flag:1, 8.717116543266457e-06, 923
+
+9, 4.11e-02, 1.77e-02, fsolve flag:1, 1.0609626770019531e-05, 920
+
+10, 3.04e-02, 1.33e-02, fsolve flag:1, 6.292015314102173e-06, 919
+
+11, 5.57e-02, 4.45e-02, fsolve flag:1, 9.372830390930176e-06, 917
+
+12, 6.56e-03, 1.90e-03, fsolve flag:1, 9.132781997323036e-06, 917
+
+13, 4.38e-02, 4.46e-02, fsolve flag:1, 9.124470125243533e-06, 918
+
+14, 1.71e-02, 6.18e-03, fsolve flag:1, 6.990128895267844e-06, 919
+
+15, 3.30e-02, 1.01e-02, fsolve flag:1, 9.446010153624229e-06, 921
+
+16, 3.19e-02, 1.35e-02, fsolve flag:1, 1.1783533409470692e-05, 917
+
+17, 4.13e-02, 3.37e-02, fsolve flag:1, 6.7574228523881175e-06, 915
+
+18, 2.10e-02, 1.30e-02, fsolve flag:1, 8.046627044677734e-06, 917
+
+19, 1.92e-02, 1.42e-02, fsolve flag:1, 6.4373016357421875e-06, 919
+
+20, 2.12e-02, 2.82e-02, fsolve flag:1, 7.3909759521484375e-06, 917
+
+21, 4.01e-02, 2.33e-02, fsolve flag:1, 8.27014446258545e-06, 917
+
+22, 6.65e-02, 7.31e-02, fsolve flag:1, 9.357929229736328e-06, 918
+
+23, 3.74e-02, 3.48e-02, fsolve flag:1, 7.3355622589588165e-06, 918
+
+24, 5.21e-02, 3.91e-02, fsolve flag:1, 7.808208465576172e-06, 918
+
+25, 4.40e-02, 6.55e-02, fsolve flag:1, 1.4126300811767578e-05, 916
+
+26, 1.07e-01, 1.27e-01, fsolve flag:1, 8.448958396911621e-06, 917
+
+27, 1.68e-02, 1.28e-02, fsolve flag:1, 9.059906005859375e-06, 919
+
+28, 9.32e-03, 3.38e-03, fsolve flag:1, 7.569789886474609e-06, 918
+
+29, 7.67e-02, 3.08e-02, fsolve flag:1, 1.0013580322265625e-05, 922
+
+30, 6.12e-02, 1.80e-02, fsolve flag:4, 0.14052431285381317, 7758
+
+31, 2.05e-02, 1.64e-02, fsolve flag:1, 9.298324584960938e-06, 919
+
+32, 2.25e-02, 1.85e-02, fsolve flag:1, 7.666414603590965e-06, 920
+
+33, 3.28e-02, 2.89e-02, fsolve flag:1, 8.048489689826965e-06, 918
+
+34, 6.98e-02, 4.34e-02, fsolve flag:1, 7.2801485657691956e-06, 916
+
+35, 4.38e-02, 2.05e-02, fsolve flag:1, 8.821487426757812e-06, 917
+
+36, 4.74e-02, 2.74e-02, fsolve flag:1, 6.198883056640625e-06, 918
+
+37, 4.69e-02, 2.22e-02, fsolve flag:1, 7.241964340209961e-06, 922
+
+38, 5.81e-02, 4.40e-02, fsolve flag:1, 7.729977369308472e-06, 919
+
+39, 8.72e-02, 7.90e-02, fsolve flag:1, 6.794929504394531e-06, 919
+
+40, 1.35e-01, 1.32e-01, fsolve flag:1, 7.717404514551163e-06, 920
+
+41, 9.78e-02, 7.45e-02, fsolve flag:1, 6.736007890140172e-06, 922
+
+42, 4.31e-02, 1.52e-02, fsolve flag:1, 8.106231689453125e-06, 918
+
+43, 2.96e-02, 8.07e-03, fsolve flag:1, 1.049041748046875e-05, 917
+
+44, 2.94e-02, 1.84e-02, fsolve flag:1, 7.271766662597656e-06, 918
+
+45, 3.04e-02, 1.84e-02, fsolve flag:1, 7.212162017822266e-06, 916
+
+46, 5.26e-02, 4.21e-02, fsolve flag:1, 7.82310962677002e-06, 919
+
+47, 7.43e-02, 4.73e-02, fsolve flag:1, 7.928232662379742e-06, 918
+
+48, 6.64e-02, 7.52e-02, fsolve flag:1, 7.331371307373047e-06, 916
+
+49, 1.18e-01, 1.36e-01, fsolve flag:1, 1.0848045349121094e-05, 918
+
+Relative L2 error for valid b: 5.08e-02
+Relative L2 error for valid u: 3.64e-02
+Relative L2 error for valid u_linear: 0.00e+00
+Error arrays saved to /root/autodl-tmp/project/MPNO_final/MD/large_strain_241215/PNO_SB_normalization/Results/MD_index_274_nvalid50_64_4_256_4_lr0.001_dr0.5_step100_bs1_norm1_z_seed_1_42/err_b_valid.txt and /root/autodl-tmp/project/MPNO_final/MD/large_strain_241215/PNO_SB_normalization/Results/MD_index_274_nvalid50_64_4_256_4_lr0.001_dr0.5_step100_bs1_norm1_z_seed_1_42/err_u_valid.txt
+Done!

@@ -1,0 +1,51 @@
+PID: 228184
+>> Device being used: cuda (NVIDIA GeForce RTX 4090)
+Total number of parameters: 197230
+>> Preprocessing completed, time elapsed:  0.72s
+/root/autodl-tmp/project/MPNO_final/MD/large_strain_241215/PNO_SB_normalization/PNO_SB.py:474: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_path))
+0, 0.05152793601155281, 0.015564531087875366, fsolve flag:1, 8.515853551216424e-06, 918
+
+1, 0.08432084321975708, 0.04988444969058037, fsolve flag:1, 8.58306884765625e-06, 918
+
+2, 0.03837018832564354, 0.03024461306631565, fsolve flag:1, 6.539678452099906e-06, 918
+
+3, 0.09153732657432556, 0.0907992571592331, fsolve flag:1, 1.1682510375976562e-05, 918
+
+4, 0.05327339842915535, 0.019439958035945892, fsolve flag:1, 7.510185241699219e-06, 925
+
+5, 0.05357588082551956, 0.04311355948448181, fsolve flag:1, 7.957268280733842e-06, 920
+
+6, 0.04245549067854881, 0.04176699370145798, fsolve flag:1, 6.856891559436917e-06, 918
+
+7, 0.032143812626600266, 0.015011453069746494, fsolve flag:1, 7.867813110351562e-06, 918
+
+8, 0.023409610614180565, 0.014732279814779758, fsolve flag:1, 1.2400051673466805e-05, 916
+
+9, 0.04440329596400261, 0.03371952846646309, fsolve flag:1, 9.925695849233307e-06, 917
+
+10, 0.04061836004257202, 0.022400032728910446, fsolve flag:1, 8.733664799365215e-06, 918
+
+11, 0.04941384494304657, 0.07282678782939911, fsolve flag:1, 6.787415259168483e-06, 915
+
+12, 0.010988716967403889, 0.011000917293131351, fsolve flag:1, 7.717591870459728e-06, 918
+
+13, 0.06508906930685043, 0.027937594801187515, fsolve flag:1, 9.453040547668934e-06, 925
+
+14, 0.019313739612698555, 0.013258496299386024, fsolve flag:1, 6.102025508880615e-06, 920
+
+15, 0.020991221070289612, 0.015347372740507126, fsolve flag:1, 8.650124073028564e-06, 920
+
+16, 0.06470983475446701, 0.04490318521857262, fsolve flag:1, 8.344650268554688e-06, 919
+
+17, 0.027583541348576546, 0.019721966236829758, fsolve flag:1, 1.0655465302988887e-05, 917
+
+18, 0.13415028154850006, 0.1319998949766159, fsolve flag:1, 9.5367431640625e-06, 919
+
+19, 0.07722928375005722, 0.0471353754401207, fsolve flag:1, 8.554527994419914e-06, 923
+
+Relative L2 error for test b: 0.051255283830687406
+Relative L2 error for test u: 0.038040412357077
+Relative L2 error for test u_linear: 0.0
+Error arrays saved to /root/autodl-tmp/project/MPNO_final/MD/large_strain_241215/PNO_SB_normalization/Results/MD_index_274_nvalid50_128_4_220_4_lr0.001_dr0.5_step100_bs1_norm1_z_seed_1_42/err_b_test.txt and /root/autodl-tmp/project/MPNO_final/MD/large_strain_241215/PNO_SB_normalization/Results/MD_index_274_nvalid50_128_4_220_4_lr0.001_dr0.5_step100_bs1_norm1_z_seed_1_42/err_u_test.txt
+Done!

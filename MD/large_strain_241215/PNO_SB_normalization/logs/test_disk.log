@@ -1,0 +1,171 @@
+PID: 175779
+>> Device being used: cuda (NVIDIA GeForce RTX 4090)
+Total number of parameters: 211650
+/root/miniconda3/envs/NPO310/lib/python3.10/site-packages/torch/functional.py:534: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /opt/conda/conda-bld/pytorch_1729647327489/work/aten/src/ATen/native/TensorShape.cpp:3595.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/root/autodl-tmp/project/MPNO_final/MD/large_strain_241215/PNO_SB_normalization/PNO_SB_test_disk.py:182: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_path))
+0, err b: 2.43e-02, rel err b: 1.98e-01, rel max err b: 1.00e-01, err u: 1.19e-02, fsolve flag:1, 8.749382686801255e-06, 1287
+
+1, err b: 6.26e-02, rel err b: 1.92e-01, rel max err b: 1.29e-01, err u: 9.93e-03, fsolve flag:1, 1.360476016998291e-05, 1287
+
+2, err b: 9.28e-02, rel err b: 1.90e-01, rel max err b: 1.28e-01, err u: 7.79e-03, fsolve flag:1, 9.450584002479445e-06, 1285
+
+3, err b: 1.13e-01, rel err b: 2.06e-01, rel max err b: 1.17e-01, err u: 5.95e-03, fsolve flag:1, 7.281079888343811e-06, 1285
+
+4, err b: 1.46e-01, rel err b: 2.48e-01, rel max err b: 1.20e-01, err u: 6.31e-03, fsolve flag:1, 8.48621129989624e-06, 1287
+
+5, err b: 2.79e-01, rel err b: 3.12e-01, rel max err b: 1.92e-01, err u: 8.48e-03, fsolve flag:1, 1.0035201739810873e-05, 1287
+
+6, err b: 3.80e-01, rel err b: 3.51e-01, rel max err b: 2.24e-01, err u: 1.04e-02, fsolve flag:1, 8.493661880493164e-06, 1285
+
+7, err b: 4.75e-01, rel err b: 4.09e-01, rel max err b: 2.45e-01, err u: 1.31e-02, fsolve flag:1, 7.271679351106286e-06, 1287
+
+8, err b: 5.83e-01, rel err b: 4.97e-01, rel max err b: 2.67e-01, err u: 1.73e-02, fsolve flag:1, 1.1859621736221015e-05, 1286
+
+9, err b: 7.19e-01, rel err b: 6.01e-01, rel max err b: 2.96e-01, err u: 2.24e-02, fsolve flag:1, 9.603798389434814e-06, 1287
+
+10, err b: 8.27e-01, rel err b: 6.96e-01, rel max err b: 3.10e-01, err u: 2.79e-02, fsolve flag:1, 1.0243384167551994e-05, 1287
+
+11, err b: 9.67e-01, rel err b: 7.85e-01, rel max err b: 3.32e-01, err u: 3.40e-02, fsolve flag:1, 1.060658905771561e-05, 1287
+
+12, err b: 1.14e+00, rel err b: 8.68e-01, rel max err b: 3.62e-01, err u: 4.07e-02, fsolve flag:1, 8.489481842843816e-06, 1291
+
+13, err b: 1.28e+00, rel err b: 9.55e-01, rel max err b: 3.77e-01, err u: 4.80e-02, fsolve flag:1, 9.048846550285816e-06, 1293
+
+14, err b: 1.41e+00, rel err b: 1.06e+00, rel max err b: 3.88e-01, err u: 5.63e-02, fsolve flag:1, 8.35862010717392e-06, 1289
+
+15, err b: 1.71e+00, rel err b: 1.20e+00, rel max err b: 4.39e-01, err u: 6.61e-02, fsolve flag:1, 7.615424692630768e-06, 1931
+
+16, err b: 2.39e+00, rel err b: 1.41e+00, rel max err b: 5.80e-01, err u: 7.93e-02, fsolve flag:1, 8.806586265563965e-06, 1298
+
+17, err b: 3.11e+00, rel err b: 1.68e+00, rel max err b: 7.12e-01, err u: 9.65e-02, fsolve flag:1, 1.0214745998382568e-05, 1302
+
+18, err b: 3.73e+00, rel err b: 1.98e+00, rel max err b: 8.08e-01, err u: 1.16e-01, fsolve flag:1, 9.07661160454154e-06, 1299
+
+19, err b: 4.79e+00, rel err b: 2.37e+00, rel max err b: 9.86e-01, err u: 1.40e-01, fsolve flag:1, 6.273388862609863e-06, 1303
+
+20, err b: 2.41e-02, rel err b: 2.11e-01, rel max err b: 1.23e-01, err u: 1.21e-02, fsolve flag:1, 9.758112355484627e-06, 1287
+
+21, err b: 5.92e-02, rel err b: 2.05e-01, rel max err b: 1.51e-01, err u: 1.02e-02, fsolve flag:1, 1.005051308311522e-05, 1288
+
+22, err b: 8.73e-02, rel err b: 2.02e-01, rel max err b: 1.49e-01, err u: 8.11e-03, fsolve flag:1, 6.947433575987816e-06, 1284
+
+23, err b: 1.06e-01, rel err b: 2.15e-01, rel max err b: 1.35e-01, err u: 6.23e-03, fsolve flag:1, 9.105075150728226e-06, 1283
+
+24, err b: 1.46e-01, rel err b: 2.55e-01, rel max err b: 1.49e-01, err u: 6.35e-03, fsolve flag:1, 7.924623787403107e-06, 1286
+
+25, err b: 2.20e-01, rel err b: 3.13e-01, rel max err b: 1.87e-01, err u: 8.23e-03, fsolve flag:1, 8.910894393920898e-06, 1287
+
+26, err b: 3.21e-01, rel err b: 3.57e-01, rel max err b: 2.35e-01, err u: 9.91e-03, fsolve flag:1, 9.039882570505142e-06, 1283
+
+27, err b: 4.01e-01, rel err b: 4.22e-01, rel max err b: 2.57e-01, err u: 1.25e-02, fsolve flag:1, 9.542331099510193e-06, 1286
+
+28, err b: 5.64e-01, rel err b: 5.21e-01, rel max err b: 3.21e-01, err u: 1.66e-02, fsolve flag:1, 9.735114872455597e-06, 1286
+
+29, err b: 7.89e-01, rel err b: 6.43e-01, rel max err b: 4.03e-01, err u: 2.18e-02, fsolve flag:1, 6.946618668735027e-06, 1289
+
+30, err b: 9.49e-01, rel err b: 7.59e-01, rel max err b: 4.41e-01, err u: 2.75e-02, fsolve flag:1, 8.052709745243192e-06, 1286
+
+31, err b: 1.11e+00, rel err b: 8.65e-01, rel max err b: 4.73e-01, err u: 3.36e-02, fsolve flag:1, 7.975002517923713e-06, 1289
+
+32, err b: 1.27e+00, rel err b: 9.55e-01, rel max err b: 4.98e-01, err u: 4.01e-02, fsolve flag:1, 8.57228587847203e-06, 1290
+
+33, err b: 1.45e+00, rel err b: 1.05e+00, rel max err b: 5.28e-01, err u: 4.74e-02, fsolve flag:1, 7.703900337219238e-06, 1291
+
+34, err b: 1.65e+00, rel err b: 1.16e+00, rel max err b: 5.62e-01, err u: 5.53e-02, fsolve flag:1, 9.886221960186958e-06, 1290
+
+35, err b: 1.86e+00, rel err b: 1.30e+00, rel max err b: 5.94e-01, err u: 6.46e-02, fsolve flag:1, 7.46455043554306e-06, 1294
+
+36, err b: 2.27e+00, rel err b: 1.51e+00, rel max err b: 6.82e-01, err u: 7.71e-02, fsolve flag:1, 6.981194019317627e-06, 1297
+
+37, err b: 2.69e+00, rel err b: 1.80e+00, rel max err b: 7.63e-01, err u: 9.41e-02, fsolve flag:1, 7.931143045425415e-06, 1299
+
+38, err b: 3.16e+00, rel err b: 2.12e+00, rel max err b: 8.52e-01, err u: 1.14e-01, fsolve flag:1, 9.149312973022461e-06, 1931
+
+39, err b: 4.12e+00, rel err b: 2.55e+00, rel max err b: 1.05e+00, err u: 1.40e-01, fsolve flag:1, 8.50786454975605e-06, 1930
+
+40, err b: 4.38e-02, rel err b: 7.86e-01, rel max err b: 4.59e-01, err u: 2.37e-02, fsolve flag:1, 9.452573067392223e-06, 1282
+
+41, err b: 6.01e-02, rel err b: 4.63e-01, rel max err b: 3.15e-01, err u: 9.70e-03, fsolve flag:1, 1.264689490199089e-05, 1285
+
+42, err b: 7.81e-02, rel err b: 3.75e-01, rel max err b: 2.73e-01, err u: 5.80e-03, fsolve flag:1, 9.90554690361023e-06, 1287
+
+43, err b: 9.62e-02, rel err b: 3.46e-01, rel max err b: 2.52e-01, err u: 3.98e-03, fsolve flag:1, 8.444301784038544e-06, 1284
+
+44, err b: 1.13e-01, rel err b: 3.37e-01, rel max err b: 2.38e-01, err u: 2.96e-03, fsolve flag:1, 9.704381227493286e-06, 1288
+
+45, err b: 1.33e-01, rel err b: 3.38e-01, rel max err b: 2.33e-01, err u: 2.48e-03, fsolve flag:1, 9.885965482681058e-06, 651
+
+46, err b: 1.61e-01, rel err b: 3.49e-01, rel max err b: 2.42e-01, err u: 2.96e-03, fsolve flag:1, 9.638030860514846e-06, 1290
+
+47, err b: 1.97e-01, rel err b: 3.74e-01, rel max err b: 2.58e-01, err u: 3.65e-03, fsolve flag:1, 1.1563301086425781e-05, 1292
+
+48, err b: 1.97e-01, rel err b: 3.47e-01, rel max err b: 2.30e-01, err u: 2.45e-03, fsolve flag:1, 8.17012733023148e-06, 658
+
+49, err b: 2.21e-01, rel err b: 3.44e-01, rel max err b: 2.32e-01, err u: 2.39e-03, fsolve flag:1, 8.106231689453125e-06, 659
+
+50, err b: 2.44e-01, rel err b: 3.48e-01, rel max err b: 2.32e-01, err u: 2.43e-03, fsolve flag:1, 7.994472980499268e-06, 1292
+
+51, err b: 2.69e-01, rel err b: 3.53e-01, rel max err b: 2.35e-01, err u: 2.62e-03, fsolve flag:1, 7.817521691322327e-06, 1295
+
+52, err b: 2.93e-01, rel err b: 3.58e-01, rel max err b: 2.36e-01, err u: 2.82e-03, fsolve flag:1, 8.628703653812408e-06, 665
+
+53, err b: 3.16e-01, rel err b: 3.67e-01, rel max err b: 2.37e-01, err u: 2.84e-03, fsolve flag:1, 9.074807167053223e-06, 665
+
+54, err b: 3.32e-01, rel err b: 3.77e-01, rel max err b: 2.32e-01, err u: 2.87e-03, fsolve flag:1, 2.047419548034668e-05, 666
+
+55, err b: 4.14e-01, rel err b: 3.89e-01, rel max err b: 2.71e-01, err u: 2.22e-03, fsolve flag:1, 1.341104507446289e-05, 1930
+
+56, err b: 5.70e-01, rel err b: 4.29e-01, rel max err b: 3.51e-01, err u: 2.66e-03, fsolve flag:1, 1.093303581001237e-05, 1299
+
+57, err b: 6.91e-01, rel err b: 5.01e-01, rel max err b: 4.02e-01, err u: 1.08e+00, fsolve flag:4, 0.11408313363790512, 9631
+
+58, err b: 8.37e-01, rel err b: 5.98e-01, rel max err b: 4.62e-01, err u: 1.58e+00, fsolve flag:4, 2.6986160278320312, 7035
+
+59, err b: 1.10e+00, rel err b: 7.36e-01, rel max err b: 5.74e-01, err u: 1.74e+00, fsolve flag:4, 0.3368486762046814, 10247
+
+60, err b: 2.61e-02, rel err b: 6.70e-01, rel max err b: 1.81e-01, err u: 6.23e-02, fsolve flag:1, 1.0553432730375789e-05, 1282
+
+61, err b: 3.00e-02, rel err b: 3.43e-01, rel max err b: 1.04e-01, err u: 2.20e-02, fsolve flag:1, 7.64080323278904e-06, 1285
+
+62, err b: 4.10e-02, rel err b: 2.55e-01, rel max err b: 9.48e-02, err u: 1.16e-02, fsolve flag:1, 8.644184163131285e-06, 1284
+
+63, err b: 6.29e-02, rel err b: 2.28e-01, rel max err b: 1.09e-01, err u: 7.07e-03, fsolve flag:1, 9.204959496855736e-06, 1286
+
+64, err b: 1.10e-01, rel err b: 2.32e-01, rel max err b: 1.53e-01, err u: 4.70e-03, fsolve flag:1, 9.79006290435791e-06, 1285
+
+65, err b: 1.67e-01, rel err b: 2.55e-01, rel max err b: 1.93e-01, err u: 3.52e-03, fsolve flag:1, 8.566770702600479e-06, 1289
+
+66, err b: 2.16e-01, rel err b: 2.83e-01, rel max err b: 2.14e-01, err u: 3.26e-03, fsolve flag:1, 1.1247699148952961e-05, 1282
+
+67, err b: 2.53e-01, rel err b: 3.06e-01, rel max err b: 2.19e-01, err u: 3.54e-03, fsolve flag:1, 7.1909744292497635e-06, 651
+
+68, err b: 2.81e-01, rel err b: 3.20e-01, rel max err b: 2.17e-01, err u: 3.95e-03, fsolve flag:1, 6.818532710894942e-06, 1286
+
+69, err b: 3.18e-01, rel err b: 3.30e-01, rel max err b: 2.21e-01, err u: 4.34e-03, fsolve flag:1, 9.345436410512775e-06, 1288
+
+70, err b: 3.72e-01, rel err b: 3.42e-01, rel max err b: 2.34e-01, err u: 4.69e-03, fsolve flag:1, 9.941806638380513e-06, 1289
+
+71, err b: 4.30e-01, rel err b: 3.55e-01, rel max err b: 2.48e-01, err u: 4.99e-03, fsolve flag:1, 7.9423189163208e-06, 1289
+
+72, err b: 4.83e-01, rel err b: 3.64e-01, rel max err b: 2.58e-01, err u: 5.23e-03, fsolve flag:1, 7.809329872543458e-06, 1293
+
+73, err b: 5.07e-01, rel err b: 3.73e-01, rel max err b: 2.51e-01, err u: 5.43e-03, fsolve flag:1, 8.016824722290039e-06, 1297
+
+74, err b: 5.51e-01, rel err b: 3.83e-01, rel max err b: 2.54e-01, err u: 5.64e-03, fsolve flag:1, 1.184782013297081e-05, 1294
+
+75, err b: 5.92e-01, rel err b: 3.97e-01, rel max err b: 2.56e-01, err u: 5.89e-03, fsolve flag:1, 9.032897651195526e-06, 661
+
+76, err b: 6.26e-01, rel err b: 4.14e-01, rel max err b: 2.55e-01, err u: 1.67e+00, fsolve flag:4, 0.6953756809234619, 7040
+
+77, err b: 6.55e-01, rel err b: 4.46e-01, rel max err b: 2.52e-01, err u: 1.46e+00, fsolve flag:4, 2.3387961387634277, 5769
+
+78, err b: 7.83e-01, rel err b: 4.96e-01, rel max err b: 2.85e-01, err u: 1.33e+00, fsolve flag:4, 6.031744480133057, 5788
+
+79, err b: 9.50e-01, rel err b: 5.60e-01, rel max err b: 3.29e-01, err u: 1.35e+00, fsolve flag:4, 5.985203742980957, 5752
+
+Mean of max error for test_disk data: 7.66e-01
+Mean of relative L2 error for test_disk data b: 6.19e-01
+Mean of relative max error for test_disk data b: 3.25e-01
+Mean of relative L2 error for test_disk data u: 1.51e-01

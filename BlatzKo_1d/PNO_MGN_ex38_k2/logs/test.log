@@ -1,0 +1,67 @@
+>> Device being used: cuda (NVIDIA GeForce RTX 4090)
+Total number of parameters: 198146
+>> Training Mesh resolution: 257x257
+/root/autodl-tmp/project/MPNO_final/BlatzKo_1d/PNO_MGN_ex38_k2/PNO_BB.py:120: UserWarning: torch.range is deprecated and will be removed in a future release because its behavior is inconsistent with Python's range builtin. Instead, use torch.arange, which produces values in [start, end).
+  ksi_range = torch.range(-m_fact, m_fact).int()
+tensor(0.4236)
+tensor(3.9208)
+>> Preprocessing completed, time elapsed:  0.38s
+/root/autodl-tmp/project/MPNO_final/BlatzKo_1d/PNO_MGN_ex38_k2/PNO_BB.py:375: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_path))
+/root/autodl-tmp/project/MPNO_final/BlatzKo_1d/PNO_MGN_ex38_k2/egnn_gcl.py:129: UserWarning: torch.range is deprecated and will be removed in a future release because its behavior is inconsistent with Python's range builtin. Instead, use torch.arange, which produces values in [start, end).
+  ksi_range = torch.range(-m_fact, m_fact).int()
+0, err b: tensor([0.0030]), err u: tensor([0.0081]), fsolve flag:1, 2.554681466371278e-10, 541
+1, err b: tensor([0.0036]), err u: tensor([0.0080]), fsolve flag:1, 8.847284016511026e-10, 538
+2, err b: tensor([0.0034]), err u: tensor([0.0064]), fsolve flag:1, 2.844664503953709e-10, 282
+3, err b: tensor([0.0038]), err u: tensor([0.0073]), fsolve flag:1, 6.191084311879536e-10, 533
+4, err b: tensor([0.0027]), err u: tensor([0.0066]), fsolve flag:1, 2.288875478040353e-10, 281
+5, err b: tensor([0.0035]), err u: tensor([0.0054]), fsolve flag:1, 2.450543878929068e-09, 279
+6, err b: tensor([0.0030]), err u: tensor([0.0044]), fsolve flag:1, 4.574334244722422e-10, 1326
+7, err b: tensor([0.0033]), err u: tensor([0.0078]), fsolve flag:1, 9.563061453832233e-11, 540
+8, err b: tensor([0.0025]), err u: tensor([0.0070]), fsolve flag:1, 5.794709156958788e-10, 1331
+9, err b: tensor([0.0038]), err u: tensor([0.0074]), fsolve flag:1, 2.0077961515596598e-10, 536
+10, err b: tensor([0.0039]), err u: tensor([0.0064]), fsolve flag:1, 8.519386862637646e-10, 274
+11, err b: tensor([0.0027]), err u: tensor([0.0062]), fsolve flag:1, 6.616692749261688e-10, 1068
+12, err b: tensor([0.0035]), err u: tensor([0.0048]), fsolve flag:1, 1.8610790686324208e-10, 282
+13, err b: tensor([0.0037]), err u: tensor([0.0072]), fsolve flag:1, 3.638463280664084e-10, 277
+14, err b: tensor([0.0031]), err u: tensor([0.0057]), fsolve flag:1, 1.0859793342365975e-09, 278
+15, err b: tensor([0.0034]), err u: tensor([0.0067]), fsolve flag:1, 8.493086511851544e-10, 278
+16, err b: tensor([0.0034]), err u: tensor([0.0082]), fsolve flag:1, 1.6254277923621885e-09, 279
+17, err b: tensor([0.0030]), err u: tensor([0.0079]), fsolve flag:1, 1.6750498765816246e-09, 277
+18, err b: tensor([0.0031]), err u: tensor([0.0047]), fsolve flag:1, 1.3873217019622075e-09, 280
+19, err b: tensor([0.0031]), err u: tensor([0.0063]), fsolve flag:1, 1.9358118996670726e-09, 281
+20, err b: tensor([0.0039]), err u: tensor([0.0241]), fsolve flag:1, 4.6289613808703223e-10, 810
+21, err b: tensor([0.0035]), err u: tensor([0.0064]), fsolve flag:1, 7.535279622494784e-10, 278
+22, err b: tensor([0.0029]), err u: tensor([0.0047]), fsolve flag:1, 1.6991741347283096e-10, 1079
+23, err b: tensor([0.0030]), err u: tensor([0.0070]), fsolve flag:1, 7.789617839648599e-10, 280
+24, err b: tensor([0.0038]), err u: tensor([0.0075]), fsolve flag:1, 2.2098778362789062e-10, 811
+25, err b: tensor([0.0029]), err u: tensor([0.0083]), fsolve flag:1, 1.647861846976184e-10, 285
+26, err b: tensor([0.0033]), err u: tensor([0.0042]), fsolve flag:1, 4.985400980928034e-11, 282
+27, err b: tensor([0.0027]), err u: tensor([0.0062]), fsolve flag:1, 1.1963247059654236e-10, 532
+28, err b: tensor([0.0034]), err u: tensor([0.0091]), fsolve flag:1, 1.2332347365529017e-09, 282
+29, err b: tensor([0.0032]), err u: tensor([0.0061]), fsolve flag:1, 8.097098547210635e-10, 280
+30, err b: tensor([0.0031]), err u: tensor([0.0033]), fsolve flag:1, 1.0367883218620477e-09, 282
+31, err b: tensor([0.0030]), err u: tensor([0.0043]), fsolve flag:1, 6.483702463810914e-14, 537
+32, err b: tensor([0.0033]), err u: tensor([0.0059]), fsolve flag:1, 9.640439557756508e-10, 278
+33, err b: tensor([0.0033]), err u: tensor([0.1005]), fsolve flag:1, 1.3230230799798903e-08, 534
+34, err b: tensor([0.0034]), err u: tensor([0.8423]), fsolve flag:5, 1.5414194126774707, 527
+35, err b: tensor([0.0028]), err u: tensor([0.0053]), fsolve flag:1, 5.359046539865631e-13, 794
+36, err b: tensor([0.0029]), err u: tensor([0.0080]), fsolve flag:1, 1.107016922574644e-09, 280
+37, err b: tensor([0.0029]), err u: tensor([0.0371]), fsolve flag:1, 1.1501910535116622e-13, 1062
+38, err b: tensor([0.0039]), err u: tensor([0.0057]), fsolve flag:1, 6.511803318787202e-10, 274
+39, err b: tensor([0.0028]), err u: tensor([0.0071]), fsolve flag:1, 5.30354427041857e-10, 545
+40, err b: tensor([0.0031]), err u: tensor([0.0058]), fsolve flag:1, 3.863592223929402e-10, 280
+41, err b: tensor([0.0031]), err u: tensor([0.0067]), fsolve flag:1, 2.2641253316635357e-09, 280
+42, err b: tensor([0.0031]), err u: tensor([0.0061]), fsolve flag:1, 1.3443313129357648e-10, 280
+43, err b: tensor([0.0036]), err u: tensor([0.0044]), fsolve flag:1, 6.234723293196964e-10, 278
+44, err b: tensor([0.0046]), err u: tensor([0.0354]), fsolve flag:1, 1.3586048952518581e-11, 531
+45, err b: tensor([0.0031]), err u: tensor([0.0062]), fsolve flag:1, 1.3149773214760074e-09, 283
+46, err b: tensor([0.0036]), err u: tensor([0.0054]), fsolve flag:1, 2.886567651572136e-10, 530
+47, err b: tensor([0.0039]), err u: tensor([0.0085]), fsolve flag:1, 5.922003165625966e-11, 536
+48, err b: tensor([0.0026]), err u: tensor([0.0058]), fsolve flag:1, 7.05247416021848e-10, 1066
+49, err b: tensor([0.0034]), err u: tensor([0.0059]), fsolve flag:1, 1.4325740593790215e-10, 280
+Error of u: 2.65e-02
+Error of b: 3.27e-03
+/root/autodl-tmp/project/MPNO_final/BlatzKo_1d/PNO_MGN_ex38_k2/PNO_BB.py:501: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  k_fun = lambda x: 2*c*np.cos(np.pi*np.abs(x))
+Error of k: 2.2233e-03

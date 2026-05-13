@@ -1,0 +1,10 @@
+/home/u2025010169/PROJECT/BlatzKo_2d/generate_data/analytical_u/ex1_batch.py:177: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  I_1[k], err1 = integrate.quad(fk_1, 0, delta, epsabs=1e-10, epsrel=1e-10)
+/home/u2025010169/PROJECT/BlatzKo_2d/generate_data/analytical_u/ex1_batch.py:179: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  I_2[k], err2 = integrate.quad(fk_2, 0, delta, epsabs=1e-10, epsrel=1e-10)

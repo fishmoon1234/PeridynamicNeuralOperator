@@ -1,0 +1,34 @@
+>> Device being used: cuda (NVIDIA GeForce RTX 4090)
+Total number of parameters: 66433
+>> Training Mesh resolution: 257x257
+tensor(0.8109)
+tensor(3.3456)
+>> Preprocessing completed, time elapsed:  0.36s
+>> ntrain: 300, lr: 0.01, gamma: 0.6, w_d: 0.0
+----------------------------------------------------------------------------------------------------
+>> epoch [   1/3000], runtime:13.15s, train err:3.2666e-03, valid err: 7.2910e-05, test err: 7.8638e-05, (best: 3.2666e-03/7.2910e-05)
+>> epoch [  51/3000], runtime:13.24s, train err:6.0867e-07, valid err: 6.2988e-07, test err: 5.6067e-07, (best: 6.0867e-07/6.2988e-07)
+>> epoch [ 101/3000], runtime:13.19s, train err:1.9154e-07, valid err: 2.1573e-07, test err: 1.7856e-07, (best: 1.9125e-07/2.1573e-07)
+>> epoch [ 151/3000], runtime:13.25s, train err:1.1169e-07, valid err: 1.1807e-07, test err: 1.0004e-07, (best: 1.1021e-07/1.1807e-07)
+>> epoch [ 201/3000], runtime:13.26s, train err:5.7536e-08, valid err: 5.6047e-08, test err: 5.0037e-08, (best: 5.7126e-08/5.6047e-08)
+>> epoch [ 251/3000], runtime:13.25s, train err:3.2210e-08, valid err: 3.2201e-08, test err: 3.2967e-08, (best: 2.9309e-08/2.6708e-08)
+>> epoch [ 301/3000], runtime:13.25s, train err:1.9355e-08, valid err: 1.5914e-08, test err: 1.7147e-08, (best: 1.9215e-08/1.5914e-08)
+>> epoch [ 351/3000], runtime:13.20s, train err:2.0282e-08, valid err: 9.4165e-09, test err: 1.0280e-08, (best: 1.1791e-08/9.4165e-09)
+>> epoch [ 401/3000], runtime:13.26s, train err:9.7932e-09, valid err: 8.3015e-09, test err: 8.3916e-09, (best: 8.5858e-09/5.7615e-09)
+>> epoch [ 451/3000], runtime:13.22s, train err:5.4853e-09, valid err: 4.5249e-09, test err: 5.8119e-09, (best: 5.4853e-09/4.5249e-09)
+>> epoch [ 501/3000], runtime:13.28s, train err:5.8922e-09, valid err: 3.5849e-09, test err: 4.2563e-09, (best: 4.6971e-09/3.2010e-09)
+>> epoch [ 551/3000], runtime:13.31s, train err:4.1479e-09, valid err: 3.2656e-09, test err: 3.9182e-09, (best: 3.3746e-09/2.2943e-09)
+>> epoch [ 601/3000], runtime:13.27s, train err:2.6815e-09, valid err: 1.8565e-09, test err: 2.4966e-09, (best: 2.6815e-09/1.8565e-09)
+>> epoch [ 651/3000], runtime:13.31s, train err:3.0829e-09, valid err: 1.9968e-09, test err: 2.9443e-09, (best: 2.5572e-09/1.6595e-09)
+>> epoch [ 701/3000], runtime:13.32s, train err:4.2377e-09, valid err: 1.5868e-09, test err: 2.2841e-09, (best: 2.1504e-09/1.5412e-09)
+>> epoch [ 751/3000], runtime:13.32s, train err:2.1481e-09, valid err: 1.4679e-09, test err: 2.1925e-09, (best: 1.9542e-09/1.4386e-09)
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+>> 128_5, Softplus, ntrain: 300, lr: 0.01, gamma: 0.6, w_d: 0.0
+>> Best train error:  1.9542e-09
+>> Best valid error:  1.4386e-09
+>> Best test error:  2.1680e-09
+>> Best epoch: 716
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+>> Training Completed!!

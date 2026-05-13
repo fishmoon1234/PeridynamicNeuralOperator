@@ -1,0 +1,93 @@
+PID: 187612
+>> Device being used: cuda (NVIDIA GeForce RTX 4090)
+Total number of parameters: 211076
+>> Preprocessing completed, time elapsed:  0.71s
+/root/autodl-tmp/project/MPNO_final/MD/large_strain_241215/PNO_NN_DBC_xi_cMGNz_twophase_normalization/PNO_BB.py:478: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_path))
+0, 0.019684607163071632, fsolve flag:1, 1.2934207916259766e-05, 495
+
+1, 0.11842586100101471, fsolve flag:1, 1.0768308129627258e-05, 934
+
+2, 0.16981807351112366, fsolve flag:1, 8.52346420288086e-06, 938
+
+3, 0.26526880264282227, fsolve flag:1, 9.298324584960938e-06, 475
+
+4, 0.12298113852739334, fsolve flag:5, 1.0424293577671051e-05, 1399
+
+5, 0.2195691615343094, fsolve flag:1, 7.033348083496094e-06, 4110
+
+6, 0.05653013288974762, fsolve flag:5, 8.285045623779297e-06, 949
+
+7, 0.09406904131174088, fsolve flag:1, 6.981194019317627e-06, 1398
+
+8, 0.1342536360025406, fsolve flag:5, 8.64267349243164e-06, 938
+
+9, 0.1981743723154068, fsolve flag:5, 7.621129043400288e-06, 944
+
+10, 0.2259443700313568, fsolve flag:1, 9.503492037765682e-06, 924
+
+11, 0.2984319031238556, fsolve flag:1, 8.92121170181781e-06, 927
+
+12, 0.14334791898727417, fsolve flag:1, 9.838491678237915e-06, 1384
+
+13, 0.15788164734840393, fsolve flag:1, 7.330192602239549e-06, 930
+
+14, 0.23040814697742462, fsolve flag:1, 1.0552283129072748e-05, 927
+
+15, 0.21195060014724731, fsolve flag:1, 8.106231689453125e-06, 923
+
+16, 0.28590598702430725, fsolve flag:1, 6.496906280517578e-06, 925
+
+17, 0.3825431764125824, fsolve flag:1, 6.765127182006836e-06, 922
+
+18, 0.2565764784812927, fsolve flag:1, 8.459668606519699e-06, 924
+
+19, 0.2812623381614685, fsolve flag:1, 9.488314390182495e-06, 921
+
+20, 0.33919885754585266, fsolve flag:1, 9.626004612073302e-06, 923
+
+21, 0.311845064163208, fsolve flag:1, 1.0454619769006968e-05, 920
+
+22, 0.18693628907203674, fsolve flag:5, 1.120948581956327e-05, 1402
+
+23, 0.4268445074558258, fsolve flag:1, 9.181239875033498e-06, 923
+
+24, 0.021797968074679375, fsolve flag:1, 2.0742416381835938e-05, 924
+
+25, 0.0787145271897316, fsolve flag:5, 7.528811693191528e-06, 947
+
+26, 0.11389993131160736, fsolve flag:1, 8.69855284690857e-06, 947
+
+27, 0.209354430437088, fsolve flag:1, 1.1274358257651329e-05, 1391
+
+28, 0.32244303822517395, fsolve flag:1, 8.806586265563965e-06, 928
+
+29, 0.11814183741807938, fsolve flag:1, 8.423347026109695e-06, 2748
+
+30, 0.17428448796272278, fsolve flag:1, 7.152557373046875e-06, 943
+
+31, 0.1511404812335968, fsolve flag:5, 9.268522262573242e-06, 936
+
+32, 0.21781674027442932, fsolve flag:1, 7.815659046173096e-06, 950
+
+33, 0.18318484723567963, fsolve flag:1, 1.138448715209961e-05, 924
+
+34, 0.254332572221756, fsolve flag:1, 8.945353329181671e-06, 931
+
+35, 0.3187660872936249, fsolve flag:1, 1.0201707482337952e-05, 927
+
+36, 0.28719210624694824, fsolve flag:1, 7.62939453125e-06, 928
+
+37, 0.24517424404621124, fsolve flag:1, 9.928458894137293e-06, 925
+
+38, 0.2360554188489914, fsolve flag:1, 9.175390005111694e-06, 920
+
+39, 0.2645650804042816, fsolve flag:1, 8.263159543275833e-06, 922
+
+Relative L2 error for index_cg-md-250212_0.1_0.15_0.01 b: 0.2827666586264968
+Relative L2 error for index_cg-md-250212_0.1_0.15_0.01 u: 0.20836789775639772
+Relative L2 error for index_cg-md-250212_0.1_0.15_0.01 u_linear: 0.0
+Error arrays saved to /root/autodl-tmp/project/MPNO_final/MD/large_strain_241215/PNO_NN_DBC_xi_cMGNz_twophase_normalization/Results/MD_index_274_nvalid50_64_4_256_4_lr0.001_dr0.5_step100_bs2_norm1_z_seed_1_42/err_b_index_cg-md-250212_0.1_0.15_0.01.txt and /root/autodl-tmp/project/MPNO_final/MD/large_strain_241215/PNO_NN_DBC_xi_cMGNz_twophase_normalization/Results/MD_index_274_nvalid50_64_4_256_4_lr0.001_dr0.5_step100_bs2_norm1_z_seed_1_42/err_u_index_cg-md-250212_0.1_0.15_0.01.txt
+/root/miniconda3/envs/NPO310/lib/python3.10/site-packages/torch/functional.py:534: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /opt/conda/conda-bld/pytorch_1729647327489/work/aten/src/ATen/native/TensorShape.cpp:3595.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Done!

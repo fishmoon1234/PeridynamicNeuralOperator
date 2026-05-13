@@ -1,0 +1,11 @@
+PID: 25419
+>> Device being used: cuda (NVIDIA GeForce RTX 4090)
+Total number of parameters: 49921
+>> Training Mesh resolution: 49x49
+>> grid: torch.Size([2401, 2]), edge_index: torch.Size([2, 410273]), edge_attr: torch.Size([410273, 2])
+>> Preprocessing completed, time elapsed:  59.97s
+/root/autodl-tmp/project/MPNO_final/BlatzKo_2d/PNO_MGN_ex5_k/PNO_BB.py:389: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_path))
+Error of b: 9.0245e-02
+relative error of k: tensor(0.1292)
+>> Testing Completed!!

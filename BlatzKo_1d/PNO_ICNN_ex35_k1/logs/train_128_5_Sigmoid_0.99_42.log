@@ -1,0 +1,32 @@
+>> Device being used: cuda (NVIDIA GeForce RTX 4090)
+Total number of parameters: 66433
+>> Training Mesh resolution: 257x257
+tensor(0.8109)
+tensor(3.3456)
+>> Preprocessing completed, time elapsed:  0.31s
+>> ntrain: 300, lr: 0.01, gamma: 0.6, w_d: 0.0
+----------------------------------------------------------------------------------------------------
+>> epoch [   1/3000], runtime:  21.15s, train err: 5.0590e+00 , valid err: 4.9742e+00 , test err: 5.3384e+00, (best: 5.0590e+00/4.9742e+00)
+>> epoch [  51/3000], runtime:  23.03s, train err: 2.7609e-02 , valid err: 0.0000e+00 , test err: 0.0000e+00, (best: 2.6652e-02/2.4785e-02)
+>> epoch [ 101/3000], runtime:  23.05s, train err: 1.8885e-02 , valid err: 0.0000e+00 , test err: 0.0000e+00, (best: 1.8065e-02/1.6667e-02)
+>> epoch [ 151/3000], runtime:  24.10s, train err: 1.1023e-02 , valid err: 1.2393e-02 , test err: 1.1195e-02, (best: 1.1140e-02/9.9074e-03)
+>> epoch [ 201/3000], runtime:  23.06s, train err: 7.7275e-03 , valid err: 0.0000e+00 , test err: 0.0000e+00, (best: 7.6530e-03/6.8667e-03)
+>> epoch [ 251/3000], runtime:  24.08s, train err: 6.6001e-03 , valid err: 0.0000e+00 , test err: 0.0000e+00, (best: 6.5291e-03/5.8837e-03)
+>> epoch [ 301/3000], runtime:  23.41s, train err: 5.8732e-03 , valid err: 5.4633e-03 , test err: 5.2265e-03, (best: 5.8946e-03/5.4170e-03)
+>> epoch [ 351/3000], runtime:  24.09s, train err: 5.5635e-03 , valid err: 0.0000e+00 , test err: 0.0000e+00, (best: 5.5463e-03/5.0834e-03)
+>> epoch [ 401/3000], runtime:  23.05s, train err: 5.3628e-03 , valid err: 0.0000e+00 , test err: 0.0000e+00, (best: 5.3439e-03/4.9269e-03)
+>> epoch [ 451/3000], runtime:  24.07s, train err: 5.1730e-03 , valid err: 4.7939e-03 , test err: 4.5933e-03, (best: 5.1929e-03/4.7864e-03)
+>> epoch [ 501/3000], runtime:  24.07s, train err: 5.1101e-03 , valid err: 0.0000e+00 , test err: 0.0000e+00, (best: 5.0994e-03/4.6922e-03)
+>> epoch [ 551/3000], runtime:  23.04s, train err: 5.0643e-03 , valid err: 0.0000e+00 , test err: 0.0000e+00, (best: 5.0545e-03/4.6587e-03)
+>> epoch [ 601/3000], runtime:  24.08s, train err: 5.0152e-03 , valid err: 4.6643e-03 , test err: 4.4875e-03, (best: 5.0315e-03/4.6368e-03)
+>> epoch [ 651/3000], runtime:  23.44s, train err: 4.9972e-03 , valid err: 4.6502e-03 , test err: 4.4750e-03, (best: 5.0204e-03/4.6181e-03)
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+>> 128_5, Sigmoid, ntrain: 300, lr: 0.01, gamma: 0.6, w_d: 0.0
+>> Best train error:  5.0204e-03
+>> Best valid error:  4.6181e-03
+>> Best test error:  4.4470e-03
+>> Best epoch: 610
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+>> Training Completed!!

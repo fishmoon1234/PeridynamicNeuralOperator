@@ -1,0 +1,44 @@
+Total number of parameters: 66433
+/root/autodl-tmp/project/MPNO/BlatzKo_1d/ex35/MLP/plot_u_MGN_MLP_ICNN.py:43: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model_NN.load_state_dict(torch.load(model_path))
+Total number of parameters: 1153
+/root/autodl-tmp/project/MPNO/BlatzKo_1d/ex35/MLP/plot_u_MGN_MLP_ICNN.py:54: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model_MGN.load_state_dict(torch.load(model_path))
+ICNN Total number of parameters: 66433
+/root/autodl-tmp/project/MPNO/BlatzKo_1d/ex35/MLP/plot_u_MGN_MLP_ICNN.py:66: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model_ICNN.load_state_dict(torch.load(model_path))
+The j-th data is: 0
+NN linear solver for sample 0: error=9.67e-03
+NN nonlinear solver for sample 0: error=9.67e-03
+MGN linear solver for sample 0: error=7.14e-07
+MGN nonlinear solver for sample 0: error=5.56e-07
+ICNN linear solver for sample 0: error=9.35e-07
+ICNN nonlinear solver for sample 0: error=5.74e-07
+The j-th data is: 1
+NN linear solver for sample 1: error=4.52e-02
+NN nonlinear solver for sample 1: error=4.04e-02
+MGN linear solver for sample 1: error=1.00e-06
+MGN nonlinear solver for sample 1: error=8.81e-07
+ICNN linear solver for sample 1: error=8.11e-07
+ICNN nonlinear solver for sample 1: error=5.95e-07
+The j-th data is: 2
+NN linear solver for sample 2: error=5.24e-07
+NN nonlinear solver for sample 2: error=5.71e-07
+MGN linear solver for sample 2: error=4.09e-07
+MGN nonlinear solver for sample 2: error=3.03e-07
+ICNN linear solver for sample 2: error=4.01e-07
+ICNN nonlinear solver for sample 2: error=4.46e-07
+The j-th data is: 3
+NN linear solver for sample 3: error=2.91e-02
+NN nonlinear solver for sample 3: error=2.91e-02
+MGN linear solver for sample 3: error=6.99e-07
+MGN nonlinear solver for sample 3: error=6.31e-07
+ICNN linear solver for sample 3: error=8.37e-07
+ICNN nonlinear solver for sample 3: error=6.45e-07
+The j-th data is: 4
+NN linear solver for sample 4: error=6.31e-07
+NN nonlinear solver for sample 4: error=4.44e-07
+MGN linear solver for sample 4: error=6.07e-07
+MGN nonlinear solver for sample 4: error=4.42e-07
+ICNN linear solver for sample 4: error=5.40e-07
+ICNN nonlinear solver for sample 4: error=4.98e-07

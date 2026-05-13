@@ -1,0 +1,45 @@
+>> Device being used: cuda (NVIDIA GeForce RTX 4090)
+Total number of parameters: 1321
+>> Training Mesh resolution: 257x257
+tensor(0.8109)
+tensor(3.3456)
+>> Preprocessing completed, time elapsed:  0.71s
+>> ntrain: 300, lr: 0.01, gamma: 0.6, w_d: 0.0
+----------------------------------------------------------------------------------------------------
+>> epoch [   1/3000], runtime:  6.06s, train err: 5.0897e+00 , valid err: 5.1199e+00 , test err: 5.4932e+00, (best: 5.0897e+00/5.1199e+00)
+>> epoch [  51/3000], runtime:  5.64s, train err: 5.4599e-02 , valid err: 5.3976e-02 , test err: 5.6946e-02, (best: 5.6436e-02/5.1709e-02)
+>> epoch [ 101/3000], runtime:  5.11s, train err: 3.6535e-02 , valid err: 3.5967e-02 , test err: 3.1798e-02, (best: 3.6535e-02/3.5967e-02)
+>> epoch [ 151/3000], runtime:  4.66s, train err: 1.4520e-02 , valid err: 1.3285e-02 , test err: 1.3621e-02, (best: 1.4520e-02/1.3285e-02)
+>> epoch [ 201/3000], runtime:  3.35s, train err: 1.0693e-02 , valid err: 0.0000e+00 , test err: 0.0000e+00, (best: 9.3998e-03/8.6549e-03)
+>> epoch [ 251/3000], runtime:  2.81s, train err: 6.4754e-03 , valid err: 6.3190e-03 , test err: 6.3097e-03, (best: 6.5442e-03/5.8611e-03)
+>> epoch [ 301/3000], runtime:  2.64s, train err: 4.4835e-03 , valid err: 4.3485e-03 , test err: 4.0318e-03, (best: 4.5873e-03/3.9456e-03)
+>> epoch [ 351/3000], runtime:  3.53s, train err: 3.3974e-03 , valid err: 0.0000e+00 , test err: 0.0000e+00, (best: 3.2875e-03/2.8473e-03)
+>> epoch [ 401/3000], runtime:  2.51s, train err: 2.8518e-03 , valid err: 0.0000e+00 , test err: 0.0000e+00, (best: 2.7305e-03/2.4353e-03)
+>> epoch [ 451/3000], runtime:  2.25s, train err: 2.4422e-03 , valid err: 2.2277e-03 , test err: 2.1904e-03, (best: 2.4800e-03/2.1290e-03)
+>> epoch [ 501/3000], runtime:  2.13s, train err: 2.5803e-03 , valid err: 0.0000e+00 , test err: 0.0000e+00, (best: 2.3024e-03/2.0073e-03)
+>> epoch [ 551/3000], runtime:  2.52s, train err: 2.1887e-03 , valid err: 2.0177e-03 , test err: 1.9549e-03, (best: 2.1888e-03/1.9303e-03)
+>> epoch [ 601/3000], runtime:  1.96s, train err: 2.0640e-03 , valid err: 1.9186e-03 , test err: 1.8600e-03, (best: 2.0664e-03/1.8685e-03)
+>> epoch [ 651/3000], runtime:  2.00s, train err: 2.0050e-03 , valid err: 1.8549e-03 , test err: 1.7901e-03, (best: 2.0137e-03/1.8257e-03)
+>> epoch [ 701/3000], runtime:  2.17s, train err: 1.9732e-03 , valid err: 0.0000e+00 , test err: 0.0000e+00, (best: 1.9665e-03/1.7635e-03)
+>> epoch [ 751/3000], runtime:  2.09s, train err: 1.9343e-03 , valid err: 0.0000e+00 , test err: 0.0000e+00, (best: 1.9181e-03/1.7506e-03)
+>> epoch [ 801/3000], runtime:  2.01s, train err: 1.8783e-03 , valid err: 1.7204e-03 , test err: 1.6848e-03, (best: 1.8783e-03/1.7204e-03)
+>> epoch [ 851/3000], runtime:  2.40s, train err: 1.8635e-03 , valid err: 1.7305e-03 , test err: 1.6758e-03, (best: 1.8676e-03/1.7090e-03)
+>> epoch [ 901/3000], runtime:  2.42s, train err: 1.8622e-03 , valid err: 0.0000e+00 , test err: 0.0000e+00, (best: 1.8556e-03/1.6951e-03)
+>> epoch [ 951/3000], runtime:  2.59s, train err: 1.8243e-03 , valid err: 1.6975e-03 , test err: 1.6375e-03, (best: 1.8326e-03/1.6861e-03)
+>> epoch [1001/3000], runtime:  1.61s, train err: 1.8185e-03 , valid err: 1.6756e-03 , test err: 1.6182e-03, (best: 1.8185e-03/1.6756e-03)
+>> epoch [1051/3000], runtime:  2.59s, train err: 1.8157e-03 , valid err: 0.0000e+00 , test err: 0.0000e+00, (best: 1.8046e-03/1.6727e-03)
+>> epoch [1101/3000], runtime:  2.12s, train err: 1.7911e-03 , valid err: 1.6869e-03 , test err: 1.6099e-03, (best: 1.7941e-03/1.6586e-03)
+>> epoch [1151/3000], runtime:  2.04s, train err: 1.7848e-03 , valid err: 0.0000e+00 , test err: 0.0000e+00, (best: 1.7757e-03/1.6548e-03)
+>> epoch [1201/3000], runtime:  2.17s, train err: 1.7714e-03 , valid err: 0.0000e+00 , test err: 0.0000e+00, (best: 1.7693e-03/1.6501e-03)
+>> epoch [1251/3000], runtime:  1.86s, train err: 1.7690e-03 , valid err: 0.0000e+00 , test err: 0.0000e+00, (best: 1.7637e-03/1.6399e-03)
+>> epoch [1301/3000], runtime:  2.54s, train err: 1.7608e-03 , valid err: 0.0000e+00 , test err: 0.0000e+00, (best: 1.7591e-03/1.6365e-03)
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+>> 20_4, Sigmoid, ntrain: 300, lr: 0.01, gamma: 0.6, w_d: 0.0
+>> Best train error:  1.7591e-03
+>> Best valid error:  1.6365e-03
+>> Best test error:  1.5694e-03
+>> Best epoch: 1260
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+>> Training Completed!!

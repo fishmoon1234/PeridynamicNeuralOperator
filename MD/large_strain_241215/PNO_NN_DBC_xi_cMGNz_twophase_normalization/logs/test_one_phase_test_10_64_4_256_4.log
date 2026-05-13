@@ -1,0 +1,53 @@
+PID: 187611
+>> Device being used: cuda (NVIDIA GeForce RTX 4090)
+Total number of parameters: 211076
+>> Preprocessing completed, time elapsed:  0.62s
+/root/autodl-tmp/project/MPNO_final/MD/large_strain_241215/PNO_NN_DBC_xi_cMGNz_twophase_normalization/PNO_BB.py:478: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_path))
+0, 0.04247520491480827, fsolve flag:1, 8.225440979003906e-06, 921
+
+1, 0.07547284662723541, fsolve flag:1, 1.3172626495361328e-05, 922
+
+2, 0.0597865991294384, fsolve flag:1, 7.256865501403809e-06, 919
+
+3, 0.11362802237272263, fsolve flag:1, 1.2097178114345297e-05, 919
+
+4, 0.031333133578300476, fsolve flag:5, 8.732080459594727e-06, 1391
+
+5, 0.05202750116586685, fsolve flag:1, 8.760020136833191e-06, 918
+
+6, 0.04659948870539665, fsolve flag:1, 1.421279739588499e-05, 924
+
+7, 0.01627918891608715, fsolve flag:1, 8.457645890302956e-06, 917
+
+8, 0.028223346918821335, fsolve flag:1, 1.0814517736434937e-05, 915
+
+9, 0.04494333267211914, fsolve flag:1, 1.3723969459533691e-05, 920
+
+10, 0.03400087356567383, fsolve flag:1, 1.0163936167373322e-05, 917
+
+11, 0.07906464487314224, fsolve flag:1, 1.166159472631989e-05, 918
+
+12, 0.03834306821227074, fsolve flag:1, 1.2534027518995572e-05, 915
+
+13, 0.008474260568618774, fsolve flag:1, 7.070655101415468e-06, 932
+
+14, 0.016901807859539986, fsolve flag:1, 9.727198630571365e-06, 918
+
+15, 0.015327890403568745, fsolve flag:1, 1.3126060366630554e-05, 920
+
+16, 0.012484656646847725, fsolve flag:1, 1.1004565749317408e-05, 923
+
+17, 0.022950682789087296, fsolve flag:1, 9.626150131225586e-06, 916
+
+18, 0.1448887586593628, fsolve flag:1, 1.1242926120758057e-05, 923
+
+19, 0.06951206922531128, fsolve flag:1, 8.843875548336655e-06, 920
+
+Relative L2 error for test b: 0.0753894004970789
+Relative L2 error for test u: 0.047635868890210986
+Relative L2 error for test u_linear: 0.0
+Error arrays saved to /root/autodl-tmp/project/MPNO_final/MD/large_strain_241215/PNO_NN_DBC_xi_cMGNz_twophase_normalization/Results/MD_index_274_nvalid50_64_4_256_4_lr0.001_dr0.5_step100_bs2_norm1_z_seed_1_42/err_b_test.txt and /root/autodl-tmp/project/MPNO_final/MD/large_strain_241215/PNO_NN_DBC_xi_cMGNz_twophase_normalization/Results/MD_index_274_nvalid50_64_4_256_4_lr0.001_dr0.5_step100_bs2_norm1_z_seed_1_42/err_u_test.txt
+/root/miniconda3/envs/NPO310/lib/python3.10/site-packages/torch/functional.py:534: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /opt/conda/conda-bld/pytorch_1729647327489/work/aten/src/ATen/native/TensorShape.cpp:3595.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Done!

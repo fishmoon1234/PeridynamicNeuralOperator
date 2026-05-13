@@ -1,0 +1,54 @@
+PID: 60692
+>> Device being used: cuda (NVIDIA GeForce RTX 4090)
+Number of parameters for MGN: 1793
+Total number of parameters: 200195
+>> Preprocessing completed, time elapsed:  0.60s
+/root/autodl-tmp/project/MPNO_final/MD/large_strain_241215/PNO_MGN_DBC_xi_cMGNz_twophase_newnormalization3_tuneparas/PNO_BB.py:507: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_path))
+0, err_b:0.09487846493721008, err_u:0.03697781637310982, fsolve flag:1, 9.5367431640625e-06, 920
+
+1, err_b:0.14203128218650818, err_u:0.07117866724729538, fsolve flag:1, 1.249462366104126e-05, 921
+
+2, err_b:0.07423705607652664, err_u:0.052807290107011795, fsolve flag:1, 8.190050721168518e-06, 919
+
+3, err_b:0.12939098477363586, err_u:0.10724610835313797, fsolve flag:1, 8.225440979003906e-06, 919
+
+4, err_b:0.08380550891160965, err_u:0.04145509749650955, fsolve flag:1, 9.13621624931693e-06, 1392
+
+5, err_b:0.06956517696380615, err_u:0.05044744536280632, fsolve flag:1, 1.2628734111785889e-05, 919
+
+6, err_b:0.08549585193395615, err_u:0.05129379406571388, fsolve flag:1, 9.313225746154785e-06, 924
+
+7, err_b:0.038842424750328064, err_u:0.01882445253431797, fsolve flag:1, 1.1980533599853516e-05, 916
+
+8, err_b:0.035319674760103226, err_u:0.023331770673394203, fsolve flag:1, 1.3947486877441406e-05, 916
+
+9, err_b:0.06095118075609207, err_u:0.04863579571247101, fsolve flag:1, 1.3113021850585938e-05, 918
+
+10, err_b:0.06420183181762695, err_u:0.03340743109583855, fsolve flag:1, 8.225440979003906e-06, 916
+
+11, err_b:0.05264858901500702, err_u:0.06351352483034134, fsolve flag:1, 1.1444091796875e-05, 917
+
+12, err_b:0.03928497061133385, err_u:0.04530857875943184, fsolve flag:1, 1.027531016006833e-05, 915
+
+13, err_b:0.05422680079936981, err_u:0.008210563100874424, fsolve flag:1, 9.297160431742668e-06, 929
+
+14, err_b:0.039240024983882904, err_u:0.0205063596367836, fsolve flag:1, 1.0654330253601074e-05, 915
+
+15, err_b:0.04151736944913864, err_u:0.01737804524600506, fsolve flag:1, 1.263513695448637e-05, 919
+
+16, err_b:0.05496968328952789, err_u:0.015206568874418736, fsolve flag:1, 8.724629878997803e-06, 921
+
+17, err_b:0.04588143527507782, err_u:0.025855498388409615, fsolve flag:1, 1.0211020708084106e-05, 916
+
+18, err_b:0.17683783173561096, err_u:0.14948521554470062, fsolve flag:1, 9.238719940185547e-06, 921
+
+19, err_b:0.10197337716817856, err_u:0.06790915131568909, fsolve flag:1, 1.3410812243819237e-05, 917
+
+Relative L2 error for test b: 0.07426497600972652
+Relative L2 error for test u: 0.04744895873591304
+Relative L2 error for test u_linear: 0.0
+Error arrays saved to /root/autodl-tmp/project/MPNO_final/MD/large_strain_241215/PNO_MGN_DBC_xi_cMGNz_twophase_newnormalization3_tuneparas/Results/MD_index_274_nvalid50_64_8_256_4_lr0.001_dr0.5_step100_bs2_norm1_z/err_b_test.txt and /root/autodl-tmp/project/MPNO_final/MD/large_strain_241215/PNO_MGN_DBC_xi_cMGNz_twophase_newnormalization3_tuneparas/Results/MD_index_274_nvalid50_64_8_256_4_lr0.001_dr0.5_step100_bs2_norm1_z/err_u_test.txt
+/root/miniconda3/envs/NPO310/lib/python3.10/site-packages/torch/functional.py:534: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /opt/conda/conda-bld/pytorch_1729647327489/work/aten/src/ATen/native/TensorShape.cpp:3595.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Done!
