@@ -155,33 +155,34 @@ python plot_lr3e4_summary.py
 As a downstream application, we consider crack propagation and
 branching in a prototypical brittle-fracture example: a pre-notched
 thin rectangular plate subject to tensile loads on its top and bottom.
-The plate measures 1 $\mu m$ by 0.4 $\mu m$ (= 10000 lu by ~4000 lu)
-with an initial edge crack of length 0.5 $\mu m$.  A constant total
-load $T$ (`--traction`, in fu) is applied on the top and bottom
-of the sample from time zero, equivalent to a tensile load
-$\sigma = T/(W H) \approx 1.07 \times 10^{-4}\, T\ \mathrm{fu/lu^2}
-\approx 1.07 \times 10^{3}\, T\ \mathrm{N/m^2}$, where
-$W = 10000$ lu is the plate width (the length of the top/bottom
-boundary) and $H = 0.935$ lu is the slab thickness.  All other
-boundaries, including the new surfaces created by the running crack,
-are treated as free surfaces.  The density $\rho$ (`--rho`) is
-given in MD mass units per lu$^3$; one such unit corresponds to
-$1000\ \mathrm{kg/m^3}$, so $\rho = 8.0$ means
-$8000\ \mathrm{kg/m^3}$.
+The plate measures 1 $`\mu m`$ by 0.4 $`\mu m`$ (= 10000 lu by ~4000 lu)
+with an initial edge crack of length 0.5 $`\mu m`$.
+A constant total load $`T`$ (`--traction`, in fu) is applied on the top
+and bottom of the sample from time zero, equivalent to a tensile load
+$`\sigma = T/(W H) \approx 1.07 \times 10^{-4}\, T\ \mathrm{fu/lu^2} \approx 1.07 \times 10^{3}\, T\ \mathrm{N/m^2}`$,
+where $`W = 10000`$ lu is the plate width (the length of the top/bottom
+boundary) and $`H = 0.935`$ lu is the slab thickness.
+All other boundaries, including the new surfaces created by the running
+crack, are treated as free surfaces.
+The density $`\rho`$ (`--rho`) is given in MD mass units per
+$`\mathrm{lu}^3`$; one such unit corresponds to
+$`1000\ \mathrm{kg/m^3}`$, so $`\rho = 8.0`$ means
+$`8000\ \mathrm{kg/m^3}`$.
 
 `fracture_sim_implicit_bodyload.py` solves this dynamic fracture
 problem with an implicit Newmark scheme, using Newton's method as the
-nonlinear solver at each time step.  The solver is scaled up by a
-factor $\gamma = 10$, giving an effective horizon of 150.5 lu on a
-grid of spacing 50 lu.  We have tested total loads from $T = 1000$ to
-$20000$ fu at $\rho = 8.0$ (in the physical range of polymers);
-movies for the intermediate case $T = 10000$ fu
-(traction10000_damage.mov, traction10000_displacement.mov) are also
-included.
+nonlinear solver at each time step.
+The solver is scaled up by a factor $`\gamma = 10`$, giving an
+effective horizon of 150.5 lu on a grid of spacing 50 lu.
+We have tested total loads from $`T = 1000`$ to $`20000`$ fu at
+$`\rho = 8.0`$ (in the physical range of polymers); movies for the
+intermediate case $`T = 10000`$ fu (traction10000_damage.mov,
+traction10000_displacement.mov) are also included.
 
-The command below reproduces the exemplar case $T = 1000$ fu
-($= 10^{-4}\ \mu N$, $\sigma \approx 1.07 \times 10^{6}\
-\mathrm{N/m^2}$), with exemplar results provided in traction1000_damage.mov and traction1000_displacement.mov.
+The command below reproduces the exemplar case $`T = 1000`$ fu
+($`= 10^{-4}\ \mu N`$, $`\sigma \approx 1.07 \times 10^{6}\ \mathrm{N/m^2}`$),
+with exemplar results provided in traction1000_damage.mov and
+traction1000_displacement.mov.
 
 ```bash
 python -u fracture_sim_implicit_bodyload.py \
@@ -196,9 +197,10 @@ python -u fracture_sim_implicit_bodyload.py \
 ```
 
 
-The command below reproduces the exemplar case $T = 20000$ fu
-($= 2\times 10^{-3}\ \mu N$, $\sigma \approx 2.14 \times 10^{7}\
-\mathrm{N/m^2}$), with exemplar results provided in traction20000_damage.mov and traction20000_displacement.mov.
+The command below reproduces the exemplar case $`T = 20000`$ fu
+($`= 2\times 10^{-3}\ \mu N`$, $`\sigma \approx 2.14 \times 10^{7}\ \mathrm{N/m^2}`$),
+with exemplar results provided in traction20000_damage.mov and
+traction20000_displacement.mov.
 
 ```bash
 python -u fracture_sim_implicit_bodyload.py \
