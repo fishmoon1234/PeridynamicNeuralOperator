@@ -41,7 +41,16 @@ Highlights (from the paper):
 - **Convergence to the true model** -- on synthetic datasets with a
   manufactured kernel and constitutive law, the learned `g` and `k`
   are shown, both theoretically and numerically, to converge to the
-  ground truth as the measurement grid is refined.
+  ground truth as the measurement grid is refined:
+
+  ![learned k and g converging to the truth](assets/mpno_learned_gk_convergence.png)
+
+  ![convergence rates](assets/mpno_convergence_rates.png)
+
+  *Top: learned k and g at grid sizes 2^-5 ... 2^-8 collapsing onto
+  the true model.  Bottom: errors of the force field b, the learned
+  model, and the downstream solution u vs. grid size, matching the
+  theoretical O(dx) / O(dx^2) rates (Fig. 5 of the paper).*
 - **Superior generalization** -- smaller displacement errors than
   conventional neural networks (MLP, ICNN) on out-of-distribution
   loadings in downstream solves.
@@ -96,11 +105,17 @@ Highlights (from the preprint):
 
 - **Downstream crack branching** -- implicit dynamic fracture of a
   1 um pre-notched plate (10x the trained horizon), with crack
-  propagation, branching, and full surface separation; exemplar
-  movies:
+  propagation, branching, and full surface separation.  Exemplar case
+  (total load 1000 fu; damage field and displacement magnitude on the
+  deformed configuration; higher-load cases forthcoming):
+
+  ![crack propagation: damage](assets/traction1000_damage.gif)
+
+  ![crack propagation: displacement magnitude](assets/traction1000_displacement.gif)
+
+  Full-resolution movies:
   [traction1000_damage.mov](Upscaling%20Fracture%20Mechanics/downstream%20on%20crack%20branching/traction1000_damage.mov),
-  [traction1000_displacement.mov](Upscaling%20Fracture%20Mechanics/downstream%20on%20crack%20branching/traction1000_displacement.mov)
-  (higher-load cases forthcoming).
+  [traction1000_displacement.mov](Upscaling%20Fracture%20Mechanics/downstream%20on%20crack%20branching/traction1000_displacement.mov).
 
 **Environment and running.** Python 3.10 with PyTorch 2.5.1, NumPy
 2.0.1, SciPy 1.15.2, PyTorch Geometric 2.7.0 (plus Matplotlib and
