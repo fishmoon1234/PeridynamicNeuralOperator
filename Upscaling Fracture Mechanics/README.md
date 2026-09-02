@@ -174,7 +174,10 @@ problem with an implicit Newmark scheme, using Newton's method as the
 nonlinear solver at each time step.  The solver is scaled up by a
 factor $\gamma = 10$, giving an effective horizon of 150.5 lu on a
 grid of spacing 50 lu.  We have tested total loads from $T = 1000$ to
-$20000$ fu at $\rho = 8.0$ (in the physical range of polymers).
+$20000$ fu at $\rho = 8.0$ (in the physical range of polymers);
+movies for the intermediate case $T = 10000$ fu
+(traction10000_damage.mov, traction10000_displacement.mov) are also
+included.
 
 The command below reproduces the exemplar case $T = 1000$ fu
 ($= 10^{-4}\ \mu N$, $\sigma \approx 1.07 \times 10^{6}\

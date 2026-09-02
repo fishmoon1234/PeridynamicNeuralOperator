@@ -104,18 +104,34 @@ Highlights (from the preprint):
   ![fracture validation](Upscaling%20Fracture%20Mechanics/validation/lr3e4_fracture_L_comparison.png)
 
 - **Downstream crack branching** -- implicit dynamic fracture of a
-  1 um pre-notched plate (10x the trained horizon), with crack
-  propagation, branching, and full surface separation.  Exemplar case
-  (total load 1000 fu; damage field and displacement magnitude on the
-  deformed configuration; higher-load cases forthcoming):
+  1 um pre-notched plate (10x the trained horizon).  As the applied
+  load grows, the learned model reproduces the classic brittle-fracture
+  morphology transition: a straight running crack at T = 1000 fu, a
+  clean symmetric bifurcation at T = 10000 fu, and cascading
+  multi-branching at T = 20000 fu (damage fields on the deformed
+  configuration):
 
-  ![crack propagation: damage](assets/traction1000_damage.gif)
+  **T = 1000 fu -- straight crack and full separation:**
 
-  ![crack propagation: displacement magnitude](assets/traction1000_displacement.gif)
+  ![T=1000 damage](assets/traction1000_damage.gif)
 
-  Full-resolution movies:
-  [traction1000_damage.mov](Upscaling%20Fracture%20Mechanics/downstream%20on%20crack%20branching/traction1000_damage.mov),
-  [traction1000_displacement.mov](Upscaling%20Fracture%20Mechanics/downstream%20on%20crack%20branching/traction1000_displacement.mov).
+  ![T=1000 displacement magnitude](assets/traction1000_displacement.gif)
+
+  **T = 10000 fu -- crack branching:**
+
+  ![T=10000 damage](assets/traction10000_damage.gif)
+
+  **T = 20000 fu -- cascading multi-branching:**
+
+  ![T=20000 damage](assets/traction20000_damage.gif)
+
+  Full-resolution movies (damage and displacement for each load):
+  [T=1000](Upscaling%20Fracture%20Mechanics/downstream%20on%20crack%20branching/traction1000_damage.mov)
+  ([disp](Upscaling%20Fracture%20Mechanics/downstream%20on%20crack%20branching/traction1000_displacement.mov)),
+  [T=10000](Upscaling%20Fracture%20Mechanics/downstream%20on%20crack%20branching/traction10000_damage.mov)
+  ([disp](Upscaling%20Fracture%20Mechanics/downstream%20on%20crack%20branching/traction10000_displacement.mov)),
+  [T=20000](Upscaling%20Fracture%20Mechanics/downstream%20on%20crack%20branching/traction20000_damage.mov)
+  ([disp](Upscaling%20Fracture%20Mechanics/downstream%20on%20crack%20branching/traction20000_displacement.mov)).
 
 **Environment and running.** Python 3.10 with PyTorch 2.5.1, NumPy
 2.0.1, SciPy 1.15.2, PyTorch Geometric 2.7.0 (plus Matplotlib and
