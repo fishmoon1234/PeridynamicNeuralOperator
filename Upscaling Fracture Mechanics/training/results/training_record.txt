@@ -1,0 +1,2 @@
+Group:low, Data:periodic_wave_group, act:ReLU, alpha_0:0.4, layer:256_4_256_4, lrs:[0.0003], lr:0.995, lrs_alpha:0.002, lr_alpha:0.999, w_d:0.0005, losss: 1.2293e+01, 1.8161e+00, 3.5200e+00, best_ep=0, alpha=9.1097e-01
+Group:low, Data:periodic_wave_group, act:ReLU, alpha_0:0.4, layer:256_4_256_4, lrs:[0.0003], lr:0.995, lrs_alpha:0.002, lr_alpha:0.999, w_d:0.0005, losss: 1.2293e+01, 1.8161e+00, 3.5200e+00, best_ep=0, alpha=9.1097e-01
