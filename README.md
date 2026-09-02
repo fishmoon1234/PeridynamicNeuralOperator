@@ -121,9 +121,13 @@ Highlights (from the preprint):
 
   ![T=10000 damage](assets/traction10000_damage.gif)
 
+  ![T=10000 displacement magnitude](assets/traction10000_displacement.gif)
+
   **T = 20000 fu -- cascading multi-branching:**
 
   ![T=20000 damage](assets/traction20000_damage.gif)
+
+  ![T=20000 displacement magnitude](assets/traction20000_displacement.gif)
 
   Full-resolution movies (damage and displacement for each load):
   [T=1000](Upscaling%20Fracture%20Mechanics/downstream%20on%20crack%20branching/traction1000_damage.mov)
